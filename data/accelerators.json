@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "eyebrow": "Royal Cyber · commercetools Center of Excellence",
+    "title": "Royal Cyber Accelerators",
+    "subtitle": "Five Accelerators, Built for Customer Value",
+    "intro": "Each accelerator extends commercetools with applied AI, analytics and automation — and answers a real customer pain. Built and proven by the Royal Cyber commercetools Center of Excellence, they shorten time-to-value across customer service, platform migration, digital experience and B2B quoting.",
+    "updated": "Updated Jun 23, 2026"
+  },
+  "cta": {
+    "title": "Put an accelerator to work",
+    "body": "Each accelerator is delivered by the Royal Cyber commercetools Center of Excellence as a defined-scope engagement, with managed services and optimization to follow. Match the buying signals above to an account, and we will scope a pilot.",
+    "label": "Talk to Royal Cyber",
+    "href": "https://www.royalcyber.com/contact-us/"
+  },
+  "accelerators": [
+    {
+      "n": "01",
+      "slug": "customer-service-accelerator",
+      "category": "Customer Service · AI Agents · Multi-Tenant SaaS",
+      "status": "Production-ready",
+      "name": "Customer Service Accelerator (CSA)",
+      "tagline": "AI-assisted B2C & B2B service desks, live per client in days",
+      "description": "A multi-tenant SaaS Customer Service Accelerator that runs AI-assisted B2C and B2B service desks for many client organisations from one platform. New clients are onboarded from a superadmin control plane that registers their commercetools projects and bootstraps their admins, so a fully isolated, branded service desk goes live in days instead of a multi-month build. Each tenant connects to its own commercetools project with encrypted credentials and signs in through its existing identity provider, while a single codebase serves both consumer and business support — turning customer service from a slow, costly build into a fast-to-deploy, AI-driven way to protect revenue and loyalty.",
+      "customerValue": "More cases resolved per agent, with each client's desk live in days.",
+      "media": [
+        { "type": "embed", "label": "CSA Transformation", "url": "https://app.heygen.com/embeds/2633de80446b435ebc7a820ad3dea918" },
+        { "type": "video", "label": "CSA Demo - Enhanced 2026", "url": "https://storage.googleapis.com/csa-standalone-bucket/CSA-Enhanced-Demo.mp4" }
+      ],
+      "keyBenefits": [
+        { "title": "Onboard clients in days", "body": "A superadmin control plane registers each client's commercetools projects and bootstraps admins, so a branded desk launches without a bespoke build." },
+        { "title": "One platform, every client", "body": "A single multi-tenant SaaS codebase runs many isolated tenants — lower cost to operate and one upgrade path for all." },
+        { "title": "B2C and B2B in one desk", "body": "The same platform serves consumer and business support, toggled per commercetools project, so mixed-model clients need only one rollout." },
+        { "title": "Enterprise-grade trust", "body": "Encrypted credentials (AES-256-GCM), per-tenant isolation and instant block / unblock clear security reviews before they stall a deal." },
+        { "title": "Sign in with what they have", "body": "Per-tenant SSO via OIDC / PKCE (Azure AD, Okta, Google, Auth0) and SAML — no new passwords and faster IT approval." },
+        { "title": "AI governed per client", "body": "Per-tenant LLM / AI-agent configuration and role-based access let every client tune automation to its own policies." }
+      ],
+      "challenge": { "title": "Service desks that don't scale", "body": "Supporting each new client, brand or region means a fresh build, another security review and more agents — so customer service stays slow to launch and expensive to run." },
+      "resolves": [
+        "Superadmin onboarding replaces per-client builds — new desks go live in days.",
+        "Multi-tenant isolation lets one platform serve many clients safely, cutting cost-to-serve.",
+        "Existing-identity SSO and encrypted, isolated data clear security reviews faster.",
+        "AI assistance across a unified B2C / B2B desk lifts cases resolved per agent without new headcount."
+      ],
+      "icp": "Agencies, brands and commercetools customers running B2C and/or B2B support across multiple brands, regions or client organisations who need governed, AI-assisted service desks fast — without a custom build per tenant.",
+      "signals": [
+        "Multiple brands, regions or client orgs to support",
+        "Both B2C and B2B service desks",
+        "Rising support cost or headcount pressure",
+        "Strict security / SSO needs (Azure AD, Okta, SAML)",
+        "commercetools already in place per client"
+      ],
+      "technical": [
+        "Multi-tenant SaaS: superadmin control plane onboards tenants and registers per-client commercetools projects",
+        "Per-tenant commercetools projects with AES-256-GCM-encrypted credentials and a live Test Connection against CT Auth + GraphQL",
+        "Per-tenant SSO / federation — OIDC with PKCE (Azure AD, Okta, Google, Auth0), email-based org discovery and SAML",
+        "Tenant administration: custom roles with per-page CRUD ACLs, SMTP profiles and per-tenant LLM / AI-agent configuration",
+        "Isolation & security: encrypted secrets, per-project Redis token caching and an immediate block / unblock tenant lifecycle",
+        "Single codebase serving both B2C and B2B agent workspaces, toggled per registered project"
+      ],
+      "valueForCommercetools": "Makes commercetools the system of record behind every AI service desk — per-tenant projects deepen platform usage and pull customer-service workloads onto commercetools.",
+      "valueForRoyalCyber": "A repeatable multi-tenant SaaS offering: per-client onboarding and configuration plus recurring managed-service and AI-tuning revenue across every tenant."
+    },
+    {
+      "n": "02",
+      "slug": "metafy-aeo-geo",
+      "category": "Digital Discovery · Answer Engine & Generative Engine Optimization",
+      "status": "Production-ready",
+      "name": "Metafy — AEO/GEO Accelerator",
+      "tagline": "Get commercetools catalogs surfaced and cited in AI answers and generative search",
+      "description": "Metafy is Royal Cyber's AEO/GEO accelerator — Answer Engine Optimization and Generative Engine Optimization for top-of-funnel discovery. As shoppers increasingly start in AI assistants and generative search (ChatGPT, Gemini, Perplexity, Google AI Overviews) instead of a list of blue links, Metafy makes a brand's commercetools catalog and content answer-ready: it structures and enriches product, category and brand data into machine-readable, citable content, and monitors how — and whether — the brand shows up in AI-generated answers. The result is presence and citations in the channels that classic SEO misses, fed directly from commercetools as the source of truth.",
+      "customerValue": "Win top-of-funnel discovery where buyers now start — inside AI answers and generative search, not just classic SEO.",
+      "keyBenefits": [
+        { "title": "Be found in AI answers", "body": "Optimizes catalog and brand content so products surface and get cited in AI assistants and generative search, not just traditional results." },
+        { "title": "Answer-ready product content", "body": "Turns commercetools product and category data into structured, machine-readable content that answer engines can parse and quote." },
+        { "title": "See your AI visibility", "body": "Monitors how the brand appears across AI answer engines and tracks citations, mentions and share of voice over time." },
+        { "title": "Commerce-native, always current", "body": "Feeds from commercetools as the source of truth, so AI-facing content stays in sync with live catalog, pricing and availability." },
+        { "title": "Close discovery gaps", "body": "Surfaces the questions and topics where the brand is absent from AI answers, prioritizing the content that wins discovery." },
+        { "title": "Complements existing SEO", "body": "Extends — rather than replaces — current search investment, adding the AEO/GEO layer competitors are only starting to build." }
+      ],
+      "challenge": { "title": "Discovery is moving from search results to AI answers", "body": "Buyers increasingly start in AI assistants and generative search that synthesize one answer and cite a few sources. Brands whose content is not answer-ready become invisible at the very top of the funnel — a gap classic SEO does not close." },
+      "resolves": [
+        "Structures commercetools catalog and content into answer-ready, citable form for AI engines.",
+        "Monitors AI-answer visibility so the brand can see where it is present or missing.",
+        "Prioritizes the content gaps that most affect discovery and citations.",
+        "Stays commerce-native — fed from commercetools, so AI-facing content never goes stale."
+      ],
+      "icp": "Brands on or adopting commercetools that depend on organic discovery and want presence in AI assistants and generative search — especially those seeing SEO plateau while AI-driven traffic grows.",
+      "signals": [
+        "Rising referral traffic from AI assistants / generative search",
+        "Classic SEO plateauing or declining",
+        "Large, rich product catalog suited to discovery",
+        "Wants to be cited by LLMs and AI answer engines",
+        "commercetools in place or being adopted as catalog source of truth"
+      ],
+      "technical": [
+        "Pulls product, variant, category and brand data from commercetools via Product Search & APIs",
+        "Generates structured data / schema.org markup and answer-ready content feeds from the catalog",
+        "Entity and topic optimization tuned for LLM answer engines and generative search surfaces",
+        "AI-answer visibility tracking across assistants (e.g. ChatGPT, Gemini, Perplexity, AI Overviews)",
+        "Integrates with the storefront / CMS to publish optimized, machine-readable content",
+        "Analytics on citations, mentions, share of voice and discovery-gap topics"
+      ],
+      "valueForCommercetools": "Positions the commercetools catalog as the source of truth feeding the new AI discovery channels — deepening platform usage and extending its reach into generative search.",
+      "valueForRoyalCyber": "A repeatable AEO/GEO offering with recurring visibility-monitoring and content-optimization revenue — the top-of-funnel discovery complement to the CSA and AI-Native CPQ accelerators in the COE."
+    },
+    {
+      "n": "03",
+      "slug": "smartmigrate-migration-accelerator",
+      "category": "Platform Migration · Any-to-Any Commerce",
+      "status": "In progress",
+      "name": "SmartMigrate — Migration Accelerator",
+      "tagline": "Any commerce platform onto commercetools — guided, mapped and self-correcting",
+      "description": "A guided migration accelerator that moves any commerce platform — Shopify, Magento, SAP Commerce, Salesforce, Adobe, VTEX, a bespoke API or a plain CSV export — onto commercetools through one repeatable five-step flow. SmartMigrate normalizes every source and target into a common commerce model, so the same wizard handles any pairing: connect both stores with encrypted, read-only credentials, auto-detect what to move (products, variants, customers, orders, catalog, content and media), auto-map fields between schemas, then run. Crucially, bad data never stalls a cutover — unmapped fields and failing records surface as fixable errors that teams correct inline or in bulk and re-run on their own, turning a high-risk, months-long replatforming project into a controlled, observable migration measured in weeks.",
+      "customerValue": "Replatform in weeks, not months — and fix messy data inline instead of restarting.",
+      "keyBenefits": [
+        { "title": "Any source, one playbook", "body": "Shopify, Magento, SAP, Salesforce, Adobe, VTEX, bespoke APIs or CSV — all normalized into a common model, so every move onto commercetools runs the same way." },
+        { "title": "Replatform in weeks", "body": "A guided connect → scope → map → review → migrate flow with auto-detected resources and schema mapping replaces months of hand-built scripts." },
+        { "title": "Bad data won't block go-live", "body": "Unmapped fields and failing records become fixable errors, not a failed run — the migration keeps going and shows exactly what needs attention." },
+        { "title": "Fix inline, re-run only those", "body": "Correct records one by one or bulk-fix a whole error group, then re-run just the failed rows — never the entire migration." },
+        { "title": "Migrate with confidence", "body": "A live board shows migrated, failed and remaining counts per resource, so business and IT watch progress and risk in real time." },
+        { "title": "Secure by default", "body": "Encrypted credentials and recommended read-only access on the source keep the legacy store safe throughout cutover." }
+      ],
+      "challenge": { "title": "Risky, all-or-nothing replatforming", "body": "Moving off a legacy platform usually means bespoke scripts, a big-bang cutover and dirty data that fails late — so projects run for months and stall when a few thousand records won't load." },
+      "resolves": [
+        "One normalized engine migrates any source onto commercetools without per-platform rebuilds.",
+        "Auto-detected scope and auto-mapping remove most manual data modeling.",
+        "Failing records are isolated and fixable inline — no big-bang, no restart.",
+        "Live, per-resource visibility turns cutover risk into a tracked, observable process."
+      ],
+      "icp": "Enterprises and mid-market retailers on Shopify, Magento, SAP, Salesforce, Adobe or a bespoke stack who want to reach commercetools quickly and safely — especially teams burned by stalled, script-heavy migrations or large, messy catalogs.",
+      "signals": [
+        "Replatforming to commercetools from a legacy or SaaS platform",
+        "Large or messy catalog / customer / order data to move",
+        "A previous migration that stalled or overran",
+        "Tight cutover window or phased go-live",
+        "Multiple stores or brands to migrate"
+      ],
+      "technical": [
+        "Platform-agnostic engine: 15+ source/target connectors (Shopify, WooCommerce, Magento, BigCommerce, Salesforce, SAP, Adobe, VTEX, Elastic Path, commercetools, CSV …) normalized to a common commerce model",
+        "Guided 5-step pipeline: Platforms → Connect → Resources → Mapping → Review → Migration",
+        "Auto-detected resource scoping across products, variants/SKUs, customers, orders, collections, discounts, reviews, media and CMS",
+        "Automatic field mapping from the source schema with review / unmapped flags; unresolved fields degrade to fixable record errors rather than blockers",
+        "Inline and bulk error remediation with a record inspector and suggested fixes; re-run only the corrected records",
+        "Live board / pipeline progress with per-resource migrated / failed / remaining metrics; encrypted, read-only source credentials"
+      ],
+      "valueForCommercetools": "Removes the biggest barrier to adoption — migration risk — so customers on any platform land on commercetools faster, lifting net-new platform wins.",
+      "valueForRoyalCyber": "A repeatable, tool-led migration practice: fixed-scope cutover engagements from any source, plus follow-on data, enrichment and managed-services work."
+    },
+    {
+      "n": "04",
+      "slug": "optimizely-connect",
+      "category": "Digital Experience · Content, Experimentation & Personalization",
+      "status": "Planning",
+      "name": "Optimizely Connect",
+      "tagline": "commercetools commerce, powered by the Optimizely experience layer",
+      "description": "A pre-built integration that pairs commercetools — the engine for catalog, pricing, inventory and orders — with the Optimizely experience layer for content, experimentation and personalization. Optimizely Connect streams live product, price, promotion and stock data from commercetools into Optimizely CMS / DXP through ready-made commerce components, so marketers build landing pages, campaigns and merchandised storefronts on real commerce data instead of stale copies. It pipes commercetools order and customer events into the Optimizely Data Platform to power audiences and personalization, and wires conversion events back into Optimizely Web & Feature Experimentation so teams can A/B test PDPs, promotions and checkout against actual revenue. The result: best-of-breed composable commerce and a marketer-friendly experience platform working as one — with no brittle, hand-built middleware to maintain.",
+      "customerValue": "Merchandise, test and personalize on live commerce data — without custom middleware.",
+      "keyBenefits": [
+        { "title": "Merchandise on live commerce data", "body": "Pre-built commerce components surface real-time commercetools products, prices, promotions and stock inside Optimizely CMS — no duplicated catalogs." },
+        { "title": "Test what drives revenue", "body": "Conversion and order events flow into Optimizely Web & Feature Experimentation, so teams A/B test PDPs, pricing displays and checkout against real sales." },
+        { "title": "Personalize end to end", "body": "commercetools order and behavioral events feed the Optimizely Data Platform, turning purchase history into audiences that personalize content and merchandising." },
+        { "title": "Best-of-breed, not big suite", "body": "Keep commercetools as the commerce backbone and Optimizely as the experience layer — composable freedom without a monolith." },
+        { "title": "Launch campaigns faster", "body": "Marketers assemble commerce pages and promotions in Optimizely with live data, cutting the dependence on developers for every change." },
+        { "title": "No brittle middleware", "body": "A maintained connector with configurable mapping survives platform updates, replacing one-off integrations that break on every release." }
+      ],
+      "challenge": { "title": "Commerce and experience pulling apart", "body": "Composable means best-of-breed — but bolting a content, experimentation and personalization platform onto a headless commerce engine is custom middleware that's slow to build, brittle to maintain and leaves marketers working off stale product data." },
+      "resolves": [
+        "A maintained connector replaces bespoke integration between the two platforms.",
+        "Live commercetools data renders natively inside Optimizely content and campaigns.",
+        "Order and behavioral events unify in ODP for segmentation and personalization.",
+        "Commerce experiences become testable in Optimizely with revenue-based metrics."
+      ],
+      "icp": "Enterprises invested in Optimizely (DXP / CMS, experimentation or ODP) adopting commercetools as their composable commerce engine — and commercetools customers who want a proven content, experimentation and personalization layer rather than building one.",
+      "signals": [
+        "Running Optimizely CMS / DXP, experimentation or ODP",
+        "Adopting or already on commercetools for commerce",
+        "Marketing wants to merchandise & run campaigns on live commerce data",
+        "Needs A/B testing or personalization on commerce experiences",
+        "Duplicated product data or disconnected content & commerce"
+      ],
+      "technical": [
+        "Real-time sync of commercetools products, prices, inventory and promotions into Optimizely CMS / DXP via commercetools Subscriptions & APIs",
+        "Pre-built Optimizely commerce content components / catalog blocks (PLP, PDP, cart) rendering live commercetools data",
+        "Order & customer event streaming from commercetools to the Optimizely Data Platform (ODP) for audiences & personalization",
+        "Experimentation hooks: commerce experiences exposed to Optimizely Web & Feature Experimentation with conversion / order metrics fed back",
+        "Configurable field mapping between commercetools product types / attributes and Optimizely content models",
+        "Webhook-driven (product published, price changed, order created) with retry & reconciliation; SSO and unified preview"
+      ],
+      "valueForCommercetools": "Positions commercetools as the commerce backbone behind Optimizely-powered experiences — opening the large Optimizely DXP install base and reinforcing composable best-of-breed.",
+      "valueForRoyalCyber": "A pre-built connector plus integration engagements across two platforms Royal Cyber knows deeply — with recurring content-ops, experimentation enablement and managed-services revenue."
+    },
+    {
+      "n": "05",
+      "slug": "ai-native-cpq-accelerator",
+      "category": "B2B Commerce · Configure-Price-Quote · AI Guided Selling",
+      "status": "Proposed",
+      "name": "AI-Native CPQ Accelerator",
+      "tagline": "AI-native CPQ on commercetools' B2B quote primitives — an intelligence layer, not a standalone rebuild",
+      "description": "An AI-native, commerce-native CPQ (Configure, Price, Quote) accelerator built on commercetools' existing B2B quote primitives — quotes, quote requests, staged quotes, quote states, business units and customer-specific pricing — adding the intelligence and orchestration layer that commercetools' own integration guidance leaves to partners. It does the three jobs that are newly possible and not commoditized: RFQ-to-quote ingestion that turns an unstructured email, spreadsheet or PDF into a structured, configured, priced quote; conversational guided selling that resolves natural language into a valid configuration with real-time compatibility validation; and a deal-desk copilot that recommends the price that wins while protecting margin — all with guardrails, approval routing and a full audit trail. It is deliberately scoped to medium-complexity configuration (bundles, tiered options, compatibility rules, customer-specific pricing) and integrates a specialist tool for deep nested BOM rather than rebuilding one — the scoping decision that keeps it deliverable, differentiated, and aimed squarely at the live wave of enterprises migrating off legacy CPQ.",
+      "customerValue": "Turn RFQs into accurate, approved quotes faster — ~28% shorter sales cycles and ~49% more quotes per rep.",
+      "keyBenefits": [
+        { "title": "RFQ-to-quote in minutes", "body": "AI turns an unstructured request — email, spreadsheet or PDF — into a structured, configured, priced commercetools quote, riding the rails of the B2B Intake Agent direction." },
+        { "title": "Conversational guided selling", "body": "Natural-language configuration resolves to a valid product or bundle with real-time compatibility validation, so reps quote correctly without spreadsheets." },
+        { "title": "Deal-desk copilot", "body": "AI discount and margin guidance recommends the price that wins while protecting margin — with full guardrails, approval routing and audit trail." },
+        { "title": "Commerce-native, not bolted on", "body": "Pricing and configuration logic stay unified on commercetools quote primitives, keeping the AI ceiling high instead of fragmenting logic across systems." },
+        { "title": "Faster cycles, more quotes", "body": "Directly attributable impact — roughly 28% shorter sales cycles and ~49% more quotes per rep, plus deals that used to die in email chains." },
+        { "title": "Proof of impact built in", "body": "Quote-cycle time, quotes per rep, margin and win-rate instrumentation ship in v1 as a first-class feature, so ROI is measurable from day one." }
+      ],
+      "challenge": { "title": "Legacy CPQ is forcing a forward-path decision", "body": "Salesforce CPQ went End-of-Sale in March 2025 and Conga absorbed PROS's B2B business in February 2026, so thousands of enterprises must re-choose CPQ now — while fragmented, standalone configuration and pricing logic caps how much AI they can layer on later." },
+      "resolves": [
+        "An AI-native orchestration layer on commercetools quote primitives replaces standalone CPQ without a heavy rebuild.",
+        "Unified, commerce-native pricing and configuration logic keeps the door open to agentic automation later.",
+        "A hard scope boundary at medium complexity — with specialist tools for deep BOM — keeps delivery predictable.",
+        "Governance-first design (guardrails, approval workflows, audit trail) makes a CFO comfortable letting AI touch prices."
+      ],
+      "icp": "B2B enterprises on or moving to commercetools that quote configured or tiered products — especially the large installed base forced off legacy CPQ (Salesforce CPQ End-of-Sale, the Conga / PROS consolidation) and needing a commerce-native, AI-ready forward path rather than another standalone tool.",
+      "signals": [
+        "On legacy CPQ (Salesforce, Oracle, SAP, Conga) facing a forced migration",
+        "B2B quoting of bundles, tiered options or customer-specific pricing",
+        "Quotes still run on spreadsheets and pricing email chains",
+        "Margin leakage or slow deal-desk approvals",
+        "Already on commercetools B2B (quotes, business units) or adopting it"
+      ],
+      "technical": [
+        "Built on commercetools native B2B: Quotes, Quote Requests, Staged Quotes, quote states, Business Units and customer-specific pricing",
+        "RFQ-to-quote ingestion — unstructured email / spreadsheet / PDF parsed into a structured, configured, priced quote or cart",
+        "Conversational guided selling with real-time compatibility-rule validation for medium-complexity bundles and tiered options",
+        "Deal-desk copilot — AI discount / margin guidance with guardrails, approval routing on commercetools quote states and a full audit trail",
+        "Quote document generation, customer-group / tiered / contract pricing, and a clean ERP / CRM handoff (pricing sync + order handoff)",
+        "Proof-of-impact instrumentation: quote-cycle time, quotes per rep, margin and win-rate metrics as a first-class capability"
+      ],
+      "valueForCommercetools": "Fills the orchestration and intelligence layer that commercetools' own B2B guidance hands to partners — deepening use of quote primitives and the B2B Intake Agent direction, and converting legacy-CPQ migrations into net-new commercetools B2B wins.",
+      "valueForRoyalCyber": "A higher-margin, repeatable B2B accelerator that shortens delivery, lifts win rates in commercetools pursuits and opens immediate pipeline from the legacy-CPQ migration wave — a strong certification and co-sell candidate that complements Metafy (AEO/GEO) in the COE."
+    }
+  ]
+}

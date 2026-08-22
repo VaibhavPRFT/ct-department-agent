@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "eyebrow": "Royal Cyber · commercetools Practice",
+    "title": "Project Teams",
+    "intro": "Live view of Royal Cyber's commercetools engagements — every project, who is on the team and their designation. Switch the Group by view to see team members by project, project manager, account manager or delivery manager, and click any bar to filter.",
+    "status": "Currently showing 3 running projects across 14 people",
+    "updated": "Updated Jun 23, 2026.",
+    "stats": [
+      { "value": "3", "label": "Projects" },
+      { "value": "14", "label": "People" },
+      { "value": "14", "label": "Team seats" }
+    ]
+  },
+  "projects": [
+    {
+      "name": "Mars",
+      "pm": "Unassigned",
+      "delivery": "Unassigned",
+      "account": "Unassigned",
+      "members": [
+        { "initials": "AG", "name": "Aakash Gupta", "designation": "Technical Lead" },
+        { "initials": "AK", "name": "Akshay Khobragade", "designation": "Solution Architect" },
+        { "initials": "AN", "name": "Anurag Nair", "designation": "Technical Lead" },
+        { "initials": "CB", "name": "Chetan Bhangale", "designation": "Technical Lead" },
+        { "initials": "MG", "name": "Muhammad Tahir Gulzar", "designation": "Software Engineer" },
+        { "initials": "PM", "name": "Pankaj Malviya", "designation": "Senior Software Engineer" }
+      ]
+    },
+    {
+      "name": "RichUSA",
+      "pm": "Unassigned",
+      "delivery": "Unassigned",
+      "account": "Unassigned",
+      "members": [
+        { "initials": "BK", "name": "Bhawesh Kurmi", "designation": "Technical Lead" },
+        { "initials": "NR", "name": "Nitin Rachabathuni", "designation": "Senior Software Engineer" },
+        { "initials": "SA", "name": "Saad Asad Ali", "designation": "Software Engineer" },
+        { "initials": "SS", "name": "Sudhanshu Singh", "designation": "Software Engineer" }
+      ]
+    },
+    {
+      "name": "bench",
+      "pm": "Unassigned",
+      "delivery": "Unassigned",
+      "account": "Unassigned",
+      "members": [
+        { "initials": "MR", "name": "Mahesh Ramachandran", "designation": "Senior Software Engineer" },
+        { "initials": "SK", "name": "Shahmir Khan", "designation": "Software Engineer" },
+        { "initials": "SS", "name": "Shivam Soni", "designation": "Software Engineer" },
+        { "initials": "SA", "name": "Stephen Albert", "designation": "Practice Head" }
+      ]
+    }
+  ]
+}

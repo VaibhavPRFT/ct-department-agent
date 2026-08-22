@@ -1,0 +1,170 @@
+{
+  "brand": {
+    "name": "Royal Cyber — commercetools Insights",
+    "title": "Royal Cyber — commercetools Insights",
+    "tagline": "Agent-powered trends, content & weekly planning",
+    "metaDescription": "commercetools Insights dashboard by Royal Cyber. Trend & content opportunities from the Department Agent and the rolling Quarterly Plan."
+  },
+  "nav": [
+    {
+      "label": "Dashboard",
+      "href": "/"
+    },
+    {
+      "label": "Newsletter",
+      "href": "/newsletter"
+    },
+    {
+      "label": "Quarterly Plan",
+      "href": "/quarterly-plan"
+    },
+    {
+      "label": "Accelerators",
+      "href": "/accelerators"
+    },
+    {
+      "label": "Projects",
+      "href": "/projects"
+    }
+  ],
+  "dashboard": {
+    "eyebrow": "Royal Cyber · commercetools Practice",
+    "title": "commercetools Insights Dashboard",
+    "intro": "A single home for what our commercetools practice produces — the Department Agent's trend & content sweep, the rolling six-week execution plan, the Royal Cyber accelerators, and the live project teams. Pick a card to dive in.",
+    "cards": [
+      {
+        "source": "commercetools Department Agent · Weekly Sweep",
+        "title": "commercetools Trend and Content Opportunities",
+        "description": "A weekly read for content marketers, solution architects, commerce leads, and product marketers: the signals worth acting on across Sphere, AgenticLift, AI Hub, Composable Commerce, Checkout, Connect, and the Commerce MCP — each tied to a dated release, event, or roadmap item.",
+        "stats": [
+          {
+            "value": "7",
+            "label": "trends"
+          },
+          {
+            "value": "6",
+            "label": "blog ideas"
+          },
+          {
+            "value": "16",
+            "label": "releases"
+          },
+          {
+            "value": "6",
+            "label": "roadmaps"
+          }
+        ],
+        "href": "/newsletter",
+        "cta": "Open newsletter"
+      },
+      {
+        "source": "Royal Cyber · Quarterly Plan Agent",
+        "title": "commercetools Quarterly Plan",
+        "description": "A 2-quarter execution plan: Q3 drives the Autonomous Commerce & AgenticLift enablement program plus the SmartMigrate and AI-Native CPQ accelerators; Q4 builds Optimizely Connect and the Customer Service accelerator — month-by-month initiatives with owners and goals.",
+        "stats": [
+          {
+            "value": "2",
+            "label": "quarters"
+          },
+          {
+            "value": "54",
+            "label": "initiatives"
+          }
+        ],
+        "href": "/quarterly-plan",
+        "cta": "Open quarterly plan"
+      },
+      {
+        "source": "Royal Cyber · commercetools Center of Excellence",
+        "title": "Royal Cyber Accelerators",
+        "description": "Each accelerator extends commercetools with applied AI, analytics and automation — and answers a real customer pain. Built and proven by the Royal Cyber commercetools Center of Excellence, they shorten time-to-value across customer service, platform migration, digital experience and B2B quoting.",
+        "stats": [
+          {
+            "value": "5",
+            "label": "accelerators"
+          },
+          {
+            "value": "30",
+            "label": "customer benefits"
+          },
+          {
+            "value": "5",
+            "label": "platform areas"
+          }
+        ],
+        "href": "/accelerators",
+        "cta": "Explore accelerators",
+        "items": [
+          {
+            "n": "01",
+            "status": "Production-ready",
+            "name": "Customer Service Accelerator (CSA)",
+            "tagline": "AI-assisted B2C & B2B service desks, live per client in days"
+          },
+          {
+            "n": "02",
+            "status": "Production-ready",
+            "name": "Metafy — AEO/GEO Accelerator",
+            "tagline": "Get commercetools catalogs surfaced and cited in AI answers and generative search"
+          },
+          {
+            "n": "03",
+            "status": "In progress",
+            "name": "SmartMigrate — Migration Accelerator",
+            "tagline": "Any commerce platform onto commercetools — guided, mapped and self-correcting"
+          },
+          {
+            "n": "04",
+            "status": "Planning",
+            "name": "Optimizely Connect",
+            "tagline": "commercetools commerce, powered by the Optimizely experience layer"
+          },
+          {
+            "n": "05",
+            "status": "Proposed",
+            "name": "AI-Native CPQ Accelerator",
+            "tagline": "AI-native CPQ on commercetools' B2B quote primitives — an intelligence layer, not a standalone rebuild"
+          }
+        ]
+      },
+      {
+        "source": "Royal Cyber · Project Teams",
+        "title": "commercetools Project Teams",
+        "description": "Every running commercetools engagement, the people on each team and their designation — with interactive views of team members by project, project manager, account manager or delivery manager.",
+        "stats": [
+          {
+            "value": "3",
+            "label": "projects"
+          },
+          {
+            "value": "14",
+            "label": "people"
+          },
+          {
+            "value": "14",
+            "label": "team seats"
+          }
+        ],
+        "href": "/projects",
+        "cta": "Open projects",
+        "chips": [
+          "Mars",
+          "RichUSA",
+          "bench"
+        ]
+      }
+    ],
+    "resource": {
+      "source": "Resource · commercetools",
+      "title": "commercetools for Builders",
+      "description": "Stand up enterprise commerce in days, not months — an AI-powered build experience that turns natural-language intent into production-ready storefronts, with a Skills Library for Claude Code, Cursor and other AI tools.",
+      "cta": "Visit commercetools.com",
+      "href": "https://commercetools.com/commercetools-for-builders"
+    },
+    "latestSweep": "Newsletter generated June 22, 2026 · Quarterly plan generated Jun 26, 2026."
+  },
+  "footer": {
+    "copyright": "© 2026 Royal Cyber · commercetools Insights.",
+    "note": "Generated by the commercetools Department Agent & Quarterly Plan Agent. Content reflects the most recent agent run. Update the data files to refresh."
+  }
+}

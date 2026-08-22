@@ -1,0 +1,17 @@
+{
+  "mode": "seed",
+  "timestamp": "2026-07-28T17:52:31.785Z",
+  "stamped": false,
+  "counts": {
+    "trends": 7,
+    "releases": 16,
+    "blogOpportunities": 6,
+    "roadmaps": 6,
+    "quarters": 2,
+    "initiatives": 54,
+    "accelerators": 5,
+    "customerBenefits": 30,
+    "projects": 3,
+    "people": 14
+  }
+}

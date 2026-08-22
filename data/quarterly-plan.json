@@ -1,0 +1,556 @@
+{
+  "meta": {
+    "title": "Royal Cyber — commercetools Quarterly Plan",
+    "generated": "Generated: Jun 26, 2026",
+    "quartersLabel": "2 quarter(s)"
+  },
+  "quarters": [
+    {
+      "id": "q3-2026",
+      "tab": "Q3 2026",
+      "title": "Royal Cyber — Q3 2026: Autonomous Commerce Enablement & Accelerator Delivery",
+      "window": "Jun – Sep 2026",
+      "subtitle": "Autonomous Commerce (MosAIc) & AgenticLift enablement program, plus SmartMigrate and AI-Native CPQ accelerator delivery",
+      "stats": {
+        "initiatives": 41,
+        "done": 1,
+        "open": 40
+      },
+      "tracks": [
+        {
+          "name": "Practice",
+          "description": "Deliver the Autonomous Commerce (MosAIc) blueprint, the AgenticLift demo and workshop kit, and build the SmartMigrate and AI-Native CPQ accelerators."
+        },
+        {
+          "name": "Marketing",
+          "description": "Package the AI-led modernization GTM — talk track, industry one-pagers and ROI calculator — and drive demand for the accelerator portfolio."
+        },
+        {
+          "name": "Sales",
+          "description": "Run the AI-readiness talk track and modernization validation workshops to build qualified pipeline."
+        },
+        {
+          "name": "Partnerships",
+          "description": "Co-sell review of MosAIc / AgenticLift and the accelerators with the commercetools partner team."
+        }
+      ],
+      "initiatives": [
+        {
+          "month": "Jun",
+          "initiative": "Kick-off: AI Commerce enablement program — assign owners, cadence & goals",
+          "track": "Program",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Owners assigned / plan locked",
+          "status": "Done"
+        },
+        {
+          "month": "Jun",
+          "initiative": "Review commercetools Autonomous Commerce (MosAIc) reference architecture",
+          "track": "Autonomous Commerce",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Architecture reviewed",
+          "status": "In Progress"
+        },
+        {
+          "month": "Jun",
+          "initiative": "Draft Royal Cyber Autonomous Commerce implementation blueprint",
+          "track": "Autonomous Commerce",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Reference architecture drafted",
+          "status": "In Progress"
+        },
+        {
+          "month": "Jun",
+          "initiative": "AgenticLift architecture workshop: catalog, pricing, inventory, cart, order & CS context",
+          "track": "Autonomous Commerce",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Workshop completed",
+          "status": "To Do"
+        },
+        {
+          "month": "Jun",
+          "initiative": "Publish AgenticLift POV + use-case map",
+          "track": "Autonomous Commerce",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "POV + use-case map published",
+          "status": "To Do"
+        },
+        {
+          "month": "Jun",
+          "initiative": "Weekly standup: review Week 1 enablement progress and blockers",
+          "track": "Program",
+          "owner": "All",
+          "department": "All Departments",
+          "goal": "Status logged",
+          "status": "To Do"
+        },
+        {
+          "month": "Jun",
+          "initiative": "Define sandbox / demo data approach and product-feed strategy",
+          "track": "Enablement",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Data approach defined",
+          "status": "To Do"
+        },
+        {
+          "month": "Jun",
+          "initiative": "Draft Autonomous Commerce governance & data-readiness checklist",
+          "track": "Autonomous Commerce",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Setup checklist ready",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Define AgenticLift demo storyline: discovery → inventory → recommendations → cart → checkout handoff",
+          "track": "Enablement",
+          "owner": "Pooja",
+          "department": "Marketing",
+          "goal": "Demo script drafted",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Review demo script with Practice and align to MosAIc data feeds",
+          "track": "Enablement",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Script reviewed",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Finalise AgenticLift demo script and setup checklist",
+          "track": "Enablement",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Script + checklist signed off",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Weekly standup: all teams report vs Week 2 targets",
+          "track": "Program",
+          "owner": "All",
+          "department": "All Departments",
+          "goal": "Status logged",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Build AgenticLift demo: AI-agent product discovery & inventory lookup",
+          "track": "Enablement",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Demo build started",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Extend AgenticLift demo: pricing context & cart recommendation",
+          "track": "Enablement",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Demo functional end-to-end",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Create AI-readiness assessment & discovery questionnaire",
+          "track": "Enablement",
+          "owner": "Pooja",
+          "department": "Marketing",
+          "goal": "Assessment & questionnaire drafted",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Build Autonomous Commerce workshop deck & ROI calculator",
+          "track": "Enablement",
+          "owner": "Pooja",
+          "department": "Marketing",
+          "goal": "Workshop kit ready",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Dry-run AgenticLift demo + workshop kit walkthrough",
+          "track": "Enablement",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Dry-run completed",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Weekly standup: all teams report vs Week 3 targets",
+          "track": "Program",
+          "owner": "All",
+          "department": "All Departments",
+          "goal": "Status logged",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Draft AI Commerce sales talk track for existing B2B/B2C customers needing AI readiness",
+          "track": "GTM & Sales",
+          "owner": "Ella",
+          "department": "Sales",
+          "goal": "Talk track drafted",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Review talk track with Practice for technical accuracy",
+          "track": "GTM & Sales",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Talk track reviewed",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Package AI-led modernization message for manufacturing, distribution & retail",
+          "track": "GTM & Sales",
+          "owner": "Pooja",
+          "department": "Marketing",
+          "goal": "GTM pack drafted",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Design industry GTM one-pagers & battlecards",
+          "track": "GTM & Sales",
+          "owner": "TBD",
+          "department": "Design",
+          "goal": "GTM assets ready",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Finalise sales talk track and industry AI commerce GTM pack",
+          "track": "GTM & Sales",
+          "owner": "Ella",
+          "department": "Sales",
+          "goal": "Talk track + GTM pack signed off",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Weekly standup: all teams report vs Week 4 targets",
+          "track": "Program",
+          "owner": "All",
+          "department": "All Departments",
+          "goal": "Status logged",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Prep partner review: finalise MosAIc / AgenticLift demo and POV deck",
+          "track": "Partnerships",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Review pack ready",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Partner review with commercetools team — walk through MosAIc / AgenticLift demo",
+          "track": "Partnerships",
+          "owner": "Venky",
+          "department": "Partnerships",
+          "goal": "Meeting completed",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Capture co-sell feedback and log partner action items",
+          "track": "Partnerships",
+          "owner": "Venky",
+          "department": "Partnerships",
+          "goal": "Feedback captured",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Update POV into a partner-ready POV with co-sell positioning",
+          "track": "Partnerships",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Partner-ready POV published",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Weekly standup: all teams report vs Week 5 targets",
+          "track": "Program",
+          "owner": "All",
+          "department": "All Departments",
+          "goal": "Status logged",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Identify & invite target manufacturing, distribution and retail accounts",
+          "track": "GTM & Sales",
+          "owner": "Pooja",
+          "department": "Marketing",
+          "goal": "Target list & invites sent",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Run AI-led modernization validation workshop with prospects",
+          "track": "GTM & Sales",
+          "owner": "Ella",
+          "department": "Sales",
+          "goal": "Workshop delivered",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Qualify opportunities and capture AI-readiness scores",
+          "track": "GTM & Sales",
+          "owner": "Ella",
+          "department": "Sales",
+          "goal": "Qualified AI-led opportunities logged",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Program retro: enablement → pipeline outcomes & next-quarter plan",
+          "track": "Program",
+          "owner": "All",
+          "department": "All Departments",
+          "goal": "Retro completed / pipeline reported",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "SmartMigrate: finalise any-to-any connector matrix & common commerce model",
+          "track": "SmartMigrate",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Connector matrix finalised",
+          "status": "To Do"
+        },
+        {
+          "month": "Jul",
+          "initiative": "AI-Native CPQ: secure COE approval to proceed (v1 scope & resourcing)",
+          "track": "CPQ",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Approval to build secured",
+          "status": "To Do"
+        },
+        {
+          "month": "Aug",
+          "initiative": "SmartMigrate: build guided 5-step migration demo (connect → scope → map → review → migrate)",
+          "track": "SmartMigrate",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Demo functional end-to-end",
+          "status": "To Do"
+        },
+        {
+          "month": "Aug",
+          "initiative": "SmartMigrate: inline & bulk error-remediation walkthrough + live progress board",
+          "track": "SmartMigrate",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Remediation demo ready",
+          "status": "To Do"
+        },
+        {
+          "month": "Aug",
+          "initiative": "AI-Native CPQ: build RFQ-to-quote ingestion on commercetools quote primitives",
+          "track": "CPQ",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "RFQ-to-quote demo",
+          "status": "To Do"
+        },
+        {
+          "month": "Aug",
+          "initiative": "AI-Native CPQ: conversational guided selling + deal-desk copilot with guardrails",
+          "track": "CPQ",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Guided selling + copilot demo",
+          "status": "To Do"
+        },
+        {
+          "month": "Sep",
+          "initiative": "SmartMigrate: package fixed-scope cutover offer & submit for certification",
+          "track": "SmartMigrate",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Offer packaged / submitted",
+          "status": "Scheduled"
+        },
+        {
+          "month": "Sep",
+          "initiative": "AI-Native CPQ: package v1 + proof-of-impact metrics; submit for certification",
+          "track": "CPQ",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "v1 packaged / submitted",
+          "status": "Scheduled"
+        }
+      ]
+    },
+    {
+      "id": "q4-2026",
+      "tab": "Q4 2026",
+      "title": "Royal Cyber — Q4 2026: Optimizely Connect & Customer Service Accelerator Build",
+      "window": "Oct – Dec 2026",
+      "subtitle": "Build the Optimizely Connect integration accelerator and expand the multi-tenant Customer Service Accelerator (CSA)",
+      "note": "Representative seed initiatives — the Q4 detail on the live site is generated by the Quarterly Plan Agent. Re-run the agent to replace these with the current Q4 set.",
+      "stats": {
+        "initiatives": 13,
+        "done": 0,
+        "open": 13
+      },
+      "tracks": [
+        {
+          "name": "Practice",
+          "description": "Build the Optimizely Connect connector (real-time catalog sync, ODP event streaming, experimentation hooks) and extend the CSA multi-tenant platform."
+        },
+        {
+          "name": "Marketing",
+          "description": "Package the Optimizely Connect and CSA GTM — positioning, demo assets and ROI narrative for the DXP install base."
+        },
+        {
+          "name": "Partnerships",
+          "description": "Align Optimizely Connect with the Optimizely and commercetools partner teams for co-sell and certification."
+        }
+      ],
+      "initiatives": [
+        {
+          "month": "Oct",
+          "initiative": "Optimizely Connect: finalise integration architecture (Subscriptions → ODP, CMS components, experimentation hooks)",
+          "track": "Optimizely Connect",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Architecture signed off",
+          "status": "To Do"
+        },
+        {
+          "month": "Oct",
+          "initiative": "Optimizely Connect: build real-time product / price / inventory sync from commercetools into Optimizely CMS",
+          "track": "Optimizely Connect",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Catalog sync working",
+          "status": "To Do"
+        },
+        {
+          "month": "Oct",
+          "initiative": "Optimizely Connect: pre-built commerce content components (PLP, PDP, cart) rendering live data",
+          "track": "Optimizely Connect",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Components rendering live data",
+          "status": "To Do"
+        },
+        {
+          "month": "Oct",
+          "initiative": "Weekly standup: Q4 build progress and blockers",
+          "track": "Program",
+          "owner": "All",
+          "department": "All Departments",
+          "goal": "Status logged",
+          "status": "To Do"
+        },
+        {
+          "month": "Nov",
+          "initiative": "Optimizely Connect: stream order & customer events into Optimizely Data Platform (ODP) for audiences",
+          "track": "Optimizely Connect",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Event streaming to ODP live",
+          "status": "To Do"
+        },
+        {
+          "month": "Nov",
+          "initiative": "Optimizely Connect: wire conversion / order metrics into Web & Feature Experimentation",
+          "track": "Optimizely Connect",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Experimentation hooks functional",
+          "status": "To Do"
+        },
+        {
+          "month": "Nov",
+          "initiative": "CSA: expand superadmin onboarding & per-tenant SSO (OIDC / SAML) coverage",
+          "track": "Customer Service",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "Onboarding + SSO expanded",
+          "status": "To Do"
+        },
+        {
+          "month": "Nov",
+          "initiative": "CSA: per-tenant LLM / AI-agent configuration and role-based ACL hardening",
+          "track": "Customer Service",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "AI config + ACLs hardened",
+          "status": "To Do"
+        },
+        {
+          "month": "Nov",
+          "initiative": "Package Optimizely Connect GTM: positioning, demo script and ROI narrative for the DXP base",
+          "track": "GTM & Marketing",
+          "owner": "Pooja",
+          "department": "Marketing",
+          "goal": "GTM pack drafted",
+          "status": "To Do"
+        },
+        {
+          "month": "Dec",
+          "initiative": "Optimizely Connect: end-to-end demo (merchandise → test → personalize on live commerce data)",
+          "track": "Optimizely Connect",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "E2E demo ready",
+          "status": "To Do"
+        },
+        {
+          "month": "Dec",
+          "initiative": "Partner review: co-sell alignment with Optimizely and commercetools partner teams",
+          "track": "Partnerships",
+          "owner": "Venky",
+          "department": "Partnerships",
+          "goal": "Co-sell alignment agreed",
+          "status": "To Do"
+        },
+        {
+          "month": "Dec",
+          "initiative": "Optimizely Connect: package v1 connector + configurable field mapping; submit for certification",
+          "track": "Optimizely Connect",
+          "owner": "Stephen",
+          "department": "Practice",
+          "goal": "v1 packaged / submitted",
+          "status": "To Do"
+        },
+        {
+          "month": "Dec",
+          "initiative": "Q4 retro: build outcomes, pipeline and 2027 accelerator roadmap",
+          "track": "Program",
+          "owner": "All",
+          "department": "All Departments",
+          "goal": "Retro completed / roadmap drafted",
+          "status": "To Do"
+        }
+      ]
+    }
+  ]
+}
