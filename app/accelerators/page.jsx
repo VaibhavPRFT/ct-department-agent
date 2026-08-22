@@ -39,7 +39,7 @@ function Accelerator({ a }) {
   return (
     <section id={a.slug} className="scroll-mt-24 border-b border-slate-200 py-12">
       <div className="flex flex-wrap items-center gap-3">
-        <span className="font-mono text-sm text-brand-500">{a.n}</span>
+        <span className="badge-num h-8 w-8 rounded-lg text-xs">{a.n}</span>
         <span className="text-xs font-medium uppercase tracking-wide text-ink-faint">
           {a.category}
         </span>
@@ -170,7 +170,7 @@ export default function AcceleratorsPage() {
   const { meta, accelerators, cta } = data;
   return (
     <>
-      <section className="border-b border-slate-200 bg-white">
+      <section>
         <div className="container-page py-12 sm:py-16">
           <p className="eyebrow">{meta.eyebrow}</p>
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-ink sm:text-4xl">
@@ -187,7 +187,7 @@ export default function AcceleratorsPage() {
               <a
                 key={a.slug}
                 href={`#${a.slug}`}
-                className="pill border-slate-200 bg-white text-ink-soft hover:border-brand-200 hover:text-brand-700"
+                className="pill border-brand-100 bg-white text-ink-soft hover:border-brand-300 hover:text-brand-700"
               >
                 {a.n} {a.name}
               </a>
@@ -202,7 +202,7 @@ export default function AcceleratorsPage() {
         ))}
 
         <section className="py-12">
-          <div className="card bg-brand-600 p-8 text-white">
+          <div className="card bg-gradient-to-r from-brand-900 via-brand-800 to-brand-600 p-8 text-white">
             <h2 className="text-xl font-bold">{cta.title}</h2>
             <p className="mt-2 max-w-3xl text-sm leading-relaxed text-brand-50">
               {cta.body}
@@ -211,7 +211,7 @@ export default function AcceleratorsPage() {
               href={cta.href}
               target="_blank"
               rel="noreferrer"
-              className="mt-4 inline-flex items-center gap-1 rounded-lg bg-white px-4 py-2 text-sm font-semibold text-brand-700 hover:bg-brand-50"
+              className="mt-4 inline-flex items-center gap-1 rounded-full bg-accent px-4 py-2 text-sm font-semibold text-ink hover:bg-accent-600"
             >
               {cta.label} →
             </a>

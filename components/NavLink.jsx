@@ -10,10 +10,10 @@ export default function NavLink({ href, children }) {
     <Link
       href={href}
       className={
-        "rounded-lg px-3 py-1.5 font-medium transition-colors " +
+        "rounded-full px-3.5 py-1.5 font-medium transition-colors " +
         (active
-          ? "bg-brand-50 text-brand-700"
-          : "text-ink-soft hover:bg-slate-100 hover:text-ink")
+          ? "bg-accent text-ink"
+          : "text-white/80 hover:bg-white/10 hover:text-white")
       }
     >
       {children}

@@ -24,6 +24,11 @@ module.exports = {
           soft: "#334155",
           faint: "#64748b",
         },
+        accent: {
+          DEFAULT: "#facc15",
+          600: "#eab308",
+        },
+        surface: "#eef0f9",
       },
       fontFamily: {
         sans: [

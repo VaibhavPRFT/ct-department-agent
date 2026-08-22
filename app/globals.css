@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --bg: #f8fafc;
+  --bg: #eef0f9;
   --panel: #ffffff;
 }
 
@@ -29,6 +29,22 @@ body {
 
   .pill {
     @apply inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-xs font-medium;
+  }
+
+  .pill-solid {
+    @apply inline-flex items-center gap-1 rounded-full bg-brand-100 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide text-brand-700;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-ink px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-800;
+  }
+
+  .btn-primary-sm {
+    @apply inline-flex items-center gap-1.5 rounded-full bg-ink px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-800;
+  }
+
+  .badge-num {
+    @apply flex h-10 w-10 flex-none items-center justify-center rounded-xl bg-ink text-sm font-bold text-white;
   }
 
   .eyebrow {

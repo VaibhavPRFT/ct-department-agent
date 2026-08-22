@@ -1,6 +1,6 @@
 export default function PageHero({ eyebrow, title, description, meta }) {
   return (
-    <section className="border-b border-slate-200 bg-white">
+    <section>
       <div className="container-page py-10 sm:py-14">
         {eyebrow ? <p className="eyebrow">{eyebrow}</p> : null}
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-ink sm:text-4xl">

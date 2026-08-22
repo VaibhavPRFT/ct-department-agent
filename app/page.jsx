@@ -29,15 +29,15 @@ function DashboardCard({ card }) {
       ) : null}
 
       {card.items ? (
-        <ul className="mt-1 space-y-2">
+        <ul className="mt-1 space-y-3">
           {card.items.map((it, i) => (
-            <li key={i} className="flex items-start gap-2 text-sm text-ink-soft">
-              <span className="mt-0.5 font-mono text-xs text-brand-500">
+            <li key={i} className="flex items-start gap-3 text-sm text-ink-soft">
+              <span className="badge-num h-8 w-8 flex-none rounded-lg text-xs">
                 {it.n}
               </span>
               <span>
                 <span className="font-medium text-ink">{it.name}</span>
-                <span className="ml-2 text-xs text-ink-faint">{it.status}</span>
+                <span className="pill-solid ml-2 py-0.5">{it.status}</span>
                 <span className="block text-xs text-ink-faint">{it.tagline}</span>
               </span>
             </li>
@@ -50,7 +50,7 @@ function DashboardCard({ card }) {
           {card.chips.map((c, i) => (
             <span
               key={i}
-              className="pill border-slate-200 bg-slate-50 text-ink-soft"
+              className="pill border-brand-100 bg-brand-50 text-brand-700"
             >
               {c}
             </span>
@@ -58,7 +58,7 @@ function DashboardCard({ card }) {
         </div>
       ) : null}
 
-      <span className="mt-auto inline-flex items-center gap-1 text-sm font-semibold text-brand-600 group-hover:gap-2">
+      <span className="btn-primary-sm mt-auto w-fit">
         {card.cta} <span aria-hidden>→</span>
       </span>
     </Link>
@@ -69,7 +69,7 @@ export default function DashboardPage() {
   const { dashboard } = site;
   return (
     <>
-      <section className="border-b border-slate-200 bg-white">
+      <section>
         <div className="container-page py-12 sm:py-16">
           <p className="eyebrow">{dashboard.eyebrow}</p>
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-ink sm:text-4xl">
@@ -101,7 +101,7 @@ export default function DashboardPage() {
           <p className="text-sm leading-relaxed text-ink-soft">
             {dashboard.resource.description}
           </p>
-          <span className="mt-1 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">
+          <span className="btn-primary-sm mt-1 w-fit">
             {dashboard.resource.cta} <span aria-hidden>↗</span>
           </span>
         </a>
