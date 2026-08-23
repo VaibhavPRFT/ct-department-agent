@@ -505,7 +505,7 @@
           "month": "Oct",
           "initiative": "Optimizely Connect: finalise integration architecture (Subscriptions → ODP, CMS components, experimentation hooks)",
           "track": "Optimizely Connect",
-          "owner": "Stephen",
+          "owner": "Vaibhav Warhadpande",
           "department": "Practice",
           "goal": "Architecture signed off",
           "status": "To Do"
@@ -514,7 +514,7 @@
           "month": "Oct",
           "initiative": "Optimizely Connect: build real-time product / price / inventory sync from commercetools into Optimizely CMS",
           "track": "Optimizely Connect",
-          "owner": "Stephen",
+          "owner": "Vaibhav Warhadpande",
           "department": "Practice",
           "goal": "Catalog sync working",
           "status": "To Do"
@@ -523,7 +523,7 @@
           "month": "Oct",
           "initiative": "Optimizely Connect: pre-built commerce content components (PLP, PDP, cart) rendering live data",
           "track": "Optimizely Connect",
-          "owner": "Stephen",
+          "owner": "Vaibhav Warhadpande",
           "department": "Practice",
           "goal": "Components rendering live data",
           "status": "To Do"
@@ -541,7 +541,7 @@
           "month": "Nov",
           "initiative": "Optimizely Connect: stream order & customer events into Optimizely Data Platform (ODP) for audiences",
           "track": "Optimizely Connect",
-          "owner": "Stephen",
+          "owner": "Vaibhav Warhadpande",
           "department": "Practice",
           "goal": "Event streaming to ODP live",
           "status": "To Do"
@@ -550,7 +550,7 @@
           "month": "Nov",
           "initiative": "Optimizely Connect: wire conversion / order metrics into Web & Feature Experimentation",
           "track": "Optimizely Connect",
-          "owner": "Stephen",
+          "owner": "Vaibhav Warhadpande",
           "department": "Practice",
           "goal": "Experimentation hooks functional",
           "status": "To Do"
@@ -559,7 +559,7 @@
           "month": "Nov",
           "initiative": "CSA: expand superadmin onboarding & per-tenant SSO (OIDC / SAML) coverage",
           "track": "Customer Service",
-          "owner": "Stephen",
+          "owner": "Vaibhav Warhadpande",
           "department": "Practice",
           "goal": "Onboarding + SSO expanded",
           "status": "To Do"
@@ -568,7 +568,7 @@
           "month": "Nov",
           "initiative": "CSA: per-tenant LLM / AI-agent configuration and role-based ACL hardening",
           "track": "Customer Service",
-          "owner": "Stephen",
+          "owner": "Vaibhav Warhadpande",
           "department": "Practice",
           "goal": "AI config + ACLs hardened",
           "status": "To Do"
@@ -586,7 +586,7 @@
           "month": "Dec",
           "initiative": "Optimizely Connect: end-to-end demo (merchandise → test → personalize on live commerce data)",
           "track": "Optimizely Connect",
-          "owner": "Stephen",
+          "owner": "Vaibhav Warhadpande",
           "department": "Practice",
           "goal": "E2E demo ready",
           "status": "To Do"
@@ -604,7 +604,7 @@
           "month": "Dec",
           "initiative": "Optimizely Connect: package v1 connector + configurable field mapping; submit for certification",
           "track": "Optimizely Connect",
-          "owner": "Stephen",
+          "owner": "Vaibhav Warhadpande",
           "department": "Practice",
           "goal": "v1 packaged / submitted",
           "status": "To Do"
