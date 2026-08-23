@@ -3,6 +3,8 @@ import StatusPill from "@/components/StatusPill";
 
 export const metadata = {
   title: "Royal Cyber Accelerators — commercetools Center of Excellence",
+  description:
+    "Royal Cyber accelerators that extend commercetools with applied AI, analytics and automation — each mapped to the customer pain it solves and the value it creates.",
 };
 
 function Media({ item }) {

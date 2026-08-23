@@ -15,10 +15,10 @@ export default function QuarterlyPlanView({ data }) {
             key={quarter.id}
             onClick={() => setActive(i)}
             className={
-              "rounded-lg border px-4 py-2 text-sm font-semibold transition " +
+              "rounded-full border px-4 py-2 text-sm font-semibold transition " +
               (i === active
-                ? "border-brand-500 bg-brand-500 text-white"
-                : "border-slate-200 bg-white text-ink-soft hover:border-brand-200")
+                ? "border-ink bg-ink text-white"
+                : "border-brand-100 bg-white text-ink-soft hover:border-brand-300")
             }
           >
             {quarter.tab}

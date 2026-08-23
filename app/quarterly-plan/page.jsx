@@ -10,7 +10,6 @@ export default function QuarterlyPlanPage() {
   return (
     <>
       <PageHero
-        eyebrow="Royal Cyber · Quarterly Plan Agent"
         title={data.meta.title}
         description={`${data.meta.generated} · ${data.meta.quartersLabel}`}
       />

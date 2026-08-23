@@ -47,7 +47,7 @@ export default function ProjectsView({ data }) {
           <span className="mr-2 text-xs font-semibold uppercase tracking-wide text-ink-faint">
             Status
           </span>
-          <div className="mt-1 inline-flex rounded-lg border border-slate-200 bg-white p-1">
+          <div className="mt-1 inline-flex rounded-full border border-brand-100 bg-white p-1">
             {["current", "past"].map((s) => (
               <button
                 key={s}
@@ -56,9 +56,9 @@ export default function ProjectsView({ data }) {
                   setSelected(null);
                 }}
                 className={
-                  "rounded-md px-3 py-1 text-sm font-medium capitalize transition " +
+                  "rounded-full px-3 py-1 text-sm font-medium capitalize transition " +
                   (status === s
-                    ? "bg-brand-500 text-white"
+                    ? "bg-ink text-white"
                     : "text-ink-soft hover:bg-slate-100")
                 }
               >
@@ -78,10 +78,10 @@ export default function ProjectsView({ data }) {
                 key={g.key}
                 onClick={() => pickGrouping(g)}
                 className={
-                  "rounded-lg border px-3 py-1 text-sm font-medium transition " +
+                  "rounded-full border px-3 py-1 text-sm font-medium transition " +
                   (grouping.key === g.key
-                    ? "border-brand-500 bg-brand-50 text-brand-700"
-                    : "border-slate-200 bg-white text-ink-soft hover:border-brand-200")
+                    ? "border-brand-300 bg-brand-50 text-brand-700"
+                    : "border-brand-100 bg-white text-ink-soft hover:border-brand-300")
                 }
               >
                 {g.label}
