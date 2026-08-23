@@ -3,12 +3,12 @@
     "eyebrow": "Royal Cyber · commercetools Practice",
     "title": "Project Teams",
     "intro": "Live view of Royal Cyber's commercetools engagements — every project, who is on the team and their designation. Switch the Group by view to see team members by project, project manager, account manager or delivery manager, and click any bar to filter.",
-    "status": "Currently showing 3 running projects across 14 people",
+    "status": "Currently showing 3 running projects across 13 people",
     "updated": "Updated Jun 23, 2026.",
     "stats": [
       { "value": "3", "label": "Projects" },
-      { "value": "14", "label": "People" },
-      { "value": "14", "label": "Team seats" }
+      { "value": "13", "label": "People" },
+      { "value": "13", "label": "Team seats" }
     ]
   },
   "projects": [
@@ -46,8 +46,7 @@
       "members": [
         { "initials": "MR", "name": "Mahesh Ramachandran", "designation": "Senior Software Engineer" },
         { "initials": "SK", "name": "Shahmir Khan", "designation": "Software Engineer" },
-        { "initials": "SS", "name": "Shivam Soni", "designation": "Software Engineer" },
-        { "initials": "VW", "name": "Vaibhav Warhadpande", "designation": "Practice Head" }
+        { "initials": "SS", "name": "Shivam Soni", "designation": "Software Engineer" }
       ]
     }
   ]
