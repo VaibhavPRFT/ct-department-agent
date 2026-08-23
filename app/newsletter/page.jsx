@@ -142,7 +142,44 @@ export default function NewsletterPage() {
         </div>
       </Section>
 
-      <Section n="04" title="Product Roadmap">
+      <Section n="04" title="Royal Cyber Events">
+        <p className="mb-4 max-w-3xl text-sm text-ink-faint">
+          Royal Cyber's own commercetools webinars and networking events — register directly on royalcyber.com.
+        </p>
+        <div className="card overflow-x-auto">
+          <table className="prose-table">
+            <thead>
+              <tr>
+                <th>Event</th>
+                <th>When / Format</th>
+                <th>Focus</th>
+                <th>Register</th>
+              </tr>
+            </thead>
+            <tbody>
+              {data.royalCyberEvents.map((e, i) => (
+                <tr key={i}>
+                  <td className="font-medium text-ink">{e.event}</td>
+                  <td>{e.when}</td>
+                  <td>{e.focus}</td>
+                  <td>
+                    <a
+                      className="font-semibold text-brand-600 hover:underline"
+                      href={e.register}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Register ↗
+                    </a>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </Section>
+
+      <Section n="05" title="Product Roadmap">
         <p className="mb-4 max-w-3xl text-sm text-ink-faint">
           Near-term items pulled from the current / Now / Q2 sections of each
           product page. Forward-looking and informational only — commercetools
@@ -176,7 +213,7 @@ export default function NewsletterPage() {
         </div>
       </Section>
 
-      <Section n="05" title="High-Value Blog Opportunities">
+      <Section n="06" title="High-Value Blog Opportunities">
         <div className="grid gap-5 md:grid-cols-2">
           {data.blogOpportunities.map((b, i) => (
             <div key={i} className="card p-5">
@@ -199,7 +236,7 @@ export default function NewsletterPage() {
         </div>
       </Section>
 
-      <Section n="06" title="Whitepaper Opportunities">
+      <Section n="07" title="Whitepaper Opportunities">
         <div className="grid gap-5 md:grid-cols-2">
           {data.whitepaperOpportunities.map((w, i) => (
             <div key={i} className="card p-5">
@@ -222,7 +259,7 @@ export default function NewsletterPage() {
         </div>
       </Section>
 
-      <Section n="07" title="LinkedIn Post Ideas">
+      <Section n="08" title="LinkedIn Post Ideas">
         <div className="grid gap-5 md:grid-cols-2">
           {data.linkedinPosts.map((p, i) => (
             <div key={i} className="card p-5">
@@ -240,7 +277,7 @@ export default function NewsletterPage() {
         </div>
       </Section>
 
-      <Section n="08" title="Competitive Insight">
+      <Section n="09" title="Competitive Insight">
         <div className="card overflow-x-auto">
           <table className="prose-table">
             <thead>
@@ -265,7 +302,7 @@ export default function NewsletterPage() {
         </div>
       </Section>
 
-      <Section n="09" title="Recommended Immediate Actions">
+      <Section n="10" title="Recommended Immediate Actions">
         <div className="space-y-4">
           {data.immediateActions.map((a) => (
             <div key={a.rank} className="card flex items-start gap-4 p-5">
@@ -292,7 +329,7 @@ export default function NewsletterPage() {
         </div>
       </Section>
 
-      <Section n="10" title="Next 7 Days">
+      <Section n="11" title="Next 7 Days">
         <ul className="card space-y-3 p-6">
           {data.next7Days.map((item, i) => (
             <li key={i} className="flex gap-3 text-sm text-ink-soft">

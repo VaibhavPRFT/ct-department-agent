@@ -8,401 +8,469 @@
     {
       "id": "q3-2026",
       "tab": "Q3 2026",
-      "title": "Royal Cyber — Q3 2026: Autonomous Commerce Enablement & Accelerator Delivery",
-      "window": "Jun – Sep 2026",
-      "subtitle": "Autonomous Commerce (MosAIc) & AgenticLift enablement program, plus SmartMigrate and AI-Native CPQ accelerator delivery",
+      "title": "Royal Cyber | MetaFyAI + Commerce Tools — 6-Week Sales Plan (Cycle 2)",
+      "window": "Jul 27 – Sep 4, 2026",
+      "subtitle": "One salesperson (Ella) running two motions on one weekly rhythm — the MetaFyAI volume motion anchored by the Chicago event, and the Commerce Tools partner motion with the Cornerstone Building Brands deal",
+      "note": "Top blocker: Marketing turnaround. The weekly CT customer-story video must hit Ella's inbox Friday 9am for same-day distribution, and Chicago 3-track templates + biweekly webinar assets must land on time. Every slipped asset delays a distribution cycle.",
       "stats": {
-        "initiatives": 41,
-        "done": 1,
-        "open": 40
+        "initiatives": 48,
+        "done": 23,
+        "open": 25
       },
       "tracks": [
         {
-          "name": "Practice",
-          "description": "Deliver the Autonomous Commerce (MosAIc) blueprint, the AgenticLift demo and workshop kit, and build the SmartMigrate and AI-Native CPQ accelerators."
+          "name": "Sales",
+          "description": "Outbound, inbound follow-up, meeting-booking, prospect research, CRM hygiene."
         },
         {
           "name": "Marketing",
-          "description": "Package the AI-led modernization GTM — talk track, industry one-pagers and ROI calculator — and drive demand for the accelerator portfolio."
+          "description": "Chicago event ops, videos, webinars, landing pages, content production."
         },
         {
-          "name": "Sales",
-          "description": "Run the AI-readiness talk track and modernization validation workshops to build qualified pipeline."
+          "name": "Partnership",
+          "description": "Ryan Hamer + Christian Schlaadt, CT weekly meeting, AE / partner intros."
         },
         {
-          "name": "Partnerships",
-          "description": "Co-sell review of MosAIc / AgenticLift and the accelerators with the commercetools partner team."
+          "name": "Practice",
+          "description": "Product / delivery — POC scoping demos, technical support."
+        },
+        {
+          "name": "Leadership",
+          "description": "Escalations, blockers, exec sponsorship (Huzefa), weekly reporting."
         }
       ],
       "initiatives": [
         {
-          "month": "Jun",
-          "initiative": "Kick-off: AI Commerce enablement program — assign owners, cadence & goals",
-          "track": "Program",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Owners assigned / plan locked",
+          "month": "Jul",
+          "initiative": "Draft 3-track Chicago follow-up email templates (engaged / attended / no-show) using M2 pattern",
+          "track": "Sales",
+          "owner": "Ella",
+          "department": "Sales",
+          "goal": "3 templates ready",
           "status": "Done"
         },
         {
-          "month": "Jun",
-          "initiative": "Review commercetools Autonomous Commerce (MosAIc) reference architecture",
-          "track": "Autonomous Commerce",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Architecture reviewed",
+          "month": "Jul",
+          "initiative": "Prep CT kickoff: pull Cornerstone status, Marketplace listing screenshots, Ryan Hamer conversation log",
+          "track": "Sales",
+          "owner": "Ella",
+          "department": "Sales",
+          "goal": "Kickoff pack ready",
+          "status": "Done"
+        },
+        {
+          "month": "Jul",
+          "initiative": "commercetools kickoff — support role (Christian Schlaadt, Andrii Chekanov, Alexandra); take notes, don't lead",
+          "track": "Partnership",
+          "owner": "Ella (CMO + Pampari lead)",
+          "department": "Partnership",
+          "goal": "Notes captured in CRM",
+          "status": "Done"
+        },
+        {
+          "month": "Jul",
+          "initiative": "40 MetaFyAI LinkedIn connection requests (M1 template) + attend Chicago dry-run to learn the demo flow",
+          "track": "Sales",
+          "owner": "Ella",
+          "department": "Sales",
+          "goal": "40 sent; demo memorized",
+          "status": "Done"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Attend MetaFyAI Chicago event in person — capture business cards from every attendee, prime for trial signup",
+          "track": "Marketing",
+          "owner": "Marketing (ops) + Ella",
+          "department": "Marketing",
+          "goal": "40+ contacts logged",
+          "status": "Done"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Log every Chicago contact into Dynamics before end of night",
+          "track": "Sales",
+          "owner": "Ella",
+          "department": "Sales",
+          "goal": "All logged same-day",
+          "status": "Done"
+        },
+        {
+          "month": "Jul",
+          "initiative": "Week 1 CT customer-story video (CSA story) delivered to Ella's inbox",
+          "track": "Marketing",
+          "owner": "Video Producer + Content",
+          "department": "Marketing",
+          "goal": "Video in hand",
           "status": "In Progress"
         },
         {
-          "month": "Jun",
-          "initiative": "Draft Royal Cyber Autonomous Commerce implementation blueprint",
-          "track": "Autonomous Commerce",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Reference architecture drafted",
+          "month": "Jul",
+          "initiative": "24-hr Chicago follow-up: send 3-track emails to every attendee (M2 for engaged tier)",
+          "track": "Sales",
+          "owner": "Ella",
+          "department": "Sales",
+          "goal": "40% engaged reply",
           "status": "In Progress"
         },
         {
-          "month": "Jun",
-          "initiative": "AgenticLift architecture workshop: catalog, pricing, inventory, cart, order & CS context",
-          "track": "Autonomous Commerce",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Workshop completed",
-          "status": "To Do"
-        },
-        {
-          "month": "Jun",
-          "initiative": "Publish AgenticLift POV + use-case map",
-          "track": "Autonomous Commerce",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "POV + use-case map published",
-          "status": "To Do"
-        },
-        {
-          "month": "Jun",
-          "initiative": "Weekly standup: review Week 1 enablement progress and blockers",
-          "track": "Program",
-          "owner": "All",
-          "department": "All Departments",
-          "goal": "Status logged",
-          "status": "To Do"
-        },
-        {
-          "month": "Jun",
-          "initiative": "Define sandbox / demo data approach and product-feed strategy",
-          "track": "Enablement",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Data approach defined",
-          "status": "To Do"
-        },
-        {
-          "month": "Jun",
-          "initiative": "Draft Autonomous Commerce governance & data-readiness checklist",
-          "track": "Autonomous Commerce",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Setup checklist ready",
-          "status": "To Do"
-        },
-        {
           "month": "Jul",
-          "initiative": "Define AgenticLift demo storyline: discovery → inventory → recommendations → cart → checkout handoff",
-          "track": "Enablement",
-          "owner": "Pooja",
+          "initiative": "Distribute Week 1 CT video to Ryan Hamer + 20 warm CT prospects (CT1 companion email)",
+          "track": "Marketing",
+          "owner": "Ella",
           "department": "Marketing",
-          "goal": "Demo script drafted",
-          "status": "To Do"
+          "goal": "Sent to 20+",
+          "status": "In Progress"
         },
         {
           "month": "Jul",
-          "initiative": "Review demo script with Practice and align to MosAIc data feeds",
-          "track": "Enablement",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Script reviewed",
-          "status": "To Do"
+          "initiative": "Send first Weekly Sales Report to Huzefa (meetings / POCs / CT wins / blockers / next-week top 3)",
+          "track": "Leadership",
+          "owner": "Ella → Huzefa",
+          "department": "Leadership",
+          "goal": "Report sent",
+          "status": "Done"
         },
         {
-          "month": "Jul",
-          "initiative": "Finalise AgenticLift demo script and setup checklist",
-          "track": "Enablement",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Script + checklist signed off",
-          "status": "To Do"
-        },
-        {
-          "month": "Jul",
-          "initiative": "Weekly standup: all teams report vs Week 2 targets",
-          "track": "Program",
-          "owner": "All",
-          "department": "All Departments",
-          "goal": "Status logged",
-          "status": "To Do"
-        },
-        {
-          "month": "Jul",
-          "initiative": "Build AgenticLift demo: AI-agent product discovery & inventory lookup",
-          "track": "Enablement",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Demo build started",
-          "status": "To Do"
-        },
-        {
-          "month": "Jul",
-          "initiative": "Extend AgenticLift demo: pricing context & cart recommendation",
-          "track": "Enablement",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Demo functional end-to-end",
-          "status": "To Do"
-        },
-        {
-          "month": "Jul",
-          "initiative": "Create AI-readiness assessment & discovery questionnaire",
-          "track": "Enablement",
-          "owner": "Pooja",
-          "department": "Marketing",
-          "goal": "Assessment & questionnaire drafted",
-          "status": "To Do"
-        },
-        {
-          "month": "Jul",
-          "initiative": "Build Autonomous Commerce workshop deck & ROI calculator",
-          "track": "Enablement",
-          "owner": "Pooja",
-          "department": "Marketing",
-          "goal": "Workshop kit ready",
-          "status": "To Do"
-        },
-        {
-          "month": "Jul",
-          "initiative": "Dry-run AgenticLift demo + workshop kit walkthrough",
-          "track": "Enablement",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Dry-run completed",
-          "status": "To Do"
-        },
-        {
-          "month": "Jul",
-          "initiative": "Weekly standup: all teams report vs Week 3 targets",
-          "track": "Program",
-          "owner": "All",
-          "department": "All Departments",
-          "goal": "Status logged",
-          "status": "To Do"
-        },
-        {
-          "month": "Jul",
-          "initiative": "Draft AI Commerce sales talk track for existing B2B/B2C customers needing AI readiness",
-          "track": "GTM & Sales",
+          "month": "Aug",
+          "initiative": "10 personalized \"here's what you saw + book a demo\" emails to top-engagement Chicago tier",
+          "track": "Sales",
           "owner": "Ella",
           "department": "Sales",
-          "goal": "Talk track drafted",
-          "status": "To Do"
+          "goal": "10 sent, 3+ bookings",
+          "status": "Done"
         },
         {
-          "month": "Jul",
-          "initiative": "Review talk track with Practice for technical accuracy",
-          "track": "GTM & Sales",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Talk track reviewed",
-          "status": "To Do"
+          "month": "Aug",
+          "initiative": "First Ryan Hamer sync (CT2 agenda): Cornerstone status + 3 net-new named accounts to jointly pursue",
+          "track": "Partnership",
+          "owner": "Ella + Ryan Hamer",
+          "department": "Partnership",
+          "goal": "3 accounts activated",
+          "status": "In Progress"
         },
         {
-          "month": "Jul",
-          "initiative": "Package AI-led modernization message for manufacturing, distribution & retail",
-          "track": "GTM & Sales",
-          "owner": "Pooja",
+          "month": "Aug",
+          "initiative": "Qualify new CT prospects (Abbott, Darden, Levi Strauss) — add fits to the Ryan sync list",
+          "track": "Sales",
+          "owner": "Ella",
+          "department": "Sales",
+          "goal": "Prospects qualified",
+          "status": "In Progress"
+        },
+        {
+          "month": "Aug",
+          "initiative": "Launch \"Is Your Commerce Stack Ready for What's Next?\" (Commerce Tools) / \"SEO got here. AEO gets you found next\" (MetaFy) campaigns",
+          "track": "Sales",
+          "owner": "Ella",
+          "department": "Sales",
+          "goal": "Launched",
+          "status": "Done"
+        },
+        {
+          "month": "Aug",
+          "initiative": "40 MetaFyAI LinkedIn requests, prioritize A&F-adjacent commerce brands",
+          "track": "Sales",
+          "owner": "Ella",
+          "department": "Sales",
+          "goal": "40 sent",
+          "status": "Done"
+        },
+        {
+          "month": "Aug",
+          "initiative": "Distribute Week 2 CT video + Marketplace listing v2 announcement to warm CT prospects",
+          "track": "Marketing",
+          "owner": "Ella",
           "department": "Marketing",
-          "goal": "GTM pack drafted",
-          "status": "To Do"
+          "goal": "Sent",
+          "status": "In Progress"
         },
         {
-          "month": "Jul",
-          "initiative": "Design industry GTM one-pagers & battlecards",
-          "track": "GTM & Sales",
-          "owner": "TBD",
-          "department": "Design",
-          "goal": "GTM assets ready",
-          "status": "To Do"
+          "month": "Aug",
+          "initiative": "Weekly commercetools + RC sales meeting — attend with written status",
+          "track": "Partnership",
+          "owner": "Ella (Vaibhav owns)",
+          "department": "Partnership",
+          "goal": "Attended, status logged",
+          "status": "Done"
         },
         {
-          "month": "Jul",
-          "initiative": "Finalise sales talk track and industry AI commerce GTM pack",
-          "track": "GTM & Sales",
-          "owner": "Ella",
-          "department": "Sales",
-          "goal": "Talk track + GTM pack signed off",
-          "status": "To Do"
-        },
-        {
-          "month": "Jul",
-          "initiative": "Weekly standup: all teams report vs Week 4 targets",
-          "track": "Program",
-          "owner": "All",
-          "department": "All Departments",
-          "goal": "Status logged",
-          "status": "To Do"
-        },
-        {
-          "month": "Jul",
-          "initiative": "Prep partner review: finalise MosAIc / AgenticLift demo and POV deck",
-          "track": "Partnerships",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Review pack ready",
-          "status": "To Do"
-        },
-        {
-          "month": "Jul",
-          "initiative": "Partner review with commercetools team — walk through MosAIc / AgenticLift demo",
-          "track": "Partnerships",
-          "owner": "Venky",
-          "department": "Partnerships",
-          "goal": "Meeting completed",
-          "status": "To Do"
-        },
-        {
-          "month": "Jul",
-          "initiative": "Capture co-sell feedback and log partner action items",
-          "track": "Partnerships",
-          "owner": "Venky",
-          "department": "Partnerships",
-          "goal": "Feedback captured",
-          "status": "To Do"
-        },
-        {
-          "month": "Jul",
-          "initiative": "Update POV into a partner-ready POV with co-sell positioning",
-          "track": "Partnerships",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Partner-ready POV published",
-          "status": "To Do"
-        },
-        {
-          "month": "Jul",
-          "initiative": "Weekly standup: all teams report vs Week 5 targets",
-          "track": "Program",
-          "owner": "All",
-          "department": "All Departments",
-          "goal": "Status logged",
-          "status": "To Do"
-        },
-        {
-          "month": "Jul",
-          "initiative": "Identify & invite target manufacturing, distribution and retail accounts",
-          "track": "GTM & Sales",
-          "owner": "Pooja",
+          "month": "Aug",
+          "initiative": "Post-Chicago debrief with Marketing — log trial-to-demo conversions",
+          "track": "Marketing",
+          "owner": "Marketing + Ella",
           "department": "Marketing",
-          "goal": "Target list & invites sent",
-          "status": "To Do"
+          "goal": "Conversions logged",
+          "status": "Done"
         },
         {
-          "month": "Jul",
-          "initiative": "Run AI-led modernization validation workshop with prospects",
-          "track": "GTM & Sales",
+          "month": "Aug",
+          "initiative": "Day-3 / Day-6 trial nudges (M3): every trial user gets a scoping-call proposal",
+          "track": "Practice",
+          "owner": "Ella (Practice on call)",
+          "department": "Practice",
+          "goal": "Nudges sent",
+          "status": "Done"
+        },
+        {
+          "month": "Aug",
+          "initiative": "Kill-criteria check #1 — Chicago reply rate + Ryan sync outcome; weekly report to Huzefa",
+          "track": "Leadership",
+          "owner": "Ella → Huzefa",
+          "department": "Leadership",
+          "goal": "Pass or escalate",
+          "status": "Done"
+        },
+        {
+          "month": "Aug",
+          "initiative": "A&F next step — propose Brand POC scope (M5); coordinate wording with Murtuza + Huzefa",
+          "track": "Sales",
+          "owner": "Ella + Murtuza",
+          "department": "Sales",
+          "goal": "Scope sent",
+          "status": "Done"
+        },
+        {
+          "month": "Aug",
+          "initiative": "Ryan Hamer sync #2: Cornerstone SOW status + 2 more accounts",
+          "track": "Partnership",
+          "owner": "Ella + Ryan Hamer",
+          "department": "Partnership",
+          "goal": "Cornerstone advanced",
+          "status": "Done"
+        },
+        {
+          "month": "Aug",
+          "initiative": "MetaFyAI biweekly webinar \"Win the AI Shelf\" — attend live, capture Q&A leads, 24-hr follow-up",
+          "track": "Marketing",
+          "owner": "CMO + Product host / Ella captures",
+          "department": "Marketing",
+          "goal": "10+ Q&A leads",
+          "status": "Done"
+        },
+        {
+          "month": "Aug",
+          "initiative": "Distribute Week 3 CT video (migration story)",
+          "track": "Marketing",
+          "owner": "Ella",
+          "department": "Marketing",
+          "goal": "Sent",
+          "status": "In Progress"
+        },
+        {
+          "month": "Aug",
+          "initiative": "Weekly commercetools + RC meeting",
+          "track": "Partnership",
+          "owner": "Ella (Vaibhav owns)",
+          "department": "Partnership",
+          "goal": "Attended",
+          "status": "Done"
+        },
+        {
+          "month": "Aug",
+          "initiative": "Named-account coverage check — 70% touched by end of this week",
+          "track": "Sales",
           "owner": "Ella",
           "department": "Sales",
-          "goal": "Workshop delivered",
-          "status": "To Do"
+          "goal": "70% coverage",
+          "status": "Done"
         },
         {
-          "month": "Jul",
-          "initiative": "Qualify opportunities and capture AI-readiness scores",
-          "track": "GTM & Sales",
+          "month": "Aug",
+          "initiative": "Weekly wrap + newsletter distribution; report to Huzefa",
+          "track": "Leadership",
+          "owner": "Ella → Huzefa",
+          "department": "Leadership",
+          "goal": "Sent",
+          "status": "Done"
+        },
+        {
+          "month": "Aug",
+          "initiative": "Mid-cycle pipeline review with Huzefa — on the 12-meeting base? Which motion under-delivering?",
+          "track": "Leadership",
+          "owner": "Ella + Huzefa",
+          "department": "Leadership",
+          "goal": "Report + corrective plan",
+          "status": "Done"
+        },
+        {
+          "month": "Aug",
+          "initiative": "Ryan Hamer sync #3 — target: Cornerstone SOW signed by end of week",
+          "track": "Partnership",
+          "owner": "Ella + Ryan Hamer",
+          "department": "Partnership",
+          "goal": "SOW on track",
+          "status": "In Progress"
+        },
+        {
+          "month": "Aug",
+          "initiative": "5 MetaFyAI partner intros scheduled (leverage Vijay Yadav's pipeline)",
+          "track": "Partnership",
+          "owner": "Ella + Vijay Yadav",
+          "department": "Partnership",
+          "goal": "5 intros",
+          "status": "In Progress"
+        },
+        {
+          "month": "Aug",
+          "initiative": "Distribute podcast video for MetaFyAI",
+          "track": "Marketing",
+          "owner": "Ella",
+          "department": "Marketing",
+          "goal": "Posted",
+          "status": "Done"
+        },
+        {
+          "month": "Aug",
+          "initiative": "Cornerstone weekly nudge (CT3): offer Mahaveer technical walkthrough with two time windows",
+          "track": "Sales",
           "owner": "Ella",
           "department": "Sales",
-          "goal": "Qualified AI-led opportunities logged",
-          "status": "To Do"
+          "goal": "Walkthrough booked",
+          "status": "In Progress"
         },
         {
-          "month": "Jul",
-          "initiative": "Program retro: enablement → pipeline outcomes & next-quarter plan",
-          "track": "Program",
-          "owner": "All",
-          "department": "All Departments",
-          "goal": "Retro completed / pipeline reported",
-          "status": "To Do"
+          "month": "Aug",
+          "initiative": "Weekly commercetools + RC meeting",
+          "track": "Partnership",
+          "owner": "Ella (Vaibhav owns)",
+          "department": "Partnership",
+          "goal": "Attended",
+          "status": "Done"
         },
         {
-          "month": "Jul",
-          "initiative": "SmartMigrate: finalise any-to-any connector matrix & common commerce model",
-          "track": "SmartMigrate",
-          "owner": "Stephen",
+          "month": "Aug",
+          "initiative": "Trial-to-POC push: any trial user Day-14+ not converted — Ella + Practice Lead close call",
+          "track": "Practice",
+          "owner": "Ella runs / Practice demos",
           "department": "Practice",
-          "goal": "Connector matrix finalised",
-          "status": "To Do"
+          "goal": "3+ POC decisions",
+          "status": "In Progress"
         },
         {
-          "month": "Jul",
-          "initiative": "AI-Native CPQ: secure COE approval to proceed (v1 scope & resourcing)",
-          "track": "CPQ",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Approval to build secured",
+          "month": "Aug",
+          "initiative": "Cornerstone SOW target — signed today; Lamiaa confirms, Ella logs; weekly report",
+          "track": "Partnership",
+          "owner": "Ella + Lamiaa + Mahaveer",
+          "department": "Partnership",
+          "goal": "SOW signed",
+          "status": "In Progress"
+        },
+        {
+          "month": "Aug",
+          "initiative": "Final meeting-ask wave to all MetaFyAI trial users approaching end-of-trial",
+          "track": "Sales",
+          "owner": "Ella",
+          "department": "Sales",
+          "goal": "Wave sent",
           "status": "To Do"
         },
         {
           "month": "Aug",
-          "initiative": "SmartMigrate: build guided 5-step migration demo (connect → scope → map → review → migrate)",
-          "track": "SmartMigrate",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Demo functional end-to-end",
+          "initiative": "Ryan Hamer sync #4 — focus: 2 new opportunities post-Cornerstone",
+          "track": "Partnership",
+          "owner": "Ella + Ryan Hamer",
+          "department": "Partnership",
+          "goal": "2 opps opened",
           "status": "To Do"
         },
         {
           "month": "Aug",
-          "initiative": "SmartMigrate: inline & bulk error-remediation walkthrough + live progress board",
-          "track": "SmartMigrate",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Remediation demo ready",
+          "initiative": "MetaFyAI biweekly webinar \"The Revenue Proof\" — attend, capture leads, 24-hr follow-up",
+          "track": "Marketing",
+          "owner": "CMO + Product host / Ella captures",
+          "department": "Marketing",
+          "goal": "10+ leads",
           "status": "To Do"
         },
         {
           "month": "Aug",
-          "initiative": "AI-Native CPQ: build RFQ-to-quote ingestion on commercetools quote primitives",
-          "track": "CPQ",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "RFQ-to-quote demo",
+          "initiative": "Distribute Week 5 CT video (grocery / frozen story)",
+          "track": "Marketing",
+          "owner": "Ella",
+          "department": "Marketing",
+          "goal": "Sent",
           "status": "To Do"
         },
         {
           "month": "Aug",
-          "initiative": "AI-Native CPQ: conversational guided selling + deal-desk copilot with guardrails",
-          "track": "CPQ",
-          "owner": "Stephen",
+          "initiative": "Joint commercetools + RC webinar (co-hosted w/ Christian Schlaadt); Ella pre-invites her + Ryan's named accounts",
+          "track": "Partnership",
+          "owner": "Ella + CMO / Christian",
+          "department": "Partnership",
+          "goal": "150+ reg / 60+ live",
+          "status": "To Do"
+        },
+        {
+          "month": "Aug",
+          "initiative": "Named-account coverage check — 100% touched by end of this week",
+          "track": "Sales",
+          "owner": "Ella",
+          "department": "Sales",
+          "goal": "100% coverage",
+          "status": "To Do"
+        },
+        {
+          "month": "Aug",
+          "initiative": "Weekly wrap; trial users at Day-7 — Practice Lead conducts paid-POC scoping calls, Ella coordinates",
+          "track": "Practice",
+          "owner": "Practice Lead / Ella",
           "department": "Practice",
-          "goal": "Guided selling + copilot demo",
+          "goal": "POCs scoped",
           "status": "To Do"
         },
         {
           "month": "Sep",
-          "initiative": "SmartMigrate: package fixed-scope cutover offer & submit for certification",
-          "track": "SmartMigrate",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "Offer packaged / submitted",
-          "status": "Scheduled"
+          "initiative": "Final push call block: top 20 prospects by engagement score; book meetings",
+          "track": "Sales",
+          "owner": "Ella",
+          "department": "Sales",
+          "goal": "20 calls / 3+ mtgs",
+          "status": "To Do"
         },
         {
           "month": "Sep",
-          "initiative": "AI-Native CPQ: package v1 + proof-of-impact metrics; submit for certification",
-          "track": "CPQ",
-          "owner": "Stephen",
-          "department": "Practice",
-          "goal": "v1 packaged / submitted",
-          "status": "Scheduled"
+          "initiative": "Ryan Hamer QBR — Cycle 2 review: wins, losses, Cycle 3 priorities",
+          "track": "Partnership",
+          "owner": "Ella + Ryan Hamer",
+          "department": "Partnership",
+          "goal": "QBR done",
+          "status": "To Do"
+        },
+        {
+          "month": "Sep",
+          "initiative": "Elevate 2026 planning kickoff — pull target-attendee list + prior-year contact roster",
+          "track": "Partnership",
+          "owner": "Ella + Pampari",
+          "department": "Partnership",
+          "goal": "Attendee list drafted",
+          "status": "To Do"
+        },
+        {
+          "month": "Sep",
+          "initiative": "Distribute Week 6 CT video (final)",
+          "track": "Marketing",
+          "owner": "Ella",
+          "department": "Marketing",
+          "goal": "Sent",
+          "status": "To Do"
+        },
+        {
+          "month": "Sep",
+          "initiative": "6-Week Cycle 2 Review meeting — Huzefa + Pampari, Venkat + Christian Schlaadt",
+          "track": "Leadership",
+          "owner": "Ella + Huzefa + Pampari",
+          "department": "Leadership",
+          "goal": "Review deck presented",
+          "status": "To Do"
+        },
+        {
+          "month": "Sep",
+          "initiative": "Cycle wrap: final Weekly Report + Cycle 2 summary + Cycle 3 first-week draft plan",
+          "track": "Leadership",
+          "owner": "Ella → Huzefa",
+          "department": "Leadership",
+          "goal": "Summary sent",
+          "status": "To Do"
         }
       ]
     },

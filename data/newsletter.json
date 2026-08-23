@@ -7,6 +7,26 @@
     "lookbackWindow": "90 days",
     "focus": "Agentic AI · Composable / MACH · B2B & Checkout"
   },
+  "royalCyberEvents": [
+    {
+      "event": "Joint commercetools + Royal Cyber Webinar",
+      "when": "Aug 27, 2026 · Online",
+      "focus": "Co-hosted with commercetools — B2B buying trends, Cornerstone Building Brands story, and the Royal Cyber accelerator portfolio",
+      "register": "https://www.royalcyber.com/webinar/"
+    },
+    {
+      "event": "Enhance Customer Support with Royal Cyber's commercetools Accelerator",
+      "when": "On-demand · Online",
+      "focus": "Customer Service Accelerator (CSA) walkthrough — AI-assisted B2C & B2B service desks on commercetools",
+      "register": "https://www.royalcyber.com/webinar/enhance-customer-support-with-accelerator-for-commercetools/"
+    },
+    {
+      "event": "Deep Dive into a Headless Commerce Implementation with commercetools",
+      "when": "On-demand · Online",
+      "focus": "Headless, MACH-based commerce implementation patterns on commercetools",
+      "register": "https://www.royalcyber.com/webinar/deep-dive-into-a-headless-commerce-implementation-with-commercetools/"
+    }
+  ],
   "trends": [
     {
       "rank": 1,
