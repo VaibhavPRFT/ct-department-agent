@@ -133,7 +133,7 @@
         "description": "Every running commercetools engagement, the people on each team and their designation — with interactive views of team members by project, project manager, account manager or delivery manager.",
         "stats": [
           {
-            "value": "3",
+            "value": "6",
             "label": "projects"
           },
           {
@@ -150,6 +150,9 @@
         "chips": [
           "Mars",
           "RichUSA",
+          "Workwear",
+          "Direct Wines",
+          "DwyerOmega",
           "bench"
         ]
       }

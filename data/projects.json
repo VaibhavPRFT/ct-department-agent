@@ -3,10 +3,10 @@
     "eyebrow": "Royal Cyber · commercetools Practice",
     "title": "Project Teams",
     "intro": "Live view of Royal Cyber's commercetools engagements — every project, who is on the team and their designation. Switch the Group by view to see team members by project, project manager, account manager or delivery manager, and click any bar to filter.",
-    "status": "Currently showing 3 running projects across 13 people",
-    "updated": "Updated Jun 23, 2026.",
+    "status": "Currently showing 6 running projects across 13 people",
+    "updated": "Updated Aug 22, 2026.",
     "stats": [
-      { "value": "3", "label": "Projects" },
+      { "value": "6", "label": "Projects" },
       { "value": "13", "label": "People" },
       { "value": "13", "label": "Team seats" }
     ]
@@ -18,12 +18,7 @@
       "delivery": "Unassigned",
       "account": "Unassigned",
       "members": [
-        { "initials": "AG", "name": "Aakash Gupta", "designation": "Technical Lead" },
-        { "initials": "AK", "name": "Akshay Khobragade", "designation": "Solution Architect" },
-        { "initials": "AN", "name": "Anurag Nair", "designation": "Technical Lead" },
-        { "initials": "CB", "name": "Chetan Bhangale", "designation": "Technical Lead" },
-        { "initials": "MG", "name": "Muhammad Tahir Gulzar", "designation": "Software Engineer" },
-        { "initials": "PM", "name": "Pankaj Malviya", "designation": "Senior Software Engineer" }
+        { "initials": "CB", "name": "Chetan Bhangale", "designation": "Technical Lead" }
       ]
     },
     {
@@ -32,10 +27,38 @@
       "delivery": "Unassigned",
       "account": "Unassigned",
       "members": [
-        { "initials": "BK", "name": "Bhawesh Kurmi", "designation": "Technical Lead" },
+        { "initials": "BK", "name": "Bhawesh Kurmi", "designation": "Solution Architect" },
         { "initials": "NR", "name": "Nitin Rachabathuni", "designation": "Senior Software Engineer" },
         { "initials": "SA", "name": "Saad Asad Ali", "designation": "Software Engineer" },
         { "initials": "SS", "name": "Sudhanshu Singh", "designation": "Software Engineer" }
+      ]
+    },
+    {
+      "name": "Workwear",
+      "pm": "Unassigned",
+      "delivery": "Unassigned",
+      "account": "Unassigned",
+      "members": [
+        { "initials": "SS", "name": "Shivam Soni", "designation": "Software Engineer" },
+        { "initials": "PM", "name": "Pankaj Malviya", "designation": "Senior Software Engineer" }
+      ]
+    },
+    {
+      "name": "Direct Wines",
+      "pm": "Unassigned",
+      "delivery": "Unassigned",
+      "account": "Unassigned",
+      "members": [
+        { "initials": "AK", "name": "Akshay Khobragade", "designation": "Solution Architect" }
+      ]
+    },
+    {
+      "name": "DwyerOmega",
+      "pm": "Unassigned",
+      "delivery": "Unassigned",
+      "account": "Unassigned",
+      "members": [
+        { "initials": "SK", "name": "Shahmir Khan", "designation": "Software Engineer" }
       ]
     },
     {
@@ -45,9 +68,90 @@
       "account": "Unassigned",
       "members": [
         { "initials": "MR", "name": "Mahesh Ramachandran", "designation": "Senior Software Engineer" },
-        { "initials": "SK", "name": "Shahmir Khan", "designation": "Software Engineer" },
-        { "initials": "SS", "name": "Shivam Soni", "designation": "Software Engineer" }
+        { "initials": "MG", "name": "Muhammad Tahir Gulzar", "designation": "Software Engineer" },
+        { "initials": "AG", "name": "Aakash Gupta", "designation": "Technical Lead" },
+        { "initials": "AN", "name": "Anurag Nair", "designation": "Technical Lead", "note": "Working on POC Augusta with Mahaveer" }
       ]
     }
-  ]
+  ],
+  "pastProjects": {
+    "intro": "Industry-specific composable commerce implementations delivered on commercetools by the Royal Cyber Center of Excellence.",
+    "industriesServed": ["Retail", "Fashion", "Food", "Manufacturing", "Healthcare"],
+    "items": [
+      {
+        "industry": "Retail · Consumer Appliances",
+        "name": "Breville",
+        "description": "Re-platformed Breville's B2C commerce engine from Elastic Path to commercetools, consolidating multiple regional storefronts onto one composable, cloud-native foundation.",
+        "highlights": [
+          "Event-driven, cloud-native microservices architecture",
+          "Multiple regional sites unified on commercetools",
+          "Payments, tax, shipping and sales-channel setup"
+        ]
+      },
+      {
+        "industry": "Manufacturing & Materials",
+        "name": "JSW One",
+        "description": "Built an omnichannel, tech-led 'one-stop online shop' for JSW on commercetools, on a scalable cloud foundation paired with a Digital Experience Platform.",
+        "highlights": [
+          "Advanced commerce APIs, event-driven & cloud-native",
+          "Omnichannel one-stop shop across product lines",
+          "commercetools paired with a DXP for content & experience"
+        ]
+      },
+      {
+        "industry": "Food & Beverage",
+        "name": "Wildfork Foods",
+        "description": "Designed a fully integrated Customer Service Accelerator (CSA) inside commercetools for this specialty meat & seafood retailer — one interface for customers, orders, refunds and replacements.",
+        "highlights": [
+          "Unified customer-service interface within commercetools",
+          "Centralized customer data, orders, refunds & replacements",
+          "Foundation for the Royal Cyber CSA accelerator"
+        ]
+      },
+      {
+        "industry": "Retail · Outdoor & Sporting Goods",
+        "name": "Sportsman's Guide",
+        "description": "Built an embedded Customer Service Accelerator inside commercetools for this Minnesota-based hunting, fishing, military-surplus and outdoor-goods retailer — a single responsive interface for timely query resolution and personalized, data-driven support.",
+        "highlights": [
+          "360-degree customer view with cart & order management",
+          "Shipment handling and ticketing system in one interface",
+          "Empowered CS agents for prompt, effective query resolution",
+          "Third-party integration for a flexible, evolving CS approach"
+        ]
+      },
+      {
+        "industry": "Pharmaceuticals · B2B Marketplace",
+        "name": "Dr. Reddy's — Allverz",
+        "description": "Built Allverz, a first-of-its-kind marketplace for buying and selling pharmaceutical chemicals and active ingredients, for Dr. Reddy's Laboratories — letting multiple vendors sell and diverse buyers discover and procure on a headless commercetools foundation, automating a previously manual internal procurement journey.",
+        "highlights": [
+          "Multi-vendor pharma marketplace with buyer product discovery",
+          "Intuitive CX on Frontastic + Contentful over headless commercetools",
+          "Product search & custom price filters in storefront via Algolia",
+          "End-to-end order management integrated with SAP ERP (reference PO)"
+        ]
+      },
+      {
+        "industry": "Pharmaceuticals · D2C HealthTech",
+        "name": "Nerivio (Dr. Reddy's)",
+        "description": "Built a D2C ecommerce experience for Dr. Reddy's Nerivio migraine-therapy wearable — a single-product, multi-language international storefront (Europe) with a prescription-upload and doctor-approval purchase flow and fast, integrated checkout.",
+        "highlights": [
+          "Single-product D2C site with multi-language support for Europe",
+          "Prescription upload with doctor-approval, one-click buying flow",
+          "Faster, smoother checkout with payment integrations",
+          "Headless commercetools + Contentful for marketing agility"
+        ]
+      },
+      {
+        "industry": "Manufacturing · Building Fixtures (B2B & D2C)",
+        "name": "GWA Group",
+        "description": "Delivered a composable commerce solution for GWA Group's market-leading bathroom & kitchen brands (Caroma, Methven, Dorf, Clark) — multi-brand consumer sites plus a B2B trade platform for merchants, plumbers and architects across countries, with a knowledge hub and marketing analytics.",
+        "highlights": [
+          "Multi-brand consumer sites + B2B trade on commercetools Frontend & commerce",
+          "Complex product modeling with PIM sync from inRiver; Algolia search",
+          "B2B account registration, team onboarding & workflow; Microsoft Dynamics integration",
+          "Live inventory, merchant-specific pricing & multi-carrier order tracking"
+        ]
+      }
+    ]
+  }
 }

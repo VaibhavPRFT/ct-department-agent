@@ -9,6 +9,60 @@ const GROUPINGS = [
   { key: "delivery", label: "By Delivery Manager", field: "delivery" },
 ];
 
+function PastProjectsView({ pastProjects }) {
+  if (!pastProjects) {
+    return (
+      <p className="mt-10 rounded-xl border border-slate-200 bg-white p-6 text-sm text-ink-faint">
+        No past projects to show.
+      </p>
+    );
+  }
+
+  return (
+    <div className="mt-8">
+      <p className="max-w-3xl text-sm text-ink-soft">{pastProjects.intro}</p>
+
+      <div className="mt-6 grid gap-6 lg:grid-cols-2">
+        {pastProjects.items.map((item, i) => (
+          <div key={i} className="card p-5">
+            <p className="eyebrow">{item.industry}</p>
+            <h3 className="mt-1 text-lg font-bold text-ink">{item.name}</h3>
+            <p className="mt-2 text-sm leading-relaxed text-ink-soft">
+              {item.description}
+            </p>
+            <ul className="mt-3 space-y-1.5 text-sm text-ink-soft">
+              {item.highlights.map((h, j) => (
+                <li key={j} className="flex gap-2">
+                  <span className="text-brand-400">›</span>
+                  <span>{h}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+
+      {pastProjects.industriesServed ? (
+        <div className="card mt-6 p-5">
+          <h3 className="text-sm font-semibold uppercase tracking-wide text-ink-faint">
+            Industries served
+          </h3>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {pastProjects.industriesServed.map((ind, i) => (
+              <span
+                key={i}
+                className="pill border-brand-100 bg-brand-50 text-brand-700"
+              >
+                {ind}
+              </span>
+            ))}
+          </div>
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
 export default function ProjectsView({ data }) {
   const [status, setStatus] = useState("current");
   const [grouping, setGrouping] = useState(GROUPINGS[0]);
@@ -91,7 +145,9 @@ export default function ProjectsView({ data }) {
         </div>
       </div>
 
-      {projects.length === 0 ? (
+      {status === "past" ? (
+        <PastProjectsView pastProjects={data.pastProjects} />
+      ) : projects.length === 0 ? (
         <p className="mt-10 rounded-xl border border-slate-200 bg-white p-6 text-sm text-ink-faint">
           No past projects to show.
         </p>
@@ -185,8 +241,15 @@ export default function ProjectsView({ data }) {
                             <span className="flex h-6 w-6 items-center justify-center rounded-full bg-brand-50 text-[10px] font-bold text-brand-600">
                               {m.initials}
                             </span>
-                            <span className="font-medium text-ink">
-                              {m.name}
+                            <span>
+                              <span className="font-medium text-ink">
+                                {m.name}
+                              </span>
+                              {m.note ? (
+                                <span className="block text-xs text-ink-faint">
+                                  {m.note}
+                                </span>
+                              ) : null}
                             </span>
                           </span>
                         </td>
