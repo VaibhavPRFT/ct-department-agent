@@ -23,6 +23,10 @@
       "href": "/accelerators"
     },
     {
+      "label": "Case Studies",
+      "href": "/casestudy"
+    },
+    {
       "label": "Projects",
       "href": "/projects"
     }
@@ -126,6 +130,23 @@
             "tagline": "AI-native CPQ on commercetools' B2B quote primitives — an intelligence layer, not a standalone rebuild"
           }
         ]
+      },
+      {
+        "source": "Royal Cyber · commercetools Center of Excellence",
+        "title": "commercetools Customer Case Studies",
+        "description": "Proven commercetools outcomes across food service, pet care, coffee, building products, steel, pharma and print commerce — each mapped to the challenge, solution and value delivered.",
+        "stats": [
+          {
+            "value": "8",
+            "label": "case studies"
+          },
+          {
+            "value": "8",
+            "label": "industries served"
+          }
+        ],
+        "href": "/casestudy",
+        "cta": "View case studies"
       },
       {
         "source": "Royal Cyber · Project Teams",
