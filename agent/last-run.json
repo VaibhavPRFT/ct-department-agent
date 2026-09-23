@@ -1,17 +1,17 @@
 {
   "mode": "seed",
-  "timestamp": "2026-07-28T17:52:31.785Z",
+  "timestamp": "2026-09-23T17:39:14.672Z",
   "stamped": false,
   "counts": {
-    "trends": 7,
-    "releases": 16,
-    "blogOpportunities": 6,
+    "trends": 9,
+    "releases": 28,
+    "blogOpportunities": 8,
     "roadmaps": 6,
     "quarters": 2,
-    "initiatives": 54,
+    "initiatives": 61,
     "accelerators": 5,
     "customerBenefits": 30,
-    "projects": 3,
-    "people": 14
+    "projects": 6,
+    "people": 13
   }
 }

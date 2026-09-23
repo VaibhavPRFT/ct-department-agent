@@ -2,7 +2,7 @@
   "meta": {
     "title": "commercetools Trend and Content Opportunities",
     "intro": "A weekly read for content marketers, solution architects, commerce leads, and product marketers: the signals worth acting on across Sphere, AgenticLift, AI Hub, Composable Commerce, Checkout, Connect, and the Commerce MCP — each tied to a dated release, event, or roadmap item.",
-    "generated": "Generated August 22, 2026",
+    "generated": "Generated September 23, 2026",
     "breakout": "Autonomous Commerce & Sphere",
     "lookbackWindow": "90 days",
     "focus": "Agentic AI · Composable / MACH · B2B & Checkout"
@@ -29,70 +29,302 @@
   ],
   "trends": [
     {
-      "rank": 1,
-      "title": "commercetools for Builders: enterprise commerce in days, not months",
-      "body": "commercetools launched \"commercetools for Builders\" — an AI-powered build experience that turns natural-language intent into production-ready commerce (catalog, checkout, storefront). It ships a Skills Library installable directly in Claude Code, Cursor and other AI tools, plus step-by-step guides and zero-config setup (no credential wrangling). Aimed at everyone shipping commerce — founders, PMs, designers and engineers, whether new to commercetools or already on it — it compresses what used to take a large team and months into days, on the same Sphere foundation that powers $100B+ GMV across 600+ enterprises.",
-      "badges": ["AI relevance", "Enterprise relevance"]
+      "title": "Merchant Center agents go GA: Promotions & Intake",
+      "body": "Two operational agents left early access within a week: the Promotions Agent (Aug 31) builds cart/product discounts and codes from natural language, and the B2B Intake Agent (Aug 28) turns unstructured orders into commerce orders. Paired with the new AgentSphere workbench — builder, registry and governance with audit trails and a kill switch — autonomous commerce is moving from keynote to day-to-day merchandising and order operations.",
+      "badges": [
+        "AI relevance",
+        "Enterprise relevance",
+        "Validation still human-in-the-loop"
+      ],
+      "rank": 1
     },
     {
-      "rank": 2,
-      "title": "Autonomous Commerce becomes a category — and Sphere is the platform",
-      "body": "The dominant signal of the window. On June 9 (Boston), commercetools declared \"Autonomous Commerce\" the next era — AI systems that sense, decide and act in real time across pricing, inventory, promotions and fulfillment — and unveiled commercetools Sphere, an AI-native platform pairing a headless foundation with agent governance (identity, scope, human approval). Sphere already powers $100B+ in annualized GMV at under 60ms. MosAIc, a multi-agent ops tool, previewed at Shoptalk Europe.",
-      "badges": ["AI relevance", "Enterprise relevance"]
+      "title": "Modernize without replatforming: modular Core Commerce & Product Catalog",
+      "body": "commercetools now sells Core Commerce (cart, orders, checkout, B2B) and Product Catalog as standalone modules (Jul 15), and the Modular Catalog InMigration beta (Sep 18) lets existing Projects move catalog models in stages. Together with AgenticLift, the message to suite customers is incremental adoption — start with one capability, expand later.",
+      "badges": [
+        "Enterprise relevance"
+      ],
+      "rank": 2
     },
     {
       "rank": 3,
-      "title": "Agentic shopping channels: AgenticLift + AI Hub",
-      "body": "AgenticLift (Q1) gives brands on other platforms a fully managed AI commerce layer — connecting catalog, pricing and transactions to consumer AI channels without replatforming. AI Hub now supports UCP product feeds and checkout inside Google's Gemini, and commercetools backs Stripe's Agentic Commerce Suite. The Agent Gateway exposes commerce to AI agents safely.",
-      "badges": ["AI relevance", "Enterprise relevance"]
+      "title": "commercetools for Builders: enterprise commerce in days, not months",
+      "body": "commercetools launched \"commercetools for Builders\" — an AI-powered build experience that turns natural-language intent into production-ready commerce (catalog, checkout, storefront). It ships a Skills Library installable directly in Claude Code, Cursor and other AI tools, plus step-by-step guides and zero-config setup (no credential wrangling). Aimed at everyone shipping commerce — founders, PMs, designers and engineers, whether new to commercetools or already on it — it compresses what used to take a large team and months into days, on the same Sphere foundation that powers $100B+ GMV across 600+ enterprises.",
+      "badges": [
+        "AI relevance",
+        "Enterprise relevance"
+      ]
     },
     {
       "rank": 4,
-      "title": "AI-assisted data modeling shortens replatforming",
-      "body": "Smart Data Modeler uses GenAI to ingest CSV/JSON/XLSX and instantly propose a product data model with human-in-the-loop review — directly easing migrations off rigid platforms like SAP, Adobe and Salesforce. Paired with a 100MB / 500,000-row Import API and a new \"partially imported\" status, it makes catalog onboarding materially faster.",
-      "badges": ["AI relevance", "Enterprise relevance", "Validation still human-in-the-loop"]
+      "title": "Autonomous Commerce becomes a category — and Sphere is the platform",
+      "body": "The dominant signal of the window. On June 9 (Boston), commercetools declared \"Autonomous Commerce\" the next era — AI systems that sense, decide and act in real time across pricing, inventory, promotions and fulfillment — and unveiled commercetools Sphere, an AI-native platform pairing a headless foundation with agent governance (identity, scope, human approval). Sphere already powers $100B+ in annualized GMV at under 60ms. MosAIc, a multi-agent ops tool, previewed at Shoptalk Europe.",
+      "badges": [
+        "AI relevance",
+        "Enterprise relevance"
+      ]
     },
     {
       "rank": 5,
-      "title": "Checkout turns into a conversion engine",
-      "body": "A heavy quarter for Checkout: Express Payments (one-click PayPal / Google Pay / Apple Pay), Drop-in payment UI (GA), Payment predicates, the Payment Intents API (GA), and Applications / Payment Integrations APIs to configure checkout without manual Merchant Center setup.",
-      "badges": ["Enterprise relevance"]
+      "title": "Agentic shopping channels: AgenticLift + AI Hub",
+      "body": "AgenticLift (Q1) gives brands on other platforms a fully managed AI commerce layer — connecting catalog, pricing and transactions to consumer AI channels without replatforming. AI Hub now supports UCP product feeds and checkout inside Google's Gemini, and commercetools backs Stripe's Agentic Commerce Suite. The Agent Gateway exposes commerce to AI agents safely.",
+      "badges": [
+        "AI relevance",
+        "Enterprise relevance"
+      ]
     },
     {
       "rank": 6,
-      "title": "Multi-cloud: Connect & Checkout land on AWS",
-      "body": "commercetools Connect now runs inside a customer's existing AWS environment with full feature parity (previously Google Cloud only), and Checkout plus PSP connectors are supported on AWS natively — reducing architectural complexity and latency for enterprises standardized on AWS.",
-      "badges": ["Enterprise relevance"]
+      "title": "AI-assisted data modeling shortens replatforming",
+      "body": "Smart Data Modeler uses GenAI to ingest CSV/JSON/XLSX and instantly propose a product data model with human-in-the-loop review — directly easing migrations off rigid platforms like SAP, Adobe and Salesforce. Paired with a 100MB / 500,000-row Import API and a new \"partially imported\" status, it makes catalog onboarding materially faster.",
+      "badges": [
+        "AI relevance",
+        "Enterprise relevance",
+        "Validation still human-in-the-loop"
+      ]
     },
     {
       "rank": 7,
+      "title": "Checkout turns into a conversion engine",
+      "body": "A heavy quarter for Checkout: Express Payments (one-click PayPal / Google Pay / Apple Pay), Drop-in payment UI (GA), Payment predicates, the Payment Intents API (GA), and Applications / Payment Integrations APIs to configure checkout without manual Merchant Center setup.",
+      "badges": [
+        "Enterprise relevance"
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Multi-cloud: Connect & Checkout land on AWS",
+      "body": "commercetools Connect now runs inside a customer's existing AWS environment with full feature parity (previously Google Cloud only), and Checkout plus PSP connectors are supported on AWS natively — reducing architectural complexity and latency for enterprises standardized on AWS.",
+      "badges": [
+        "Enterprise relevance"
+      ]
+    },
+    {
+      "rank": 9,
       "title": "Real-time inventory & cart accuracy at scale",
       "body": "Inventory Reservations (the new \"Reserve On Cart\" mode) hold stock from add-to-cart through checkout — built for fast-selling items at thousands of reservations a minute. Cart Freeze Strategies lock displayed price/discounts, Cart Locking lets support agents edit safely, and carts can now carry a Purchase Order number from the start.",
-      "badges": ["Enterprise relevance"]
+      "badges": [
+        "Enterprise relevance"
+      ]
     }
   ],
   "releases": [
-    { "product": "commercetools for Builders", "date": "Jun 2026", "highlight": "\"Stand up enterprise commerce in days, not months.\" An AI-powered build experience that turns natural-language intent into production-ready storefronts (catalog, checkout, storefront). Ships a Skills Library installable in Claude Code, Cursor and other AI tools, with step-by-step guides and zero-config setup — for founders, PMs, designers and engineers, new or existing customers.", "source": "commercetools.com/commercetools-for-builders", "type": "New product" },
-    { "product": "commercetools Sphere", "date": "Jun 9, 2026", "highlight": "Autonomous Commerce category launch and commercetools Sphere — an AI-native platform uniting a headless foundation with agent governance (identity, scope, human approval). MosAIc multi-agent ops tool previewed at Shoptalk Europe (Stall M30).", "source": "commercetools.com/press-releases", "type": "Launch" },
-    { "product": "Product Search", "date": "May 26, 2026", "highlight": "Several Product Search fields are now generally available, expanding queryable product data for storefront and agent-driven discovery.", "source": "docs.commercetools.com/api/releases", "type": "GA release" },
-    { "product": "commercetools Connect", "date": "Mar 23, 2026", "highlight": "Connect is now available in AWS regions — deploy and run Connect applications inside your existing AWS environment with full feature parity.", "source": "docs.commercetools.com/connect/releases", "type": "Enhancement" },
-    { "product": "commercetools Checkout", "date": "Mar 23, 2026", "highlight": "Checkout and PSP connectors are now supported on AWS, so customers can run checkout natively within their existing AWS setup.", "source": "docs.commercetools.com/checkout/releases", "type": "Enhancement" },
-    { "product": "Import API", "date": "Mar 10, 2026", "highlight": "New \"partially imported\" status surfaces mixed import outcomes, so you can fix and re-import only the failed rows instead of starting over.", "source": "docs.commercetools.com/api/releases", "type": "Enhancement" },
-    { "product": "CSV Import (Merchant Center)", "date": "Jan 28, 2026", "highlight": "Increased CSV import limits to 100 MB and 500,000 rows, enabling larger bulk data operations in a single import.", "source": "docs.commercetools.com/merchant-center/releases", "type": "Enhancement" },
-    { "product": "Checkout — Payment Intents API", "date": "Jan 21, 2026", "highlight": "Payment Intents API is generally available — manage post-payment actions (capture, refund, cancel) with automatic PSP coordination.", "source": "docs.commercetools.com/checkout/releases", "type": "GA release" },
-    { "product": "Inventory — Reserve On Cart", "date": "Jan 19, 2026", "highlight": "Inventory Reservations with the new \"Reserve On Cart\" mode; inventory records now process with eventual consistency to handle higher order/inventory volumes.", "source": "docs.commercetools.com/api/releases", "type": "Enhancement" },
-    { "product": "Carts & Orders", "date": "Jan 26, 2026", "highlight": "Cart Discounts can now be scoped to recurring vs. non-recurring Orders; Cart Freeze and Cart Locking protect pricing and prevent conflicting edits.", "source": "docs.commercetools.com/api/releases", "type": "Enhancement" },
-    { "product": "Cart — Purchase Order Number", "date": "Jan 8, 2026", "highlight": "Added a purchaseOrderNumber field to the Cart so B2B buyers can attach a PO up front; it carries over to the Quote Request or Order automatically.", "source": "docs.commercetools.com/api/releases", "type": "Enhancement" },
-    { "product": "AgenticLift", "date": "Q1 2026", "highlight": "New solution that fast-tracks AI-driven shopping for businesses on other commerce platforms — a managed AI commerce layer connecting catalog, pricing and transactions without replatforming.", "source": "commercetools.com/products/agenticlift", "type": "New product" },
-    { "product": "AI Hub", "date": "Q1 2026", "highlight": "AI Hub now supports UCP product feeds and checkout inside Google's Gemini, extending commercetools catalogs and transactions into consumer AI channels.", "source": "commercetools.com/products/ai-hub", "type": "Enhancement" },
-    { "product": "Smart Data Modeler", "date": "Q1 2026", "highlight": "GenAI ingests CSV/JSON/XLSX customer files and proposes product types and attributes instantly, with human-in-the-loop review — cutting data-modeling time during implementation.", "source": "docs.commercetools.com/merchant-center", "type": "Enhancement" },
-    { "product": "Checkout — Express Payments", "date": "Q1 2026", "highlight": "Express payment buttons on cart/product pages let shoppers check out instantly with saved PayPal, Google Pay and Apple Pay details; Drop-in payment UI reached GA.", "source": "commercetools.com/blog", "type": "Enhancement" },
-    { "product": "Agentic Jumpstart", "date": "Nov 2025", "highlight": "Lower-risk path for existing customers to participate in agentic commerce at scale; early adopters Frasers Group and Liverpool, with Accenture, EPAM, Orium and Valtech as launch integrators.", "source": "commercetools.com/press-releases", "type": "New product" }
+    {
+      "product": "Modular Catalog — InMigration model",
+      "date": "Sep 18, 2026",
+      "highlight": "Public beta: migrate an existing Project from the Classic to the Modular catalog model in stages using the new InMigration state, instead of a single cut-over.",
+      "source": "docs.commercetools.com/docs/release-notes",
+      "type": "Launch"
+    },
+    {
+      "product": "Cart & Direct Discounts",
+      "date": "Sep 17, 2026",
+      "highlight": "New controls for how Direct Discounts interact with existing Cart Discounts and best-deal selection; (Custom) Line Items now also show whether they are the trigger or target of Buy-and-Get discounts (Sep 9).",
+      "source": "docs.commercetools.com/docs/release-notes",
+      "type": "Enhancement"
+    },
+    {
+      "product": "Managed MCP Servers",
+      "date": "Sep 17, 2026",
+      "highlight": "Managed MCP Servers now have a per-Project limit of 500 — a signal that MCP-based agent access to commerce data is moving into production use.",
+      "source": "docs.commercetools.com/docs/release-notes",
+      "type": "Enhancement"
+    },
+    {
+      "product": "Tax & Order Import",
+      "date": "Sep 21, 2026",
+      "highlight": "Configurable tax rounding target (net price vs. tax amount) for tax-included prices; Order Import now accepts pre-calculated taxed prices from external tax engines (Sep 3).",
+      "source": "docs.commercetools.com/docs/release-notes",
+      "type": "Enhancement"
+    },
+    {
+      "product": "InStore POS",
+      "date": "Sep 21, 2026",
+      "highlight": "QR codes on printed receipts (URLs, order/voucher numbers, fiscal signatures) and Swedish rounding for cash transactions (Sep 9).",
+      "source": "docs.commercetools.com/docs/release-notes",
+      "type": "Enhancement"
+    },
+    {
+      "product": "Merchant Center Import / Export",
+      "date": "Sep 4, 2026",
+      "highlight": "Bulk CSV import and export for Product Selections, plus Merge vs. Replace options for list fields such as Prices and Assets.",
+      "source": "docs.commercetools.com/docs/release-notes",
+      "type": "Enhancement"
+    },
+    {
+      "product": "Promotions Agent",
+      "date": "Aug 31, 2026",
+      "highlight": "Now generally available: create and manage Cart Discounts, Product Discounts and Discount Codes in the Merchant Center using natural language. Opt-in via support request; customer data is not used for model training.",
+      "source": "docs.commercetools.com/merchant-center/releases/2026-08-31-promotions-agent-is-now-generally-available",
+      "type": "GA release"
+    },
+    {
+      "product": "Product Projection Search (deprecation)",
+      "date": "Aug 31, 2026",
+      "highlight": "Product Projection Search and Search Term Suggestions can no longer be activated for Projects created after Aug 31, 2026 — Product Search is the path forward.",
+      "source": "docs.commercetools.com/docs/release-notes",
+      "type": "Enhancement"
+    },
+    {
+      "product": "Intake Agent",
+      "date": "Aug 28, 2026",
+      "highlight": "The B2B Intake Agent for the Merchant Center (order intake from unstructured requests, first shown with Mirion Technologies) moves from early access to general availability.",
+      "source": "docs.commercetools.com/docs/release-notes",
+      "type": "GA release"
+    },
+    {
+      "product": "AI Hub",
+      "date": "Aug 28, 2026",
+      "highlight": "UCP errors now map to clear, actionable shopper messages during agentic checkout; Product sync, Checkout and Order import configurations can be saved before connecting.",
+      "source": "docs.commercetools.com/docs/release-notes",
+      "type": "Enhancement"
+    },
+    {
+      "product": "AgentSphere",
+      "date": "Q3 2026",
+      "highlight": "New enterprise workbench to build, register and govern commerce AI agents — agent builder, agent registry, and governance with verification, sandboxing, audit trails and a kill switch — running on Sphere.",
+      "source": "commercetools.com/products/agentsphere",
+      "type": "New product"
+    },
+    {
+      "product": "Core Commerce & Product Catalog (Modular offerings)",
+      "date": "Jul 15, 2026",
+      "highlight": "Standalone modules: Core Commerce (cart, order management, checkout, customer, B2B) and Product Catalog (modeling, pricing, inventory, search for millions of SKUs) let enterprises modernize without a full replatform.",
+      "source": "commercetools.com/press-releases/commercetools-launches-modular-commerce-offerings",
+      "type": "Launch"
+    },
+    {
+      "product": "commercetools for Builders",
+      "date": "Jun 2026",
+      "highlight": "\"Stand up enterprise commerce in days, not months.\" An AI-powered build experience that turns natural-language intent into production-ready storefronts (catalog, checkout, storefront). Ships a Skills Library installable in Claude Code, Cursor and other AI tools, with step-by-step guides and zero-config setup — for founders, PMs, designers and engineers, new or existing customers.",
+      "source": "commercetools.com/commercetools-for-builders",
+      "type": "New product"
+    },
+    {
+      "product": "commercetools Sphere",
+      "date": "Jun 9, 2026",
+      "highlight": "Autonomous Commerce category launch and commercetools Sphere — an AI-native platform uniting a headless foundation with agent governance (identity, scope, human approval). MosAIc multi-agent ops tool previewed at Shoptalk Europe (Stall M30).",
+      "source": "commercetools.com/press-releases",
+      "type": "Launch"
+    },
+    {
+      "product": "Product Search",
+      "date": "May 26, 2026",
+      "highlight": "Several Product Search fields are now generally available, expanding queryable product data for storefront and agent-driven discovery.",
+      "source": "docs.commercetools.com/api/releases",
+      "type": "GA release"
+    },
+    {
+      "product": "commercetools Connect",
+      "date": "Mar 23, 2026",
+      "highlight": "Connect is now available in AWS regions — deploy and run Connect applications inside your existing AWS environment with full feature parity.",
+      "source": "docs.commercetools.com/connect/releases",
+      "type": "Enhancement"
+    },
+    {
+      "product": "commercetools Checkout",
+      "date": "Mar 23, 2026",
+      "highlight": "Checkout and PSP connectors are now supported on AWS, so customers can run checkout natively within their existing AWS setup.",
+      "source": "docs.commercetools.com/checkout/releases",
+      "type": "Enhancement"
+    },
+    {
+      "product": "Import API",
+      "date": "Mar 10, 2026",
+      "highlight": "New \"partially imported\" status surfaces mixed import outcomes, so you can fix and re-import only the failed rows instead of starting over.",
+      "source": "docs.commercetools.com/api/releases",
+      "type": "Enhancement"
+    },
+    {
+      "product": "CSV Import (Merchant Center)",
+      "date": "Jan 28, 2026",
+      "highlight": "Increased CSV import limits to 100 MB and 500,000 rows, enabling larger bulk data operations in a single import.",
+      "source": "docs.commercetools.com/merchant-center/releases",
+      "type": "Enhancement"
+    },
+    {
+      "product": "Checkout — Payment Intents API",
+      "date": "Jan 21, 2026",
+      "highlight": "Payment Intents API is generally available — manage post-payment actions (capture, refund, cancel) with automatic PSP coordination.",
+      "source": "docs.commercetools.com/checkout/releases",
+      "type": "GA release"
+    },
+    {
+      "product": "Inventory — Reserve On Cart",
+      "date": "Jan 19, 2026",
+      "highlight": "Inventory Reservations with the new \"Reserve On Cart\" mode; inventory records now process with eventual consistency to handle higher order/inventory volumes.",
+      "source": "docs.commercetools.com/api/releases",
+      "type": "Enhancement"
+    },
+    {
+      "product": "Carts & Orders",
+      "date": "Jan 26, 2026",
+      "highlight": "Cart Discounts can now be scoped to recurring vs. non-recurring Orders; Cart Freeze and Cart Locking protect pricing and prevent conflicting edits.",
+      "source": "docs.commercetools.com/api/releases",
+      "type": "Enhancement"
+    },
+    {
+      "product": "Cart — Purchase Order Number",
+      "date": "Jan 8, 2026",
+      "highlight": "Added a purchaseOrderNumber field to the Cart so B2B buyers can attach a PO up front; it carries over to the Quote Request or Order automatically.",
+      "source": "docs.commercetools.com/api/releases",
+      "type": "Enhancement"
+    },
+    {
+      "product": "AgenticLift",
+      "date": "Q1 2026",
+      "highlight": "New solution that fast-tracks AI-driven shopping for businesses on other commerce platforms — a managed AI commerce layer connecting catalog, pricing and transactions without replatforming.",
+      "source": "commercetools.com/products/agenticlift",
+      "type": "New product"
+    },
+    {
+      "product": "AI Hub",
+      "date": "Q1 2026",
+      "highlight": "AI Hub now supports UCP product feeds and checkout inside Google's Gemini, extending commercetools catalogs and transactions into consumer AI channels.",
+      "source": "commercetools.com/products/ai-hub",
+      "type": "Enhancement"
+    },
+    {
+      "product": "Smart Data Modeler",
+      "date": "Q1 2026",
+      "highlight": "GenAI ingests CSV/JSON/XLSX customer files and proposes product types and attributes instantly, with human-in-the-loop review — cutting data-modeling time during implementation.",
+      "source": "docs.commercetools.com/merchant-center",
+      "type": "Enhancement"
+    },
+    {
+      "product": "Checkout — Express Payments",
+      "date": "Q1 2026",
+      "highlight": "Express payment buttons on cart/product pages let shoppers check out instantly with saved PayPal, Google Pay and Apple Pay details; Drop-in payment UI reached GA.",
+      "source": "commercetools.com/blog",
+      "type": "Enhancement"
+    },
+    {
+      "product": "Agentic Jumpstart",
+      "date": "Nov 2025",
+      "highlight": "Lower-risk path for existing customers to participate in agentic commerce at scale; early adopters Frasers Group and Liverpool, with Accenture, EPAM, Orium and Valtech as launch integrators.",
+      "source": "commercetools.com/press-releases",
+      "type": "New product"
+    }
   ],
   "events": [
-    { "event": "Elevate — The Global Commerce Summit™ 2026", "when": "Date to be announced · Sign up for updates", "focus": "Visionary keynotes, business and technical breakouts, expo and networking — anchored on agentic and autonomous commerce.", "register": "https://elevate.commercetools.com/" },
-    { "event": "AI x Commerce Series", "when": "March–Summer 2026 · Virtual series", "focus": "Deep-dive sessions on AI's impact on commerce — agentic shopping, autonomous operations, and modern CX that drives revenue.", "register": "https://commercetools.com/events" },
-    { "event": "commercetools at Shoptalk Europe", "when": "Jun 9–11, 2026 · Barcelona (Stall M30)", "focus": "Autonomous Commerce vision and a first preview of MosAIc, the multi-agent commerce operations tool for enterprises.", "register": "https://commercetools.com/events" }
+    {
+      "event": "MACH X: Amsterdam",
+      "when": "Sep 29–30, 2026 · Amsterdam",
+      "focus": "MACH Alliance community event — composable and agentic architecture; a natural stage for the modular Core Commerce / Product Catalog story.",
+      "register": "https://commercetools.com/events/mach-x-amsterdam"
+    },
+    {
+      "event": "Elevate — The Global Commerce Summit™ (regional meet-ups)",
+      "when": "Rolling regional dates · Sign up for updates",
+      "focus": "Elevate returns as smaller, curated regional meet-ups for peer exchange on autonomous and agentic commerce.",
+      "register": "https://commercetools.com/events"
+    },
+    {
+      "event": "AI x Commerce Series",
+      "when": "2026 · Virtual series",
+      "focus": "Deep-dive sessions on AI's impact on commerce — agentic shopping, autonomous operations, and modern CX that drives revenue.",
+      "register": "https://commercetools.com/events"
+    }
   ],
   "roadmap": [
     {
@@ -111,6 +343,7 @@
       "horizon": "Now / near-term",
       "title": "Agentic Commerce (AgenticLift · AI Hub · Agent Gateway)",
       "items": [
+        "AgentSphere — build, register and govern commerce agents (verification, sandboxing, audit, kill switch)",
         "AgenticLift for brands on non-commercetools platforms",
         "AI Hub UCP product feeds and checkout in Google Gemini",
         "Support for Stripe's Agentic Commerce Suite",
@@ -135,6 +368,7 @@
       "horizon": "Now / near-term",
       "title": "Platform, Connect & Builders",
       "items": [
+        "Modular offerings: standalone Core Commerce & Product Catalog; Modular Catalog InMigration (public beta)",
         "commercetools for Builders — production B2B/B2C experiences in days",
         "Commerce Integration Layer across content, search, promotions, tax",
         "Connect applications running natively on AWS (with Google Cloud)",
@@ -169,40 +403,211 @@
     }
   ],
   "blogOpportunities": [
-    { "title": "Inside commercetools Sphere: building for the autonomous commerce era", "body": "The June 9 launch defines a new category. Explain the three pillars — headless foundation, cross-domain agent orchestration, and per-agent governance — and show where autonomy fits across pricing, inventory and fulfillment. Highest-momentum topic of the window.", "audience": "Solution architects & commerce leads", "difficulty": "Intermediate", "engagement": 9, "uniqueness": 9, "composite": 9.3 },
-    { "title": "AgenticLift explained: join AI shopping without replatforming", "body": "AgenticLift lets brands on SAP, Salesforce or Adobe connect catalog, pricing and transactions to AI channels with a managed layer. A clear \"what it is / how to adopt\" piece captures the breakout adoption theme.", "audience": "Product & commerce marketers", "difficulty": "Beginner", "engagement": 9, "uniqueness": 8, "composite": 8.4 },
-    { "title": "AI-assisted migration: modeling product data with the Smart Data Modeler", "body": "GenAI proposes a product data model from CSV/JSON/XLSX with human-in-the-loop review — the practical answer to slow, risky migrations off rigid platforms. Pair with the 100MB / 500k-row Import API.", "audience": "Solution architects", "difficulty": "Intermediate", "engagement": 8, "uniqueness": 8, "composite": 7.9 },
-    { "title": "Checkout that converts: Express Payments, Drop-in & Payment Intents", "body": "A full quarter of Checkout releases. Walk through one-click express payments, the Drop-in UI, payment predicates, and post-payment automation via the Payment Intents API.", "audience": "Front-end & commerce engineers", "difficulty": "Intermediate", "engagement": 8, "uniqueness": 7, "composite": 7.4 },
-    { "title": "Run commercetools Connect & Checkout natively on AWS", "body": "Connect and Checkout now run inside a customer's AWS environment with full feature parity. A deployment-focused post captures the multi-cloud enterprise audience standardized on AWS.", "audience": "Platform & DevOps engineers", "difficulty": "Intermediate", "engagement": 8, "uniqueness": 8, "composite": 7.2 },
-    { "title": "Real-time inventory at scale: Inventory Reservations & Cart Freeze", "body": "Reserve On Cart holds stock from add-to-cart through checkout for fast-selling items; Cart Freeze and Cart Locking protect pricing and edits. A concrete \"high-demand drop\" scenario lands well.", "audience": "Commerce & product marketers", "difficulty": "Beginner", "engagement": 8, "uniqueness": 7, "composite": 7 }
+    {
+      "title": "Promotions Agent in practice: natural-language discounts in the Merchant Center",
+      "body": "Walk through creating cart discounts, product discounts and codes with the now-GA Promotions Agent, and pair it with the new Direct Discount / best-deal controls. Show guardrails and review steps merchandisers keep.",
+      "audience": "Commerce leads & merchandisers",
+      "difficulty": "Beginner",
+      "engagement": 9,
+      "uniqueness": 8,
+      "composite": 8.9
+    },
+    {
+      "title": "Start small: adopting commercetools Core Commerce or Product Catalog alongside your suite",
+      "body": "Map the Jul 15 modular offerings to real migration paths from SAP, Salesforce and Adobe — which module first, how it coexists with the legacy stack, and how the Modular Catalog InMigration beta de-risks catalog changes.",
+      "audience": "Solution architects & commerce leads",
+      "difficulty": "Intermediate",
+      "engagement": 8,
+      "uniqueness": 8,
+      "composite": 8.6
+    },
+    {
+      "title": "Inside commercetools Sphere: building for the autonomous commerce era",
+      "body": "The June 9 launch defines a new category. Explain the three pillars — headless foundation, cross-domain agent orchestration, and per-agent governance — and show where autonomy fits across pricing, inventory and fulfillment. Highest-momentum topic of the window.",
+      "audience": "Solution architects & commerce leads",
+      "difficulty": "Intermediate",
+      "engagement": 9,
+      "uniqueness": 9,
+      "composite": 9.3
+    },
+    {
+      "title": "AgenticLift explained: join AI shopping without replatforming",
+      "body": "AgenticLift lets brands on SAP, Salesforce or Adobe connect catalog, pricing and transactions to AI channels with a managed layer. A clear \"what it is / how to adopt\" piece captures the breakout adoption theme.",
+      "audience": "Product & commerce marketers",
+      "difficulty": "Beginner",
+      "engagement": 9,
+      "uniqueness": 8,
+      "composite": 8.4
+    },
+    {
+      "title": "AI-assisted migration: modeling product data with the Smart Data Modeler",
+      "body": "GenAI proposes a product data model from CSV/JSON/XLSX with human-in-the-loop review — the practical answer to slow, risky migrations off rigid platforms. Pair with the 100MB / 500k-row Import API.",
+      "audience": "Solution architects",
+      "difficulty": "Intermediate",
+      "engagement": 8,
+      "uniqueness": 8,
+      "composite": 7.9
+    },
+    {
+      "title": "Checkout that converts: Express Payments, Drop-in & Payment Intents",
+      "body": "A full quarter of Checkout releases. Walk through one-click express payments, the Drop-in UI, payment predicates, and post-payment automation via the Payment Intents API.",
+      "audience": "Front-end & commerce engineers",
+      "difficulty": "Intermediate",
+      "engagement": 8,
+      "uniqueness": 7,
+      "composite": 7.4
+    },
+    {
+      "title": "Run commercetools Connect & Checkout natively on AWS",
+      "body": "Connect and Checkout now run inside a customer's AWS environment with full feature parity. A deployment-focused post captures the multi-cloud enterprise audience standardized on AWS.",
+      "audience": "Platform & DevOps engineers",
+      "difficulty": "Intermediate",
+      "engagement": 8,
+      "uniqueness": 8,
+      "composite": 7.2
+    },
+    {
+      "title": "Real-time inventory at scale: Inventory Reservations & Cart Freeze",
+      "body": "Reserve On Cart holds stock from add-to-cart through checkout for fast-selling items; Cart Freeze and Cart Locking protect pricing and edits. A concrete \"high-demand drop\" scenario lands well.",
+      "audience": "Commerce & product marketers",
+      "difficulty": "Beginner",
+      "engagement": 8,
+      "uniqueness": 7,
+      "composite": 7
+    }
   ],
   "whitepaperOpportunities": [
-    { "title": "The autonomous commerce stack: Sphere, agent governance & MACH for enterprise", "body": "Sphere plus agent governance lets commercetools make an autonomy-and-control argument competitors are still assembling. Frame the agent lifecycle: sense, decide, act — with identity, scope and human approval, on a headless MACH foundation.", "audience": "Solution architects & product marketers", "difficulty": "Advanced", "engagement": 9, "uniqueness": 9, "composite": 8.2 },
-    { "title": "Replatforming to composable: a migration playbook from SAP & Salesforce to commercetools", "body": "Smart Data Modeler, the Import API, commercetools for Builders and the Commerce Integration Layer form a defensible, lower-risk replatforming story. Lay out a phased path for teams leaving suite platforms.", "audience": "Solution architects & commerce leads", "difficulty": "Advanced", "engagement": 8, "uniqueness": 8, "composite": 7.8 }
+    {
+      "title": "The autonomous commerce stack: Sphere, agent governance & MACH for enterprise",
+      "body": "Sphere plus agent governance lets commercetools make an autonomy-and-control argument competitors are still assembling. Frame the agent lifecycle: sense, decide, act — with identity, scope and human approval, on a headless MACH foundation.",
+      "audience": "Solution architects & product marketers",
+      "difficulty": "Advanced",
+      "engagement": 9,
+      "uniqueness": 9,
+      "composite": 8.2
+    },
+    {
+      "title": "Replatforming to composable: a migration playbook from SAP & Salesforce to commercetools",
+      "body": "Smart Data Modeler, the Import API, commercetools for Builders and the Commerce Integration Layer form a defensible, lower-risk replatforming story. Lay out a phased path for teams leaving suite platforms.",
+      "audience": "Solution architects & commerce leads",
+      "difficulty": "Advanced",
+      "engagement": 8,
+      "uniqueness": 8,
+      "composite": 7.8
+    }
   ],
   "linkedinPosts": [
-    { "title": "\"Autonomous Commerce is not a feature — it is the next category\" (Dirk Hoerig, June 9)", "body": "Founder quote from the Sphere launch. One graphic on sense → decide → act with governance; high shareability, low production cost.", "audience": "Commerce leads & architects", "engagement": 8, "uniqueness": 8 },
-    { "title": "\"Your catalog now checks out inside Google Gemini\" — AI Hub + UCP", "body": "AI Hub's UCP product feeds and Gemini checkout make agentic shopping tangible. A 60-second explainer with a single channel diagram.", "audience": "Product & commerce marketers", "engagement": 8, "uniqueness": 7 }
+    {
+      "title": "\"Agents you can switch off\" — AgentSphere governance in one graphic",
+      "body": "Builder → registry → governance, with verification, sandboxing, audit trail and kill switch. Pairs with the Promotions & Intake Agent GA news and the Sep 1 SaaS Award for AgenticLift.",
+      "audience": "Commerce leads & architects",
+      "engagement": 8,
+      "uniqueness": 8
+    },
+    {
+      "title": "\"Autonomous Commerce is not a feature — it is the next category\" (Dirk Hoerig, June 9)",
+      "body": "Founder quote from the Sphere launch. One graphic on sense → decide → act with governance; high shareability, low production cost.",
+      "audience": "Commerce leads & architects",
+      "engagement": 8,
+      "uniqueness": 8
+    },
+    {
+      "title": "\"Your catalog now checks out inside Google Gemini\" — AI Hub + UCP",
+      "body": "AI Hub's UCP product feeds and Gemini checkout make agentic shopping tangible. A 60-second explainer with a single channel diagram.",
+      "audience": "Product & commerce marketers",
+      "engagement": 8,
+      "uniqueness": 7
+    }
   ],
   "competitive": [
-    { "theme": "Agentic & autonomous commerce", "commercetools": "Sphere + AgenticLift + AI Hub + Agent Gateway, plus MosAIc multi-agent ops and per-agent governance; $100B+ GMV at sub-60ms.", "competitor": "Salesforce Agentforce Commerce (unified commerce + POS + OMS); Shopify Storefront MCP + UCP; Adobe Experience Platform AI (full UCP targeted late 2026).", "opportunity": "Own \"autonomous\" (operations acting, not just agents shopping) and lead on agent governance plus headless speed." },
-    { "theme": "Composable / MACH architecture", "commercetools": "MACH pioneer: headless APIs, Connect, multi-cloud (AWS + Google Cloud), Foundry blueprints and Frontend.", "competitor": "Salesforce Commerce Cloud and Adobe Commerce (Magento) lead the non-pure-composable field; SAP for incumbents.", "opportunity": "Contrast true composability and bring-your-own-cloud against suite lock-in and monolith upgrade cycles." },
-    { "theme": "AI-assisted migration off suites", "commercetools": "Smart Data Modeler, 100MB/500k-row Import API, commercetools for Builders and the Commerce Integration Layer.", "competitor": "Platform-specific migration tooling; replatforming services from SIs without GenAI data modeling.", "opportunity": "Position fast, lower-risk replatforming from SAP/Adobe/Salesforce as a repeatable, AI-accelerated motion." },
-    { "theme": "Checkout & payments", "commercetools": "Checkout + PSP connectors, Express Payments, Drop-in UI, Payment Intents API — now on AWS as well as Google Cloud.", "competitor": "Shopify Checkout (conversion-leading but platform-bound); Salesforce / Adobe native checkout inside their suites.", "opportunity": "Promote composable checkout that drops into any stack, on the customer's own cloud." },
-    { "theme": "Multi-cloud & enterprise infra", "commercetools": "Connect & Checkout on AWS with feature parity, plus Google Cloud and MongoDB infrastructure partners.", "competitor": "Single-cloud or vendor-hosted suites with limited deployment flexibility.", "opportunity": "Meet enterprises in their existing cloud to cut latency, complexity and procurement friction." }
+    {
+      "theme": "Agentic & autonomous commerce",
+      "commercetools": "Sphere + AgenticLift + AI Hub + Agent Gateway, plus MosAIc multi-agent ops and per-agent governance; $100B+ GMV at sub-60ms.",
+      "competitor": "Salesforce Agentforce Commerce (unified commerce + POS + OMS); Shopify Storefront MCP + UCP; Adobe Experience Platform AI (full UCP targeted late 2026).",
+      "opportunity": "Own \"autonomous\" (operations acting, not just agents shopping) and lead on agent governance plus headless speed."
+    },
+    {
+      "theme": "Composable / MACH architecture",
+      "commercetools": "MACH pioneer: headless APIs, Connect, multi-cloud (AWS + Google Cloud), Foundry blueprints and Frontend.",
+      "competitor": "Salesforce Commerce Cloud and Adobe Commerce (Magento) lead the non-pure-composable field; SAP for incumbents.",
+      "opportunity": "Contrast true composability and bring-your-own-cloud against suite lock-in and monolith upgrade cycles."
+    },
+    {
+      "theme": "AI-assisted migration off suites",
+      "commercetools": "Smart Data Modeler, 100MB/500k-row Import API, commercetools for Builders and the Commerce Integration Layer.",
+      "competitor": "Platform-specific migration tooling; replatforming services from SIs without GenAI data modeling.",
+      "opportunity": "Position fast, lower-risk replatforming from SAP/Adobe/Salesforce as a repeatable, AI-accelerated motion."
+    },
+    {
+      "theme": "Checkout & payments",
+      "commercetools": "Checkout + PSP connectors, Express Payments, Drop-in UI, Payment Intents API — now on AWS as well as Google Cloud.",
+      "competitor": "Shopify Checkout (conversion-leading but platform-bound); Salesforce / Adobe native checkout inside their suites.",
+      "opportunity": "Promote composable checkout that drops into any stack, on the customer's own cloud."
+    },
+    {
+      "theme": "Multi-cloud & enterprise infra",
+      "commercetools": "Connect & Checkout on AWS with feature parity, plus Google Cloud and MongoDB infrastructure partners.",
+      "competitor": "Single-cloud or vendor-hosted suites with limited deployment flexibility.",
+      "opportunity": "Meet enterprises in their existing cloud to cut latency, complexity and procurement friction."
+    }
   ],
   "immediateActions": [
-    { "rank": 1, "title": "Ship the Sphere / Autonomous Commerce explainer", "body": "Define the category and the three pillars (headless foundation, agent orchestration, governance) tied to the June 9 launch and MosAIc preview.", "composite": 9.3, "format": "Technical blog" },
-    { "rank": 2, "title": "Publish the AgenticLift adoption guide + AI Hub / Gemini demo", "body": "Capture the breakout \"join AI shopping without replatforming\" theme with a concrete UCP-feed and Gemini-checkout walkthrough.", "composite": 8.4, "format": "Tutorial + demo" },
-    { "rank": 3, "title": "Commission the autonomous commerce stack whitepaper", "body": "Agent governance plus MACH as the enterprise differentiator while rivals are still assembling theirs.", "composite": 8.2, "format": "Whitepaper" },
-    { "rank": 4, "title": "Produce the SAP / Salesforce → commercetools migration playbook", "body": "Smart Data Modeler + Import API + Builders as a repeatable, lower-risk replatforming motion.", "composite": 7.8, "format": "Whitepaper" },
-    { "rank": 5, "title": "Draft the AWS Connect & Checkout deployment blog", "body": "Multi-cloud parity is fresh and underexploited; targets enterprises standardized on AWS.", "composite": 7.2, "format": "Blog" }
+    {
+      "rank": 1,
+      "title": "Publish the Promotions & Intake Agent GA explainer",
+      "body": "Fresh GA news (Aug 28 / Aug 31) with demoable features; frame it with AgentSphere governance.",
+      "composite": 8.9,
+      "format": "Technical blog"
+    },
+    {
+      "rank": 2,
+      "title": "Flag the Product Projection Search deprecation to active projects",
+      "body": "New Projects since Aug 31 cannot activate it — confirm all new builds use Product Search and note it in delivery checklists.",
+      "composite": 8.0,
+      "format": "Internal advisory"
+    },
+    {
+      "rank": 3,
+      "title": "Ship the Sphere / Autonomous Commerce explainer",
+      "body": "Define the category and the three pillars (headless foundation, agent orchestration, governance) tied to the June 9 launch and MosAIc preview.",
+      "composite": 9.3,
+      "format": "Technical blog"
+    },
+    {
+      "rank": 4,
+      "title": "Publish the AgenticLift adoption guide + AI Hub / Gemini demo",
+      "body": "Capture the breakout \"join AI shopping without replatforming\" theme with a concrete UCP-feed and Gemini-checkout walkthrough.",
+      "composite": 8.4,
+      "format": "Tutorial + demo"
+    },
+    {
+      "rank": 5,
+      "title": "Commission the autonomous commerce stack whitepaper",
+      "body": "Agent governance plus MACH as the enterprise differentiator while rivals are still assembling theirs.",
+      "composite": 8.2,
+      "format": "Whitepaper"
+    },
+    {
+      "rank": 6,
+      "title": "Produce the SAP / Salesforce → commercetools migration playbook",
+      "body": "Smart Data Modeler + Import API + Builders as a repeatable, lower-risk replatforming motion.",
+      "composite": 7.8,
+      "format": "Whitepaper"
+    },
+    {
+      "rank": 7,
+      "title": "Draft the AWS Connect & Checkout deployment blog",
+      "body": "Multi-cloud parity is fresh and underexploited; targets enterprises standardized on AWS.",
+      "composite": 7.2,
+      "format": "Blog"
+    }
   ],
   "next7Days": [
+    "Ship the Promotions & Intake Agent GA piece while the news is fresh, and tie it to AgentSphere's governance story.",
+    "Prep MACH X Amsterdam (Sep 29–30) talking points around the modular Core Commerce / Product Catalog offerings and incremental modernization.",
+    "Tell delivery teams: Product Projection Search can't be activated on Projects created after Aug 31 — use Product Search.",
+    "Queue the AgentSphere governance LinkedIn post and reshare the Sep 1 SaaS Award win for AgenticLift.",
     "Lock two pieces: the Sphere / Autonomous Commerce explainer and the AgenticLift adoption guide — both ride peak momentum off the June 9 launch and have demoable capabilities.",
-    "Open Elevate 2026 content runway: with registration opening soon, brief an Elevate teaser series anchored on autonomous commerce and the Sphere vision.",
-    "Capture the MosAIc preview from Shoptalk Europe while it is novel; line up a multi-agent operations angle for enterprise buyers.",
-    "Queue the LinkedIn posts on the Dirk Hoerig \"next category\" quote and AI Hub + Gemini checkout to keep weekly cadence between long-form pieces.",
-    "Validate competitor claims before publishing the comparison whitepaper — re-check Salesforce Agentforce Commerce, Shopify Storefront MCP/UCP, and Adobe's UCP timing for updates."
+    "Open Elevate 2026 content runway: with registration opening soon, brief an Elevate teaser series anchored on autonomous commerce and the Sphere vision."
   ]
 }

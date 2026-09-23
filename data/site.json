@@ -42,15 +42,15 @@
         "description": "A weekly read for content marketers, solution architects, commerce leads, and product marketers: the signals worth acting on across Sphere, AgenticLift, AI Hub, Composable Commerce, Checkout, Connect, and the Commerce MCP — each tied to a dated release, event, or roadmap item.",
         "stats": [
           {
-            "value": "7",
+            "value": "9",
             "label": "trends"
           },
           {
-            "value": "6",
+            "value": "8",
             "label": "blog ideas"
           },
           {
-            "value": "16",
+            "value": "28",
             "label": "releases"
           },
           {
@@ -71,7 +71,7 @@
             "label": "quarters"
           },
           {
-            "value": "54",
+            "value": "61",
             "label": "initiatives"
           }
         ],
@@ -185,7 +185,7 @@
       "cta": "Visit commercetools.com",
       "href": "https://commercetools.com/commercetools-for-builders"
     },
-    "latestSweep": "Newsletter generated August 22, 2026 · Quarterly plan generated Aug 22, 2026."
+    "latestSweep": "Newsletter generated September 23, 2026 · Quarterly plan generated Aug 22, 2026."
   },
   "footer": {
     "copyright": "© 2026 Royal Cyber · commercetools Insights.",
