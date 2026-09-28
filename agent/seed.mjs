@@ -88,6 +88,21 @@ export async function seed({ stamp = false } = {}) {
     }));
   }
 
+  // Optional: webinar series tracker (data/webinars.json, from agent/import_webinars.py)
+  const wbFile = path.join(ROOT, "data", "webinars.json");
+  const wb = cardByHref("/webinars");
+  if (wb && fs.existsSync(wbFile)) {
+    const webinars = JSON.parse(fs.readFileSync(wbFile, "utf8"));
+    wb.stats = [
+      { value: String(webinars.sessions.length), label: "sessions" },
+      { value: String(webinars.weeks.length), label: "weeks" },
+      {
+        value: String(webinars.weeks.reduce((n, w) => n + w.tasks.length, 0)),
+        label: "tasks",
+      },
+    ];
+  }
+
   const pr = cardByHref("/projects");
   if (pr) {
     pr.stats = [

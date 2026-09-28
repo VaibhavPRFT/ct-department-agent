@@ -19,6 +19,10 @@
       "href": "/quarterly-plan"
     },
     {
+      "label": "Webinars",
+      "href": "/webinars"
+    },
+    {
       "label": "Accelerators",
       "href": "/accelerators"
     },
@@ -77,6 +81,27 @@
         ],
         "href": "/quarterly-plan",
         "cta": "Open quarterly plan"
+      },
+      {
+        "source": "Royal Cyber · Webinar Series Tracker",
+        "title": "commercetools + MetafyAI Webinar Series",
+        "description": "12 Wednesday sessions from Oct 7, 2026 to Feb 3, 2027: the session schedule, this week's tasks by team, and the weekly review of risks and fixes.",
+        "stats": [
+          {
+            "value": "12",
+            "label": "sessions"
+          },
+          {
+            "value": "2",
+            "label": "weeks"
+          },
+          {
+            "value": "113",
+            "label": "tasks"
+          }
+        ],
+        "href": "/webinars",
+        "cta": "Open webinar tracker"
       },
       {
         "source": "Royal Cyber · commercetools Center of Excellence",
