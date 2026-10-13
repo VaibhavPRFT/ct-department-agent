@@ -2,16 +2,34 @@
   "meta": {
     "title": "commercetools Trend and Content Opportunities",
     "intro": "A weekly read for content marketers, solution architects, commerce leads, and product marketers: the signals worth acting on across Sphere, AgenticLift, AI Hub, Composable Commerce, Checkout, Connect, and the Commerce MCP — each tied to a dated release, event, or roadmap item.",
-    "generated": "Generated September 23, 2026",
+    "generated": "Generated September 23, 2026 · Events updated October 13, 2026",
     "breakout": "Autonomous Commerce & Sphere",
     "lookbackWindow": "90 days",
     "focus": "Agentic AI · Composable / MACH · B2B & Checkout"
   },
   "royalCyberEvents": [
     {
-      "event": "Joint commercetools + Royal Cyber Webinar",
-      "when": "Aug 27, 2026 · Online",
-      "focus": "Co-hosted with commercetools — B2B buying trends, Cornerstone Building Brands story, and the Royal Cyber accelerator portfolio",
+      "event": "Webinar #2 — 5 Last-Minute Traps That Break Enterprise Commerce, Even After 6 Months of Holiday Prep",
+      "when": "Wed Oct 14, 2026 · Online",
+      "focus": "Royal Cyber Wednesday webinar series (commercetools track) — holiday-peak readiness traps and fixes; offer: 2-Week Holiday Readiness Stress Audit.",
+      "register": "https://www.royalcyber.com/webinar/"
+    },
+    {
+      "event": "Webinar #4 — 5 Assumptions That Turn a Multi-Region Composable Stack Into a Support Nightmare",
+      "when": "Wed Oct 28, 2026 · Online",
+      "focus": "Multi-region composable operations on commercetools; offer: Multi-Region Composable Health Check.",
+      "register": "https://www.royalcyber.com/webinar/"
+    },
+    {
+      "event": "Webinar #6 — AIforce Just Launched: 5 Things Composable Still Does Better + 2 That Don't Matter Anymore",
+      "when": "Wed Nov 11, 2026 · Online",
+      "focus": "Composable vs. suite AI positioning; offer: Composable vs AIforce Decision Workshop.",
+      "register": "https://www.royalcyber.com/webinar/"
+    },
+    {
+      "event": "Webinar #8 — 5 B2B Portal Traps That Kill Manufacturer & Distributor Digital Sales",
+      "when": "Wed Dec 2, 2026 · Online",
+      "focus": "B2B portal patterns for manufacturers and distributors on commercetools; offer: B2B Portal Trap Assessment.",
       "register": "https://www.royalcyber.com/webinar/"
     },
     {
@@ -308,10 +326,10 @@
   ],
   "events": [
     {
-      "event": "MACH X: Amsterdam",
-      "when": "Sep 29–30, 2026 · Amsterdam",
-      "focus": "MACH Alliance community event — composable and agentic architecture; a natural stage for the modular Core Commerce / Product Catalog story.",
-      "register": "https://commercetools.com/events/mach-x-amsterdam"
+      "event": "Agentic Commerce — The future of shopping: Are you ready? (KPS × commercetools, Google, 7 Learnings)",
+      "when": "Oct 14, 2026 · Google Office, Berlin · 15:45–18:00 CEST",
+      "focus": "Afternoon session on agent-driven commerce: how retailers become visible to and selected by AI shopping agents, what is feasible now on commercetools, plus a practitioner panel.",
+      "register": "https://kps.com/company/events/2026/agentic-commerce/"
     },
     {
       "event": "Elevate — The Global Commerce Summit™ (regional meet-ups)",
@@ -604,7 +622,8 @@
   ],
   "next7Days": [
     "Ship the Promotions & Intake Agent GA piece while the news is fresh, and tie it to AgentSphere's governance story.",
-    "Prep MACH X Amsterdam (Sep 29–30) talking points around the modular Core Commerce / Product Catalog offerings and incremental modernization.",
+    "Run Royal Cyber Webinar #2 (Wed Oct 14, holiday-readiness traps) and push the 2-Week Holiday Readiness Stress Audit offer in follow-ups; start promotion for Webinar #4 (Oct 28).",
+    "Track the KPS × commercetools Agentic Commerce session at Google Berlin (Oct 14) for agent-visibility talking points to reuse in Royal Cyber content.",
     "Tell delivery teams: Product Projection Search can't be activated on Projects created after Aug 31 — use Product Search.",
     "Queue the AgentSphere governance LinkedIn post and reshare the Sep 1 SaaS Award win for AgenticLift.",
     "Lock two pieces: the Sphere / Autonomous Commerce explainer and the AgenticLift adoption guide — both ride peak momentum off the June 9 launch and have demoable capabilities.",
