@@ -2,18 +2,12 @@
   "meta": {
     "title": "commercetools Trend and Content Opportunities",
     "intro": "A weekly read for content marketers, solution architects, commerce leads, and product marketers: the signals worth acting on across Sphere, AgenticLift, AI Hub, Composable Commerce, Checkout, Connect, and the Commerce MCP — each tied to a dated release, event, or roadmap item.",
-    "generated": "Generated September 23, 2026 · Events updated October 13, 2026",
+    "generated": "Generated October 16, 2026 · includes commercetools Monthly (October)",
     "breakout": "Autonomous Commerce & Sphere",
     "lookbackWindow": "90 days",
     "focus": "Agentic AI · Composable / MACH · B2B & Checkout"
   },
   "royalCyberEvents": [
-    {
-      "event": "Webinar #2 — 5 Last-Minute Traps That Break Enterprise Commerce, Even After 6 Months of Holiday Prep",
-      "when": "Wed Oct 14, 2026 · Online",
-      "focus": "Royal Cyber Wednesday webinar series (commercetools track) — holiday-peak readiness traps and fixes; offer: 2-Week Holiday Readiness Stress Audit.",
-      "register": "https://www.royalcyber.com/webinar/"
-    },
     {
       "event": "Webinar #4 — 5 Assumptions That Turn a Multi-Region Composable Stack Into a Support Nightmare",
       "when": "Wed Oct 28, 2026 · Online",
@@ -57,21 +51,22 @@
       "rank": 1
     },
     {
+      "rank": 2,
+      "title": "Integration leaves the critical path: Commerce Integration Layer + commercetools for Builders",
+      "body": "The Commerce Integration Layer (Oct 15) replaces per-project BFF/glue code with one hosted Experience API for storefronts, apps and agents — included with Sphere, with Experience MCP to follow. Builders adds Migrations, Foundations and Integrations skills (Sep 29) that compress discovery and data mapping for brownfield moves. Together they target the main reasons enterprises delay a move to commercetools: integration effort, foundation risk and migration discovery. For SIs it shifts value from plumbing to vertical expertise and reusable extensions.",
+      "badges": [
+        "AI relevance",
+        "Enterprise relevance",
+        "SI / partner impact"
+      ]
+    },
+    {
       "title": "Modernize without replatforming: modular Core Commerce & Product Catalog",
       "body": "commercetools now sells Core Commerce (cart, orders, checkout, B2B) and Product Catalog as standalone modules (Jul 15), and the Modular Catalog InMigration beta (Sep 18) lets existing Projects move catalog models in stages. Together with AgenticLift, the message to suite customers is incremental adoption — start with one capability, expand later.",
       "badges": [
         "Enterprise relevance"
       ],
-      "rank": 2
-    },
-    {
-      "rank": 3,
-      "title": "commercetools for Builders: enterprise commerce in days, not months",
-      "body": "commercetools launched \"commercetools for Builders\" — an AI-powered build experience that turns natural-language intent into production-ready commerce (catalog, checkout, storefront). It ships a Skills Library installable directly in Claude Code, Cursor and other AI tools, plus step-by-step guides and zero-config setup (no credential wrangling). Aimed at everyone shipping commerce — founders, PMs, designers and engineers, whether new to commercetools or already on it — it compresses what used to take a large team and months into days, on the same Sphere foundation that powers $100B+ GMV across 600+ enterprises.",
-      "badges": [
-        "AI relevance",
-        "Enterprise relevance"
-      ]
+      "rank": 3
     },
     {
       "rank": 4,
@@ -127,6 +122,20 @@
     }
   ],
   "releases": [
+    {
+      "product": "Commerce Integration Layer",
+      "date": "Oct 15, 2026",
+      "highlight": "Launched: a commercetools-hosted layer that centralizes integration logic (search, promotions, tax, payments, content) so storefronts, apps and AI agents connect the same way. Ships Experience API (one GraphQL API), a CLI to extend it, Merchant Center admin UI, Platform Insights observability and managed hosting. Included with Sphere at no extra cost; IONA and Zaelab had early access; Experience MCP is next.",
+      "source": "commercetools.com/blog/commerce-integration-layer-launch-commerce-faster",
+      "type": "Launch"
+    },
+    {
+      "product": "commercetools for Builders — Migrations, Foundations & Integrations skills",
+      "date": "Sep 29, 2026",
+      "highlight": "New Migrations (data-mapping) skills, a Merchant Center custom-app skill, and marketplace / custom-integration skills, running in Claude Code, Cursor, Codex, GitHub Copilot and Gemini CLI. commercetools Labs (MIT-licensed experiments: agents, MC apps, search) announced as coming soon.",
+      "source": "commercetools.com/blog/commercetools-for-builders-lower-the-barrier-to-develop",
+      "type": "Enhancement"
+    },
     {
       "product": "Modular Catalog — InMigration model",
       "date": "Sep 18, 2026",
@@ -326,10 +335,16 @@
   ],
   "events": [
     {
-      "event": "Agentic Commerce — The future of shopping: Are you ready? (KPS × commercetools, Google, 7 Learnings)",
-      "when": "Oct 14, 2026 · Google Office, Berlin · 15:45–18:00 CEST",
-      "focus": "Afternoon session on agent-driven commerce: how retailers become visible to and selected by AI shopping agents, what is feasible now on commercetools, plus a practitioner panel.",
-      "register": "https://kps.com/company/events/2026/agentic-commerce/"
+      "event": "Autonomous Commerce in Practice: From Tasks to Outcomes (commercetools × Google Cloud webinar)",
+      "when": "Wed Oct 28, 2026 · Online · 11 AM EDT / 4 PM CET",
+      "focus": "Kirti Lalwani (VP Engineering, commercetools) and Román Tejada (Google Cloud) on moving AI agents from tasks to outcomes across pricing, promotions, inventory and order intake — orchestration, audit trails and human-in-the-loop guardrails.",
+      "register": "https://commercetools.com/resources/video-on-demand/autonomous-commerce-in-practice-from-tasks-to-outcomes"
+    },
+    {
+      "event": "commercetools for Builders: Watch AI Build a Store Live",
+      "when": "Tue Nov 3, 2026 · Online · 11 AM EST / 5 PM CET",
+      "focus": "Live demo: Emilio Di Zazzo (VP Sales, Americas) builds a working storefront from scratch with prompts only — storefront, integrations and workflows without code.",
+      "register": "https://commercetools.com/resources/video-on-demand/commercetools-for-builders-build-commerce-in-days-not-months"
     },
     {
       "event": "Elevate — The Global Commerce Summit™ (regional meet-ups)",
@@ -388,7 +403,8 @@
       "items": [
         "Modular offerings: standalone Core Commerce & Product Catalog; Modular Catalog InMigration (public beta)",
         "commercetools for Builders — production B2B/B2C experiences in days",
-        "Commerce Integration Layer across content, search, promotions, tax",
+        "commercetools Labs — MIT-licensed experiments (agents, Merchant Center apps, search) coming soon; Builders Migrations skills expanding to more source systems",
+        "Commerce Integration Layer (launched Oct 15) — next: Experience MCP for shopping agents and a Builders skill to implement the layer",
         "Connect applications running natively on AWS (with Google Cloud)",
         "Infrastructure partners: AWS, Google Cloud, MongoDB",
         "Audit Log Premium and Payment Hub for compliance & ops"
@@ -421,6 +437,24 @@
     }
   ],
   "blogOpportunities": [
+    {
+      "title": "Commerce Integration Layer explained: retire the per-project BFF",
+      "body": "What the Oct 15 launch changes for delivery: one Experience API for web, app and agents, extensions via the CLI, observability via Platform Insights, and no middleware to host. Show an SI's view — what we stop building, what we build instead, and how Experience MCP readies the same contracts for shopping agents.",
+      "audience": "Solution architects & SI delivery leads",
+      "difficulty": "Intermediate",
+      "engagement": 9,
+      "uniqueness": 8,
+      "composite": 8.8
+    },
+    {
+      "title": "Peak season 2026 on commercetools: a last-mile readiness checklist",
+      "body": "Pair commercetools' peak-season content (Peak season checklist 2026, 9 red flags, 7 decisions from L.L.Bean / Chemist Warehouse / Moonpig) with Royal Cyber's field traps and the 2-Week Holiday Readiness Stress Audit.",
+      "audience": "Commerce leads & ops",
+      "difficulty": "Beginner",
+      "engagement": 8,
+      "uniqueness": 7,
+      "composite": 7.8
+    },
     {
       "title": "Promotions Agent in practice: natural-language discounts in the Merchant Center",
       "body": "Walk through creating cart discounts, product discounts and codes with the now-GA Promotions Agent, and pair it with the new Direct Discount / best-deal controls. Show guardrails and review steps merchandisers keep.",
@@ -516,6 +550,13 @@
   ],
   "linkedinPosts": [
     {
+      "title": "\"Build the integration once\" — Commerce Integration Layer in one graphic",
+      "body": "Storefront, app and AI agent → one Experience API → search, promotions, tax, payments, content. Hosted by commercetools, included with Sphere. Royal Cyber angle: delivery time goes to customer experience, not glue code.",
+      "audience": "Architects & commerce leads",
+      "engagement": 8,
+      "uniqueness": 8
+    },
+    {
       "title": "\"Agents you can switch off\" — AgentSphere governance in one graphic",
       "body": "Builder → registry → governance, with verification, sandboxing, audit trail and kill switch. Pairs with the Promotions & Intake Agent GA news and the Sep 1 SaaS Award for AgenticLift.",
       "audience": "Commerce leads & architects",
@@ -572,48 +613,55 @@
   "immediateActions": [
     {
       "rank": 1,
+      "title": "Publish a Commerce Integration Layer point of view for SI-led builds",
+      "body": "Fresh launch (Oct 15) that directly changes how partners deliver; position Royal Cyber's extensions/accelerators on top of the Experience API.",
+      "composite": 8.8,
+      "format": "Technical blog"
+    },
+    {
+      "rank": 2,
       "title": "Publish the Promotions & Intake Agent GA explainer",
       "body": "Fresh GA news (Aug 28 / Aug 31) with demoable features; frame it with AgentSphere governance.",
       "composite": 8.9,
       "format": "Technical blog"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Flag the Product Projection Search deprecation to active projects",
       "body": "New Projects since Aug 31 cannot activate it — confirm all new builds use Product Search and note it in delivery checklists.",
       "composite": 8.0,
       "format": "Internal advisory"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Ship the Sphere / Autonomous Commerce explainer",
       "body": "Define the category and the three pillars (headless foundation, agent orchestration, governance) tied to the June 9 launch and MosAIc preview.",
       "composite": 9.3,
       "format": "Technical blog"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Publish the AgenticLift adoption guide + AI Hub / Gemini demo",
       "body": "Capture the breakout \"join AI shopping without replatforming\" theme with a concrete UCP-feed and Gemini-checkout walkthrough.",
       "composite": 8.4,
       "format": "Tutorial + demo"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Commission the autonomous commerce stack whitepaper",
       "body": "Agent governance plus MACH as the enterprise differentiator while rivals are still assembling theirs.",
       "composite": 8.2,
       "format": "Whitepaper"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Produce the SAP / Salesforce → commercetools migration playbook",
       "body": "Smart Data Modeler + Import API + Builders as a repeatable, lower-risk replatforming motion.",
       "composite": 7.8,
       "format": "Whitepaper"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Draft the AWS Connect & Checkout deployment blog",
       "body": "Multi-cloud parity is fresh and underexploited; targets enterprises standardized on AWS.",
       "composite": 7.2,
@@ -621,12 +669,11 @@
     }
   ],
   "next7Days": [
-    "Ship the Promotions & Intake Agent GA piece while the news is fresh, and tie it to AgentSphere's governance story.",
-    "Run Royal Cyber Webinar #2 (Wed Oct 14, holiday-readiness traps) and push the 2-Week Holiday Readiness Stress Audit offer in follow-ups; start promotion for Webinar #4 (Oct 28).",
-    "Track the KPS × commercetools Agentic Commerce session at Google Berlin (Oct 14) for agent-visibility talking points to reuse in Royal Cyber content.",
-    "Tell delivery teams: Product Projection Search can't be activated on Projects created after Aug 31 — use Product Search.",
-    "Queue the AgentSphere governance LinkedIn post and reshare the Sep 1 SaaS Award win for AgenticLift.",
-    "Lock two pieces: the Sphere / Autonomous Commerce explainer and the AgenticLift adoption guide — both ride peak momentum off the June 9 launch and have demoable capabilities.",
-    "Open Elevate 2026 content runway: with registration opening soon, brief an Elevate teaser series anchored on autonomous commerce and the Sphere vision."
+    "Publish the Commerce Integration Layer explainer (Oct 15 launch) with an SI angle: no per-project BFF, one Experience API for storefronts and agents, Experience MCP next.",
+    "Promote the commercetools × Google Cloud 'Autonomous Commerce in Practice' webinar (Oct 28) and the Builders live build (Nov 3) to target accounts, alongside Royal Cyber Webinar #4 (Oct 28).",
+    "Reuse commercetools' peak-season blogs and the Platform Modernization Readiness Checklist in Webinar #2 follow-ups and Holiday Readiness Stress Audit outreach.",
+    "Trial the new Builders Migrations skills + Smart Data Modeler on a prospect catalog slice; watch for the commercetools Labs launch.",
+    "Ship the Promotions & Intake Agent GA piece and tie it to AgentSphere's governance story.",
+    "Tell delivery teams: Product Projection Search can't be activated on Projects created after Aug 31 — use Product Search."
   ]
 }
