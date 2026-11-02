@@ -2,18 +2,12 @@
   "meta": {
     "title": "commercetools Trend and Content Opportunities",
     "intro": "A weekly read for content marketers, solution architects, commerce leads, and product marketers: the signals worth acting on across Sphere, AgenticLift, AI Hub, Composable Commerce, Checkout, Connect, and the Commerce MCP — each tied to a dated release, event, or roadmap item.",
-    "generated": "Generated October 16, 2026 · includes commercetools Monthly (October)",
+    "generated": "Generated November 2, 2026 · includes commercetools Monthly (September & October)",
     "breakout": "Autonomous Commerce & Sphere",
     "lookbackWindow": "90 days",
     "focus": "Agentic AI · Composable / MACH · B2B & Checkout"
   },
   "royalCyberEvents": [
-    {
-      "event": "Webinar #4 — 5 Assumptions That Turn a Multi-Region Composable Stack Into a Support Nightmare",
-      "when": "Wed Oct 28, 2026 · Online",
-      "focus": "Multi-region composable operations on commercetools; offer: Multi-Region Composable Health Check.",
-      "register": "https://www.royalcyber.com/webinar/"
-    },
     {
       "event": "Webinar #6 — AIforce Just Launched: 5 Things Composable Still Does Better + 2 That Don't Matter Anymore",
       "when": "Wed Nov 11, 2026 · Online",
@@ -24,6 +18,12 @@
       "event": "Webinar #8 — 5 B2B Portal Traps That Kill Manufacturer & Distributor Digital Sales",
       "when": "Wed Dec 2, 2026 · Online",
       "focus": "B2B portal patterns for manufacturers and distributors on commercetools; offer: B2B Portal Trap Assessment.",
+      "register": "https://www.royalcyber.com/webinar/"
+    },
+    {
+      "event": "Webinar #11 — 5 Product Discovery Signals That Convert on Agentic Commerce Sites (And 5 That Don't)",
+      "when": "Wed Jan 20, 2027 · Online",
+      "focus": "Agentic product discovery on commercetools; offer: Product Discovery Conversion Audit.",
       "register": "https://www.royalcyber.com/webinar/"
     },
     {
@@ -89,7 +89,7 @@
     {
       "rank": 6,
       "title": "AI-assisted data modeling shortens replatforming",
-      "body": "Smart Data Modeler uses GenAI to ingest CSV/JSON/XLSX and instantly propose a product data model with human-in-the-loop review — directly easing migrations off rigid platforms like SAP, Adobe and Salesforce. Paired with a 100MB / 500,000-row Import API and a new \"partially imported\" status, it makes catalog onboarding materially faster.",
+      "body": "Smart Data Modeler uses GenAI to ingest CSV/JSON/XLSX and instantly propose a product data model with human-in-the-loop review — directly easing migrations off rigid platforms like SAP, Adobe and Salesforce. Paired with a 100MB / 500,000-row Import API and a new \"partially imported\" status, it makes catalog onboarding materially faster. commercetools is now promoting it in a dedicated launch blog (\"Modeling your product data faster with AI\").",
       "badges": [
         "AI relevance",
         "Enterprise relevance",
@@ -119,6 +119,15 @@
       "badges": [
         "Enterprise relevance"
       ]
+    },
+    {
+      "rank": 10,
+      "title": "Unified retail: InStore puts POS on the commerce foundation",
+      "body": "The September Monthly led with InStore, positioned as a modern enterprise POS that runs on the same foundation as commercetools' digital commerce. The pitch is to replace standalone store systems so carts, orders, promotions and customers are shared across store and online. commercetools backs it with \"The Retailer's Guide to Choosing a Modern POS Platform\" and recent POS releases (receipt QR codes, Swedish cash rounding). This opens a store-modernization conversation with retail clients that we haven't covered yet.",
+      "badges": [
+        "Enterprise relevance",
+        "Retail / store ops"
+      ]
     }
   ],
   "releases": [
@@ -132,7 +141,7 @@
     {
       "product": "commercetools for Builders — Migrations, Foundations & Integrations skills",
       "date": "Sep 29, 2026",
-      "highlight": "New Migrations (data-mapping) skills, a Merchant Center custom-app skill, and marketplace / custom-integration skills, running in Claude Code, Cursor, Codex, GitHub Copilot and Gemini CLI. commercetools Labs (MIT-licensed experiments: agents, MC apps, search) announced as coming soon.",
+      "highlight": "New Migrations (data-mapping) skills, a Merchant Center custom-app skill, and marketplace / custom-integration skills, running in Claude Code, Cursor, Codex, GitHub Copilot and Gemini CLI. commercetools Labs (MIT-licensed experiments: agents, MC apps, search) announced as coming soon. Per the September Monthly, the library is expanding across storefront, checkout and commerce modeling, plus integrations with payments, PIM, CRM and promotions tools.",
       "source": "commercetools.com/blog/commercetools-for-builders-lower-the-barrier-to-develop",
       "type": "Enhancement"
     },
@@ -165,9 +174,9 @@
       "type": "Enhancement"
     },
     {
-      "product": "InStore POS",
+      "product": "InStore — Modern Enterprise POS",
       "date": "Sep 21, 2026",
-      "highlight": "QR codes on printed receipts (URLs, order/voucher numbers, fiscal signatures) and Swedish rounding for cash transactions (Sep 9).",
+      "highlight": "Featured in the September Monthly as a modern enterprise POS for unified retail, running on the same commerce foundation as digital. Recent releases: QR codes on printed receipts (URLs, order/voucher numbers, fiscal signatures) and Swedish rounding for cash transactions (Sep 9). Supporting asset: The Retailer's Guide to Choosing a Modern POS Platform.",
       "source": "docs.commercetools.com/docs/release-notes",
       "type": "Enhancement"
     },
@@ -336,14 +345,14 @@
   "events": [
     {
       "event": "Autonomous Commerce in Practice: From Tasks to Outcomes (commercetools × Google Cloud webinar)",
-      "when": "Wed Oct 28, 2026 · Online · 11 AM EDT / 4 PM CET",
+      "when": "On-demand · aired Wed Oct 28, 2026",
       "focus": "Kirti Lalwani (VP Engineering, commercetools) and Román Tejada (Google Cloud) on moving AI agents from tasks to outcomes across pricing, promotions, inventory and order intake — orchestration, audit trails and human-in-the-loop guardrails.",
       "register": "https://commercetools.com/resources/video-on-demand/autonomous-commerce-in-practice-from-tasks-to-outcomes"
     },
     {
       "event": "commercetools for Builders: Watch AI Build a Store Live",
-      "when": "Tue Nov 3, 2026 · Online · 11 AM EST / 5 PM CET",
-      "focus": "Live demo: Emilio Di Zazzo (VP Sales, Americas) builds a working storefront from scratch with prompts only — storefront, integrations and workflows without code.",
+      "when": "Tue Nov 3, 2026 · Online · 11 AM EST / 5 PM CET (tomorrow)",
+      "focus": "Live demo: Emilio Di Zazzo (VP Sales, Americas) builds a working storefront from scratch with prompts only — storefront, integrations and workflows without code. Same \"Build Commerce in Days, Not Months\" session the September Monthly promoted for Oct 1.",
       "register": "https://commercetools.com/resources/video-on-demand/commercetools-for-builders-build-commerce-in-days-not-months"
     },
     {
@@ -428,7 +437,7 @@
       "title": "Frontend, In-Store & Foundry",
       "items": [
         "Frontend (frontend-as-a-service) for composable storefronts",
-        "In-Store for unified online + physical retail",
+        "InStore — modern enterprise POS on the same foundation as digital commerce (now actively marketed)",
         "Foundry blueprints (e.g. B2C retail) to accelerate launches",
         "Merchant Center: Carts list, sort by all attributes, faster Variants list",
         "Innovation Studio experiments at commercetools.ai"
@@ -445,6 +454,15 @@
       "engagement": 9,
       "uniqueness": 8,
       "composite": 8.8
+    },
+    {
+      "title": "From invisible to buyable: the 5 stages of AI readiness, mapped to an AEO/GEO roadmap",
+      "body": "commercetools' new five-stage AI readiness model runs from invisible to autonomous. Map each stage to concrete catalog, data, trust and architecture work, and show where the Metafy AEO/GEO Accelerator moves a brand from invisible to buyable in AI answers and agentic checkout.",
+      "audience": "Product & commerce marketers",
+      "difficulty": "Beginner",
+      "engagement": 9,
+      "uniqueness": 8,
+      "composite": 8.5
     },
     {
       "title": "Peak season 2026 on commercetools: a last-mile readiness checklist",
@@ -526,6 +544,15 @@
       "engagement": 8,
       "uniqueness": 7,
       "composite": 7
+    },
+    {
+      "title": "Retiring standalone POS: unified retail with commercetools InStore",
+      "body": "Use commercetools' Retailer's Guide to Choosing a Modern POS Platform as the frame. Show what changes when the store runs on the same carts, orders, promotions and customer data as digital, then set out an evaluation checklist and a phased store rollout.",
+      "audience": "Commerce leads & retail ops",
+      "difficulty": "Intermediate",
+      "engagement": 7,
+      "uniqueness": 7,
+      "composite": 7.1
     }
   ],
   "whitepaperOpportunities": [
@@ -576,6 +603,13 @@
       "audience": "Product & commerce marketers",
       "engagement": 8,
       "uniqueness": 7
+    },
+    {
+      "title": "\"Invisible → buyable\": where does your brand sit on the AI readiness curve?",
+      "body": "One graphic showing commercetools' five AI readiness stages, with a self-assessment prompt. Royal Cyber angle: link to the Metafy AEO/GEO audit and the MetafyAI webinar series.",
+      "audience": "Product & commerce marketers",
+      "engagement": 8,
+      "uniqueness": 7
     }
   ],
   "competitive": [
@@ -608,6 +642,12 @@
       "commercetools": "Connect & Checkout on AWS with feature parity, plus Google Cloud and MongoDB infrastructure partners.",
       "competitor": "Single-cloud or vendor-hosted suites with limited deployment flexibility.",
       "opportunity": "Meet enterprises in their existing cloud to cut latency, complexity and procurement friction."
+    },
+    {
+      "theme": "Unified retail & POS",
+      "commercetools": "InStore: an enterprise POS on the same commerce foundation as digital, with fiscal receipts, cash rounding and shared carts, orders and promotions.",
+      "competitor": "Salesforce Agentforce Commerce (commerce + POS + OMS); Shopify POS; legacy standalone store systems.",
+      "opportunity": "Position composable unified retail for enterprise retailers that want store and digital on one foundation without suite lock-in."
     }
   ],
   "immediateActions": [
@@ -627,41 +667,48 @@
     },
     {
       "rank": 3,
+      "title": "Use the AI readiness stages to open Metafy AEO/GEO conversations",
+      "body": "commercetools' \"invisible to buyable\" model is ready-made framing for the Metafy AEO/GEO Accelerator and the Nov 4 MetafyAI webinar follow-ups.",
+      "composite": 8.5,
+      "format": "Blog + LinkedIn"
+    },
+    {
+      "rank": 4,
       "title": "Flag the Product Projection Search deprecation to active projects",
       "body": "New Projects since Aug 31 cannot activate it — confirm all new builds use Product Search and note it in delivery checklists.",
       "composite": 8.0,
       "format": "Internal advisory"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Ship the Sphere / Autonomous Commerce explainer",
       "body": "Define the category and the three pillars (headless foundation, agent orchestration, governance) tied to the June 9 launch and MosAIc preview.",
       "composite": 9.3,
       "format": "Technical blog"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Publish the AgenticLift adoption guide + AI Hub / Gemini demo",
       "body": "Capture the breakout \"join AI shopping without replatforming\" theme with a concrete UCP-feed and Gemini-checkout walkthrough.",
       "composite": 8.4,
       "format": "Tutorial + demo"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Commission the autonomous commerce stack whitepaper",
       "body": "Agent governance plus MACH as the enterprise differentiator while rivals are still assembling theirs.",
       "composite": 8.2,
       "format": "Whitepaper"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Produce the SAP / Salesforce → commercetools migration playbook",
       "body": "Smart Data Modeler + Import API + Builders as a repeatable, lower-risk replatforming motion.",
       "composite": 7.8,
       "format": "Whitepaper"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Draft the AWS Connect & Checkout deployment blog",
       "body": "Multi-cloud parity is fresh and underexploited; targets enterprises standardized on AWS.",
       "composite": 7.2,
@@ -669,11 +716,11 @@
     }
   ],
   "next7Days": [
-    "Publish the Commerce Integration Layer explainer (Oct 15 launch) with an SI angle: no per-project BFF, one Experience API for storefronts and agents, Experience MCP next.",
-    "Promote the commercetools × Google Cloud 'Autonomous Commerce in Practice' webinar (Oct 28) and the Builders live build (Nov 3) to target accounts, alongside Royal Cyber Webinar #4 (Oct 28).",
-    "Reuse commercetools' peak-season blogs and the Platform Modernization Readiness Checklist in Webinar #2 follow-ups and Holiday Readiness Stress Audit outreach.",
-    "Trial the new Builders Migrations skills + Smart Data Modeler on a prospect catalog slice; watch for the commercetools Labs launch.",
-    "Ship the Promotions & Intake Agent GA piece and tie it to AgentSphere's governance story.",
-    "Tell delivery teams: Product Projection Search can't be activated on Projects created after Aug 31 — use Product Search."
+    "Push the commercetools for Builders live build (tomorrow, Nov 3) to target accounts, then trial the expanded Builders skills (payments, PIM, CRM, promotions integrations) on a prospect catalog slice.",
+    "Send the on-demand recording of 'Autonomous Commerce in Practice' (aired Oct 28) and Royal Cyber Webinar #4 follow-ups to attendees.",
+    "Draft the 'invisible to buyable' AI readiness post and tie it to the Metafy AEO/GEO audit ahead of MetafyAI Webinar #5 (Nov 4).",
+    "Build promotion for Royal Cyber Webinar #6 'AIforce Just Launched' (Nov 11): positioning against suite AI.",
+    "Brief retail account teams on InStore and share commercetools' Retailer's Guide to Choosing a Modern POS Platform.",
+    "Still open: publish the Commerce Integration Layer explainer and the Promotions & Intake Agent GA piece."
   ]
 }

@@ -1,11 +1,11 @@
 {
   "mode": "seed",
-  "timestamp": "2026-10-16T07:13:31.397Z",
+  "timestamp": "2026-11-02T00:00:00.000Z",
   "stamped": false,
   "counts": {
-    "trends": 9,
+    "trends": 10,
     "releases": 30,
-    "blogOpportunities": 10,
+    "blogOpportunities": 12,
     "roadmaps": 6,
     "quarters": 2,
     "initiatives": 61,
