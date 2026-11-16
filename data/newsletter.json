@@ -2,18 +2,12 @@
   "meta": {
     "title": "commercetools Trend and Content Opportunities",
     "intro": "A weekly read for content marketers, solution architects, commerce leads, and product marketers: the signals worth acting on across Sphere, AgenticLift, AI Hub, Composable Commerce, Checkout, Connect, and the Commerce MCP — each tied to a dated release, event, or roadmap item.",
-    "generated": "Generated November 2, 2026 · includes commercetools Monthly (September & October)",
+    "generated": "Generated November 16, 2026 · includes commercetools Monthly (September & October) and the November Partner Newsletter",
     "breakout": "Autonomous Commerce & Sphere",
     "lookbackWindow": "90 days",
     "focus": "Agentic AI · Composable / MACH · B2B & Checkout"
   },
   "royalCyberEvents": [
-    {
-      "event": "Webinar #6 — AIforce Just Launched: 5 Things Composable Still Does Better + 2 That Don't Matter Anymore",
-      "when": "Wed Nov 11, 2026 · Online",
-      "focus": "Composable vs. suite AI positioning; offer: Composable vs AIforce Decision Workshop.",
-      "register": "https://www.royalcyber.com/webinar/"
-    },
     {
       "event": "Webinar #8 — 5 B2B Portal Traps That Kill Manufacturer & Distributor Digital Sales",
       "when": "Wed Dec 2, 2026 · Online",
@@ -53,10 +47,20 @@
     {
       "rank": 2,
       "title": "Integration leaves the critical path: Commerce Integration Layer + commercetools for Builders",
-      "body": "The Commerce Integration Layer (Oct 15) replaces per-project BFF/glue code with one hosted Experience API for storefronts, apps and agents — included with Sphere, with Experience MCP to follow. Builders adds Migrations, Foundations and Integrations skills (Sep 29) that compress discovery and data mapping for brownfield moves. Together they target the main reasons enterprises delay a move to commercetools: integration effort, foundation risk and migration discovery. For SIs it shifts value from plumbing to vertical expertise and reusable extensions.",
+      "body": "The Commerce Integration Layer is now generally available: one hosted Experience API for storefronts, mobile apps and AI agents, maintained by commercetools and included with commercetools Sphere at no extra cost, with Experience MCP to follow. A new Commerce Integration Layer skill in commercetools for Builders helps teams implement it through AI-assisted development, alongside the Migrations, Foundations and Integrations skills (Sep 29). Together they target the main reasons enterprises delay a move to commercetools: integration effort, foundation risk and migration discovery. commercetools' partner message is explicit: stop building a separate BFF for every client and put the effort into frontend, vertical expertise, business logic and custom extensions.",
       "badges": [
         "AI relevance",
         "Enterprise relevance",
+        "SI / partner impact"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Customer proof: wholesale & B2B distribution move to commercetools through partner-led bake-offs",
+      "body": "The November Partner Newsletter lists four new wins, two of them B2B wholesale. FEGIME (45 independent German electrical wholesalers, ~160 locations, 4M SKUs) signed on Oct 28, 2026 to replace a self-built platform after partner Basecom ran a three-day hackathon connecting ERP, customer data, orders, prices and warehouse end to end. Plieger (Dutch sanitary/heating wholesaler, ~70 Plieger Express locations) picked iO and commercetools after a multi-partner RFP for a new B2B platform going live in 2027. On the retail side, ETAM Group (ETAM, Maison 123, Undiz) is replacing its legacy platform, and Theisen's (Iowa home, farm & auto retailer) targets a February 2027 go-live with store-level pricing and inventory. The pattern for SIs: short, working proofs of value win wholesale deals.",
+      "badges": [
+        "Enterprise relevance",
+        "B2B / wholesale",
         "SI / partner impact"
       ]
     },
@@ -66,10 +70,10 @@
       "badges": [
         "Enterprise relevance"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Autonomous Commerce becomes a category — and Sphere is the platform",
       "body": "The dominant signal of the window. On June 9 (Boston), commercetools declared \"Autonomous Commerce\" the next era — AI systems that sense, decide and act in real time across pricing, inventory, promotions and fulfillment — and unveiled commercetools Sphere, an AI-native platform pairing a headless foundation with agent governance (identity, scope, human approval). Sphere already powers $100B+ in annualized GMV at under 60ms. MosAIc, a multi-agent ops tool, previewed at Shoptalk Europe.",
       "badges": [
@@ -78,7 +82,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Agentic shopping channels: AgenticLift + AI Hub",
       "body": "AgenticLift (Q1) gives brands on other platforms a fully managed AI commerce layer — connecting catalog, pricing and transactions to consumer AI channels without replatforming. AI Hub now supports UCP product feeds and checkout inside Google's Gemini, and commercetools backs Stripe's Agentic Commerce Suite. The Agent Gateway exposes commerce to AI agents safely.",
       "badges": [
@@ -87,7 +91,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "AI-assisted data modeling shortens replatforming",
       "body": "Smart Data Modeler uses GenAI to ingest CSV/JSON/XLSX and instantly propose a product data model with human-in-the-loop review — directly easing migrations off rigid platforms like SAP, Adobe and Salesforce. Paired with a 100MB / 500,000-row Import API and a new \"partially imported\" status, it makes catalog onboarding materially faster. commercetools is now promoting it in a dedicated launch blog (\"Modeling your product data faster with AI\").",
       "badges": [
@@ -97,7 +101,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Checkout turns into a conversion engine",
       "body": "A heavy quarter for Checkout: Express Payments (one-click PayPal / Google Pay / Apple Pay), Drop-in payment UI (GA), Payment predicates, the Payment Intents API (GA), and Applications / Payment Integrations APIs to configure checkout without manual Merchant Center setup.",
       "badges": [
@@ -105,7 +109,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Multi-cloud: Connect & Checkout land on AWS",
       "body": "commercetools Connect now runs inside a customer's existing AWS environment with full feature parity (previously Google Cloud only), and Checkout plus PSP connectors are supported on AWS natively — reducing architectural complexity and latency for enterprises standardized on AWS.",
       "badges": [
@@ -113,7 +117,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Real-time inventory & cart accuracy at scale",
       "body": "Inventory Reservations (the new \"Reserve On Cart\" mode) hold stock from add-to-cart through checkout — built for fast-selling items at thousands of reservations a minute. Cart Freeze Strategies lock displayed price/discounts, Cart Locking lets support agents edit safely, and carts can now carry a Purchase Order number from the start.",
       "badges": [
@@ -121,7 +125,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 11,
       "title": "Unified retail: InStore puts POS on the commerce foundation",
       "body": "The September Monthly led with InStore, positioned as a modern enterprise POS that runs on the same foundation as commercetools' digital commerce. The pitch is to replace standalone store systems so carts, orders, promotions and customers are shared across store and online. commercetools backs it with \"The Retailer's Guide to Choosing a Modern POS Platform\" and recent POS releases (receipt QR codes, Swedish cash rounding). This opens a store-modernization conversation with retail clients that we haven't covered yet.",
       "badges": [
@@ -132,11 +136,11 @@
   ],
   "releases": [
     {
-      "product": "Commerce Integration Layer",
+      "product": "Commerce Integration Layer (GA) + Builders skill",
       "date": "Oct 15, 2026",
-      "highlight": "Launched: a commercetools-hosted layer that centralizes integration logic (search, promotions, tax, payments, content) so storefronts, apps and AI agents connect the same way. Ships Experience API (one GraphQL API), a CLI to extend it, Merchant Center admin UI, Platform Insights observability and managed hosting. Included with Sphere at no extra cost; IONA and Zaelab had early access; Experience MCP is next.",
+      "highlight": "Generally available (launched Oct 15): a commercetools-hosted layer that centralizes integration logic (search, promotions, tax, payments, content) so storefronts, apps and AI agents connect the same way. Ships Experience API (one GraphQL API), a CLI to extend it, Merchant Center admin UI, Platform Insights observability and managed hosting. Included with Sphere at no extra cost; IONA and Zaelab had early access. New: a Commerce Integration Layer skill in commercetools for Builders for AI-assisted implementation (November Partner Newsletter). Experience MCP is next.",
       "source": "commercetools.com/blog/commerce-integration-layer-launch-commerce-faster",
-      "type": "Launch"
+      "type": "GA release"
     },
     {
       "product": "commercetools for Builders — Migrations, Foundations & Integrations skills",
@@ -351,9 +355,21 @@
     },
     {
       "event": "commercetools for Builders: Watch AI Build a Store Live",
-      "when": "Tue Nov 3, 2026 · Online · 11 AM EST / 5 PM CET (tomorrow)",
-      "focus": "Live demo: Emilio Di Zazzo (VP Sales, Americas) builds a working storefront from scratch with prompts only — storefront, integrations and workflows without code. Same \"Build Commerce in Days, Not Months\" session the September Monthly promoted for Oct 1.",
+      "when": "On-demand · aired Tue Nov 3, 2026",
+      "focus": "Emilio Di Zazzo (VP Sales, Americas) builds a working storefront from scratch with prompts only — storefront, integrations and workflows without code. Recording of the \"Build Commerce in Days, Not Months\" session.",
       "register": "https://commercetools.com/resources/video-on-demand/commercetools-for-builders-build-commerce-in-days-not-months"
+    },
+    {
+      "event": "commercetools Partner Enablement Webinar — InStore refresh & commercetools for Builders skills",
+      "when": "Partner-only · aired Thu Nov 12, 2026 · recording sent to registrants",
+      "focus": "Refresh on commercetools InStore and its latest major innovation, plus an update on the newest Builders skills and how they change development. Follows earlier partner sessions on Builders, B2B, Agents, Agentic Commerce and the Commerce Integration Layer.",
+      "register": "https://register.gotowebinar.com/rt/3448911147327613525"
+    },
+    {
+      "event": "commercetools at NRF, Shoptalk & 2027 regional partner meetups",
+      "when": "2027 · Dates TBC (ask the commercetools Partner Manager)",
+      "focus": "After 2026 partner summits in Munich, Amsterdam, Paris, Boston and Australia (Elevate Exchange), commercetools is planning 2027 regional meetups plus NRF and Shoptalk. Plan Royal Cyber attendance and joint customer meetings early.",
+      "register": "https://commercetools.com/events"
     },
     {
       "event": "Elevate — The Global Commerce Summit™ (regional meet-ups)",
@@ -413,7 +429,7 @@
         "Modular offerings: standalone Core Commerce & Product Catalog; Modular Catalog InMigration (public beta)",
         "commercetools for Builders — production B2B/B2C experiences in days",
         "commercetools Labs — MIT-licensed experiments (agents, Merchant Center apps, search) coming soon; Builders Migrations skills expanding to more source systems",
-        "Commerce Integration Layer (launched Oct 15) — next: Experience MCP for shopping agents and a Builders skill to implement the layer",
+        "Commerce Integration Layer — GA and included with Sphere at no extra cost; Builders skill to implement it now available; next: Experience MCP for shopping agents",
         "Connect applications running natively on AWS (with Google Cloud)",
         "Infrastructure partners: AWS, Google Cloud, MongoDB",
         "Audit Log Premium and Payment Hub for compliance & ops"
@@ -437,7 +453,7 @@
       "title": "Frontend, In-Store & Foundry",
       "items": [
         "Frontend (frontend-as-a-service) for composable storefronts",
-        "InStore — modern enterprise POS on the same foundation as digital commerce (now actively marketed)",
+        "InStore — modern enterprise POS on the same foundation as digital commerce; a \"significant innovation\" was previewed to partners on Nov 12",
         "Foundry blueprints (e.g. B2C retail) to accelerate launches",
         "Merchant Center: Carts list, sort by all attributes, faster Variants list",
         "Innovation Studio experiments at commercetools.ai"
@@ -448,7 +464,7 @@
   "blogOpportunities": [
     {
       "title": "Commerce Integration Layer explained: retire the per-project BFF",
-      "body": "What the Oct 15 launch changes for delivery: one Experience API for web, app and agents, extensions via the CLI, observability via Platform Insights, and no middleware to host. Show an SI's view — what we stop building, what we build instead, and how Experience MCP readies the same contracts for shopping agents.",
+      "body": "What the now-GA layer changes for delivery: one Experience API for web, app and agents, extensions via the CLI, observability via Platform Insights, no middleware to host, and no extra cost on Sphere. Show an SI's view — what we stop building, what we build instead, how the new Builders skill speeds implementation, and how Experience MCP readies the same contracts for shopping agents.",
       "audience": "Solution architects & SI delivery leads",
       "difficulty": "Intermediate",
       "engagement": 9,
@@ -463,6 +479,15 @@
       "engagement": 9,
       "uniqueness": 8,
       "composite": 8.5
+    },
+    {
+      "title": "What FEGIME and Plieger tell us about B2B wholesale on commercetools",
+      "body": "Two wholesale groups chose commercetools in the same quarter: FEGIME after a three-day partner hackathon (ERP, prices, orders and warehouse connected end to end), Plieger after a multi-partner RFP. Break down the shared requirements (huge catalogs, member/branch independence, installer self-service, ERP-first data) and show how Royal Cyber's B2B accelerators and a short proof-of-value sprint answer them.",
+      "audience": "B2B commerce leads & distributors",
+      "difficulty": "Intermediate",
+      "engagement": 8,
+      "uniqueness": 8,
+      "composite": 8.3
     },
     {
       "title": "Peak season 2026 on commercetools: a last-mile readiness checklist",
@@ -584,6 +609,13 @@
       "uniqueness": 8
     },
     {
+      "title": "\"Three days to win a 4-million-SKU wholesaler\" — the hackathon pattern",
+      "body": "FEGIME chose commercetools after partner Basecom connected ERP, prices, orders and warehouse in a three-day hackathon. Royal Cyber angle: offer the same short proof-of-value sprint to B2B prospects, and tie it to Webinar #8 on B2B portal traps (Dec 2).",
+      "audience": "B2B commerce leads & distributors",
+      "engagement": 8,
+      "uniqueness": 7
+    },
+    {
       "title": "\"Agents you can switch off\" — AgentSphere governance in one graphic",
       "body": "Builder → registry → governance, with verification, sandboxing, audit trail and kill switch. Pairs with the Promotions & Intake Agent GA news and the Sep 1 SaaS Award for AgenticLift.",
       "audience": "Commerce leads & architects",
@@ -621,9 +653,9 @@
     },
     {
       "theme": "Composable / MACH architecture",
-      "commercetools": "MACH pioneer: headless APIs, Connect, multi-cloud (AWS + Google Cloud), Foundry blueprints and Frontend.",
+      "commercetools": "MACH pioneer: headless APIs, Connect, multi-cloud (AWS + Google Cloud), Foundry blueprints, Frontend — and now a GA, vendor-hosted Commerce Integration Layer included with Sphere.",
       "competitor": "Salesforce Commerce Cloud and Adobe Commerce (Magento) lead the non-pure-composable field; SAP for incumbents.",
-      "opportunity": "Contrast true composability and bring-your-own-cloud against suite lock-in and monolith upgrade cycles."
+      "opportunity": "Contrast true composability and bring-your-own-cloud against suite lock-in, and use the Integration Layer to answer the \"composable means an integration tax\" objection."
     },
     {
       "theme": "AI-assisted migration off suites",
@@ -654,61 +686,75 @@
     {
       "rank": 1,
       "title": "Publish a Commerce Integration Layer point of view for SI-led builds",
-      "body": "Fresh launch (Oct 15) that directly changes how partners deliver; position Royal Cyber's extensions/accelerators on top of the Experience API.",
+      "body": "Now GA, included with Sphere at no extra cost, with a new Builders skill for implementation; position Royal Cyber's extensions and accelerators on top of the Experience API.",
       "composite": 8.8,
       "format": "Technical blog"
     },
     {
       "rank": 2,
+      "title": "Run the Q4 joint pipeline review with the commercetools Partner Manager",
+      "body": "commercetools is asking partners to go through every open deal, agree a joint Q4 short list and share changes in timing, budget or decision-makers. Connect with commercetools in Crossbeam for account mapping if not already done.",
+      "composite": 8.7,
+      "format": "Partner ops"
+    },
+    {
+      "rank": 3,
+      "title": "Set up Royal Cyber on the new commercetools Partner Portal (Introw)",
+      "body": "Live since November (replaces Impartner). Use the Salesforce connector for joint-deal status, submit funding requests and customer success stories through portal forms, and pull refreshed sales assets and training links. Ask the EVA agent instead of searching.",
+      "composite": 8.0,
+      "format": "Partner ops"
+    },
+    {
+      "rank": 4,
       "title": "Publish the Promotions & Intake Agent GA explainer",
       "body": "Fresh GA news (Aug 28 / Aug 31) with demoable features; frame it with AgentSphere governance.",
       "composite": 8.9,
       "format": "Technical blog"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "title": "Use the AI readiness stages to open Metafy AEO/GEO conversations",
       "body": "commercetools' \"invisible to buyable\" model is ready-made framing for the Metafy AEO/GEO Accelerator and the Nov 4 MetafyAI webinar follow-ups.",
       "composite": 8.5,
       "format": "Blog + LinkedIn"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "Flag the Product Projection Search deprecation to active projects",
       "body": "New Projects since Aug 31 cannot activate it — confirm all new builds use Product Search and note it in delivery checklists.",
       "composite": 8.0,
       "format": "Internal advisory"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "Ship the Sphere / Autonomous Commerce explainer",
       "body": "Define the category and the three pillars (headless foundation, agent orchestration, governance) tied to the June 9 launch and MosAIc preview.",
       "composite": 9.3,
       "format": "Technical blog"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "Publish the AgenticLift adoption guide + AI Hub / Gemini demo",
       "body": "Capture the breakout \"join AI shopping without replatforming\" theme with a concrete UCP-feed and Gemini-checkout walkthrough.",
       "composite": 8.4,
       "format": "Tutorial + demo"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "Commission the autonomous commerce stack whitepaper",
       "body": "Agent governance plus MACH as the enterprise differentiator while rivals are still assembling theirs.",
       "composite": 8.2,
       "format": "Whitepaper"
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "Produce the SAP / Salesforce → commercetools migration playbook",
       "body": "Smart Data Modeler + Import API + Builders as a repeatable, lower-risk replatforming motion.",
       "composite": 7.8,
       "format": "Whitepaper"
     },
     {
-      "rank": 9,
+      "rank": 11,
       "title": "Draft the AWS Connect & Checkout deployment blog",
       "body": "Multi-cloud parity is fresh and underexploited; targets enterprises standardized on AWS.",
       "composite": 7.2,
@@ -716,11 +762,11 @@
     }
   ],
   "next7Days": [
-    "Push the commercetools for Builders live build (tomorrow, Nov 3) to target accounts, then trial the expanded Builders skills (payments, PIM, CRM, promotions integrations) on a prospect catalog slice.",
-    "Send the on-demand recording of 'Autonomous Commerce in Practice' (aired Oct 28) and Royal Cyber Webinar #4 follow-ups to attendees.",
-    "Draft the 'invisible to buyable' AI readiness post and tie it to the Metafy AEO/GEO audit ahead of MetafyAI Webinar #5 (Nov 4).",
-    "Build promotion for Royal Cyber Webinar #6 'AIforce Just Launched' (Nov 11): positioning against suite AI.",
-    "Brief retail account teams on InStore and share commercetools' Retailer's Guide to Choosing a Modern POS Platform.",
-    "Still open: publish the Commerce Integration Layer explainer and the Promotions & Intake Agent GA piece."
+    "Book the Q4 pipeline review with the commercetools Partner Manager: walk every open joint deal, agree a Q4 short list, and request a Crossbeam connection if we aren't mapped yet.",
+    "Log in to the new Partner Portal (commercetools.introw.io): check Salesforce-synced deal status, and submit our strongest case studies and any funding requests through the portal forms.",
+    "Get the Nov 12 Partner Enablement Webinar recording (InStore refresh, new Builders skills) and brief retail and delivery teams; trial the new Commerce Integration Layer skill on a sandbox project.",
+    "Promote Royal Cyber Webinar #8 (Dec 2, B2B portal traps) using the FEGIME and Plieger wins as proof that wholesalers and distributors are moving to commercetools.",
+    "Publish the Commerce Integration Layer explainer with the GA and \"no extra cost on Sphere\" message.",
+    "Partner Program 2027 tiers, benefits and criteria arrive in January with our 2026 results; nothing to do yet, but keep case studies and certifications current."
   ]
 }
